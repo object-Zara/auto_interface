@@ -5,7 +5,9 @@
 # @File:logging_info.py
 
 import logging.handlers
+import os
 from common import get_path
+import datetime
 
 
 class Mylogging:
@@ -21,7 +23,9 @@ class Mylogging:
     def get_log(self, level, msg):
         try:
             logger = logging.getLogger(self.loger_name)
-            handler = logging.handlers.TimedRotatingFileHandler(self.handler_out_filepath, when="midnight",
+            logger_file_name = datetime.datetime.now().strftime('%Y-%m-%d')+'.log'
+            logger_file_path = os.path.join(self.handler_out_filepath, logger_file_name)
+            handler = logging.handlers.TimedRotatingFileHandler(logger_file_path, when="midnight",
                                                                 interval=1, backupCount=10, encoding="utf-8")
             logger.setLevel(self.loger_level)
             handler.setLevel(self.handler_level)

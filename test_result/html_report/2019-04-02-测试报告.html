@@ -7128,43 +7128,13 @@
 </script>
 <script type="text/javascript">
     var resultData = {
-    "testPass": 5,
+    "testPass": 0,
     "testResult": [
         {
             "className": "TestHttpRequest",
             "methodName": "test_httprequest_1",
             "description": "对login接口请求的测试",
-            "spendTime": "0.187 s",
-            "status": "成功",
-            "log": [
-                ""
-            ]
-        },
-        {
-            "className": "TestHttpRequest",
-            "methodName": "test_httprequest_2",
-            "description": "对login接口请求的测试",
-            "spendTime": "0.199 s",
-            "status": "成功",
-            "log": [
-                ""
-            ]
-        },
-        {
-            "className": "TestHttpRequest",
-            "methodName": "test_httprequest_3",
-            "description": "对login接口请求的测试",
-            "spendTime": "0.193 s",
-            "status": "成功",
-            "log": [
-                ""
-            ]
-        },
-        {
-            "className": "TestHttpRequest",
-            "methodName": "test_httprequest_4",
-            "description": "对login接口请求的测试",
-            "spendTime": "0.172 s",
+            "spendTime": "0.104 s",
             "status": "失败",
             "log": [
                 "",
@@ -7172,39 +7142,131 @@
                 "  File \"D:\\python\\python37\\lib\\unittest\\case.py\", line 59, in testPartExecutor\n    yield\n",
                 "  File \"D:\\python\\python37\\lib\\unittest\\case.py\", line 615, in run\n    testMethod()\n",
                 "  File \"D:\\python\\python37\\lib\\site-packages\\ddt.py\", line 145, in wrapper\n    return func(self, *args, **kwargs)\n",
-                "  File \"E:\\PycharmProjects\\A_auto_test_interface\\test_case\\test_httprequest.py\", line 40, in test_httprequest\n    raise e\n",
-                "  File \"E:\\PycharmProjects\\A_auto_test_interface\\test_case\\test_httprequest.py\", line 34, in test_httprequest\n    self.assertEqual(expect, request_result.json())\n",
-                "  File \"D:\\python\\python37\\lib\\unittest\\case.py\", line 839, in assertEqual\n    assertion_func(first, second, msg=msg)\n",
-                "  File \"D:\\python\\python37\\lib\\unittest\\case.py\", line 1138, in assertDictEqual\n    self.fail(self._formatMessage(msg, standardMsg))\n",
-                "  File \"D:\\python\\python37\\lib\\unittest\\case.py\", line 680, in fail\n    raise self.failureException(msg)\n",
-                "AssertionError: {'status': 0, 'code': '20103', 'data': None, 'msg': '手机号不能为'} != {'status': 0, 'code': '20103', 'data': None, 'msg': '手机号不能为空'}\n- {'code': '20103', 'data': None, 'msg': '手机号不能为', 'status': 0}\n+ {'code': '20103', 'data': None, 'msg': '手机号不能为空', 'status': 0}\n?                                               +\n\n"
+                "  File \"C:\\Program Files (x86)\\Jenkins\\workspace\\auto_interface_test\\test_case\\test_httprequest.py\", line 29, in test_httprequest\n    loger.get_log('info', '************************************')\n",
+                "  File \"C:\\Program Files (x86)\\Jenkins\\workspace\\auto_interface_test\\common\\my_logging.py\", line 47, in get_log\n    raise e\n",
+                "  File \"C:\\Program Files (x86)\\Jenkins\\workspace\\auto_interface_test\\common\\my_logging.py\", line 25, in get_log\n    interval=1, backupCount=10, encoding=\"utf-8\")\n",
+                "  File \"D:\\python\\python37\\lib\\logging\\handlers.py\", line 199, in __init__\n    BaseRotatingHandler.__init__(self, filename, 'a', encoding, delay)\n",
+                "  File \"D:\\python\\python37\\lib\\logging\\handlers.py\", line 54, in __init__\n    logging.FileHandler.__init__(self, filename, mode, encoding, delay)\n",
+                "  File \"D:\\python\\python37\\lib\\logging\\__init__.py\", line 1092, in __init__\n    StreamHandler.__init__(self, self._open())\n",
+                "  File \"D:\\python\\python37\\lib\\logging\\__init__.py\", line 1121, in _open\n    return open(self.baseFilename, self.mode, encoding=self.encoding)\n",
+                "PermissionError: [Errno 13] Permission denied: 'E:\\\\PycharmProjects\\\\A_auto_test_interface\\\\test_result\\\\log'\n"
+            ]
+        },
+        {
+            "className": "TestHttpRequest",
+            "methodName": "test_httprequest_2",
+            "description": "对login接口请求的测试",
+            "spendTime": "0.051 s",
+            "status": "失败",
+            "log": [
+                "",
+                "Traceback (most recent call last):\n",
+                "  File \"D:\\python\\python37\\lib\\unittest\\case.py\", line 59, in testPartExecutor\n    yield\n",
+                "  File \"D:\\python\\python37\\lib\\unittest\\case.py\", line 615, in run\n    testMethod()\n",
+                "  File \"D:\\python\\python37\\lib\\site-packages\\ddt.py\", line 145, in wrapper\n    return func(self, *args, **kwargs)\n",
+                "  File \"C:\\Program Files (x86)\\Jenkins\\workspace\\auto_interface_test\\test_case\\test_httprequest.py\", line 29, in test_httprequest\n    loger.get_log('info', '************************************')\n",
+                "  File \"C:\\Program Files (x86)\\Jenkins\\workspace\\auto_interface_test\\common\\my_logging.py\", line 47, in get_log\n    raise e\n",
+                "  File \"C:\\Program Files (x86)\\Jenkins\\workspace\\auto_interface_test\\common\\my_logging.py\", line 25, in get_log\n    interval=1, backupCount=10, encoding=\"utf-8\")\n",
+                "  File \"D:\\python\\python37\\lib\\logging\\handlers.py\", line 199, in __init__\n    BaseRotatingHandler.__init__(self, filename, 'a', encoding, delay)\n",
+                "  File \"D:\\python\\python37\\lib\\logging\\handlers.py\", line 54, in __init__\n    logging.FileHandler.__init__(self, filename, mode, encoding, delay)\n",
+                "  File \"D:\\python\\python37\\lib\\logging\\__init__.py\", line 1092, in __init__\n    StreamHandler.__init__(self, self._open())\n",
+                "  File \"D:\\python\\python37\\lib\\logging\\__init__.py\", line 1121, in _open\n    return open(self.baseFilename, self.mode, encoding=self.encoding)\n",
+                "PermissionError: [Errno 13] Permission denied: 'E:\\\\PycharmProjects\\\\A_auto_test_interface\\\\test_result\\\\log'\n"
+            ]
+        },
+        {
+            "className": "TestHttpRequest",
+            "methodName": "test_httprequest_3",
+            "description": "对login接口请求的测试",
+            "spendTime": "0.05 s",
+            "status": "失败",
+            "log": [
+                "",
+                "Traceback (most recent call last):\n",
+                "  File \"D:\\python\\python37\\lib\\unittest\\case.py\", line 59, in testPartExecutor\n    yield\n",
+                "  File \"D:\\python\\python37\\lib\\unittest\\case.py\", line 615, in run\n    testMethod()\n",
+                "  File \"D:\\python\\python37\\lib\\site-packages\\ddt.py\", line 145, in wrapper\n    return func(self, *args, **kwargs)\n",
+                "  File \"C:\\Program Files (x86)\\Jenkins\\workspace\\auto_interface_test\\test_case\\test_httprequest.py\", line 29, in test_httprequest\n    loger.get_log('info', '************************************')\n",
+                "  File \"C:\\Program Files (x86)\\Jenkins\\workspace\\auto_interface_test\\common\\my_logging.py\", line 47, in get_log\n    raise e\n",
+                "  File \"C:\\Program Files (x86)\\Jenkins\\workspace\\auto_interface_test\\common\\my_logging.py\", line 25, in get_log\n    interval=1, backupCount=10, encoding=\"utf-8\")\n",
+                "  File \"D:\\python\\python37\\lib\\logging\\handlers.py\", line 199, in __init__\n    BaseRotatingHandler.__init__(self, filename, 'a', encoding, delay)\n",
+                "  File \"D:\\python\\python37\\lib\\logging\\handlers.py\", line 54, in __init__\n    logging.FileHandler.__init__(self, filename, mode, encoding, delay)\n",
+                "  File \"D:\\python\\python37\\lib\\logging\\__init__.py\", line 1092, in __init__\n    StreamHandler.__init__(self, self._open())\n",
+                "  File \"D:\\python\\python37\\lib\\logging\\__init__.py\", line 1121, in _open\n    return open(self.baseFilename, self.mode, encoding=self.encoding)\n",
+                "PermissionError: [Errno 13] Permission denied: 'E:\\\\PycharmProjects\\\\A_auto_test_interface\\\\test_result\\\\log'\n"
+            ]
+        },
+        {
+            "className": "TestHttpRequest",
+            "methodName": "test_httprequest_4",
+            "description": "对login接口请求的测试",
+            "spendTime": "0.056 s",
+            "status": "失败",
+            "log": [
+                "",
+                "Traceback (most recent call last):\n",
+                "  File \"D:\\python\\python37\\lib\\unittest\\case.py\", line 59, in testPartExecutor\n    yield\n",
+                "  File \"D:\\python\\python37\\lib\\unittest\\case.py\", line 615, in run\n    testMethod()\n",
+                "  File \"D:\\python\\python37\\lib\\site-packages\\ddt.py\", line 145, in wrapper\n    return func(self, *args, **kwargs)\n",
+                "  File \"C:\\Program Files (x86)\\Jenkins\\workspace\\auto_interface_test\\test_case\\test_httprequest.py\", line 29, in test_httprequest\n    loger.get_log('info', '************************************')\n",
+                "  File \"C:\\Program Files (x86)\\Jenkins\\workspace\\auto_interface_test\\common\\my_logging.py\", line 47, in get_log\n    raise e\n",
+                "  File \"C:\\Program Files (x86)\\Jenkins\\workspace\\auto_interface_test\\common\\my_logging.py\", line 25, in get_log\n    interval=1, backupCount=10, encoding=\"utf-8\")\n",
+                "  File \"D:\\python\\python37\\lib\\logging\\handlers.py\", line 199, in __init__\n    BaseRotatingHandler.__init__(self, filename, 'a', encoding, delay)\n",
+                "  File \"D:\\python\\python37\\lib\\logging\\handlers.py\", line 54, in __init__\n    logging.FileHandler.__init__(self, filename, mode, encoding, delay)\n",
+                "  File \"D:\\python\\python37\\lib\\logging\\__init__.py\", line 1092, in __init__\n    StreamHandler.__init__(self, self._open())\n",
+                "  File \"D:\\python\\python37\\lib\\logging\\__init__.py\", line 1121, in _open\n    return open(self.baseFilename, self.mode, encoding=self.encoding)\n",
+                "PermissionError: [Errno 13] Permission denied: 'E:\\\\PycharmProjects\\\\A_auto_test_interface\\\\test_result\\\\log'\n"
             ]
         },
         {
             "className": "TestHttpRequest",
             "methodName": "test_httprequest_5",
             "description": "对login接口请求的测试",
-            "spendTime": "0.2 s",
-            "status": "成功",
+            "spendTime": "0.05 s",
+            "status": "失败",
             "log": [
-                ""
+                "",
+                "Traceback (most recent call last):\n",
+                "  File \"D:\\python\\python37\\lib\\unittest\\case.py\", line 59, in testPartExecutor\n    yield\n",
+                "  File \"D:\\python\\python37\\lib\\unittest\\case.py\", line 615, in run\n    testMethod()\n",
+                "  File \"D:\\python\\python37\\lib\\site-packages\\ddt.py\", line 145, in wrapper\n    return func(self, *args, **kwargs)\n",
+                "  File \"C:\\Program Files (x86)\\Jenkins\\workspace\\auto_interface_test\\test_case\\test_httprequest.py\", line 29, in test_httprequest\n    loger.get_log('info', '************************************')\n",
+                "  File \"C:\\Program Files (x86)\\Jenkins\\workspace\\auto_interface_test\\common\\my_logging.py\", line 47, in get_log\n    raise e\n",
+                "  File \"C:\\Program Files (x86)\\Jenkins\\workspace\\auto_interface_test\\common\\my_logging.py\", line 25, in get_log\n    interval=1, backupCount=10, encoding=\"utf-8\")\n",
+                "  File \"D:\\python\\python37\\lib\\logging\\handlers.py\", line 199, in __init__\n    BaseRotatingHandler.__init__(self, filename, 'a', encoding, delay)\n",
+                "  File \"D:\\python\\python37\\lib\\logging\\handlers.py\", line 54, in __init__\n    logging.FileHandler.__init__(self, filename, mode, encoding, delay)\n",
+                "  File \"D:\\python\\python37\\lib\\logging\\__init__.py\", line 1092, in __init__\n    StreamHandler.__init__(self, self._open())\n",
+                "  File \"D:\\python\\python37\\lib\\logging\\__init__.py\", line 1121, in _open\n    return open(self.baseFilename, self.mode, encoding=self.encoding)\n",
+                "PermissionError: [Errno 13] Permission denied: 'E:\\\\PycharmProjects\\\\A_auto_test_interface\\\\test_result\\\\log'\n"
             ]
         },
         {
             "className": "TestHttpRequest",
             "methodName": "test_httprequest_6",
             "description": "对login接口请求的测试",
-            "spendTime": "0.194 s",
-            "status": "成功",
+            "spendTime": "0.05 s",
+            "status": "失败",
             "log": [
-                ""
+                "",
+                "Traceback (most recent call last):\n",
+                "  File \"D:\\python\\python37\\lib\\unittest\\case.py\", line 59, in testPartExecutor\n    yield\n",
+                "  File \"D:\\python\\python37\\lib\\unittest\\case.py\", line 615, in run\n    testMethod()\n",
+                "  File \"D:\\python\\python37\\lib\\site-packages\\ddt.py\", line 145, in wrapper\n    return func(self, *args, **kwargs)\n",
+                "  File \"C:\\Program Files (x86)\\Jenkins\\workspace\\auto_interface_test\\test_case\\test_httprequest.py\", line 29, in test_httprequest\n    loger.get_log('info', '************************************')\n",
+                "  File \"C:\\Program Files (x86)\\Jenkins\\workspace\\auto_interface_test\\common\\my_logging.py\", line 47, in get_log\n    raise e\n",
+                "  File \"C:\\Program Files (x86)\\Jenkins\\workspace\\auto_interface_test\\common\\my_logging.py\", line 25, in get_log\n    interval=1, backupCount=10, encoding=\"utf-8\")\n",
+                "  File \"D:\\python\\python37\\lib\\logging\\handlers.py\", line 199, in __init__\n    BaseRotatingHandler.__init__(self, filename, 'a', encoding, delay)\n",
+                "  File \"D:\\python\\python37\\lib\\logging\\handlers.py\", line 54, in __init__\n    logging.FileHandler.__init__(self, filename, mode, encoding, delay)\n",
+                "  File \"D:\\python\\python37\\lib\\logging\\__init__.py\", line 1092, in __init__\n    StreamHandler.__init__(self, self._open())\n",
+                "  File \"D:\\python\\python37\\lib\\logging\\__init__.py\", line 1121, in _open\n    return open(self.baseFilename, self.mode, encoding=self.encoding)\n",
+                "PermissionError: [Errno 13] Permission denied: 'E:\\\\PycharmProjects\\\\A_auto_test_interface\\\\test_result\\\\log'\n"
             ]
         }
     ],
     "testName": "Http请求的测试报告",
     "testAll": 6,
-    "testFail": 1,
-    "beginTime": "2019-04-02 11:54:36",
+    "testFail": 6,
+    "beginTime": "2019-04-02 18:16:51",
     "totalTime": "1s",
     "testSkip": 0,
     "testError": 0

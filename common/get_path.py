@@ -24,10 +24,6 @@ class GetPath:
     def get_report_path(self):
         return self.cf['path']['report_path']
 
-    def get_email_report_path(self):
-        return self.cf['path']['email_report_path']
-
-
 if __name__ == '__main__':
     get_path = GetPath().get_email_info_path()
     print(get_path)
