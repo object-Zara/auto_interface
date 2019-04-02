@@ -1,0 +1,488 @@
+
+2019-04-02 10:22:27,570-my_logging.py-ERROR-日志信息：错误级别的日志
+2019-04-02 10:35:34,256-my_logging.py-INFO-日志信息：************************************
+2019-04-02 10:35:34,278-my_logging.py-INFO-日志信息：正在执行第1条用例“正常登录”
+2019-04-02 10:35:34,279-my_logging.py-INFO-日志信息：请求的数据是：{'case_id': 1, 'name': '正常登录', 'method': 'get', 'url': 'http://47.107.168.87:8080/futureloan/mvc/api/member/login', 'expect': {'status': 1, 'code': '10001', 'data': None, 'msg': '登录成功'}, 'param': {'mobilephone': '18688773467', 'pwd': '123456'}}
+2019-04-02 10:35:34,347-my_logging.py-INFO-日志信息：********开始将结果写回excel数据********
+2019-04-02 10:35:34,459-my_logging.py-INFO-日志信息：********结束将结果写回excel数据********
+2019-04-02 10:35:34,521-my_logging.py-INFO-日志信息：************************************
+2019-04-02 10:35:34,522-my_logging.py-INFO-日志信息：正在执行第2条用例“输入错误的密码”
+2019-04-02 10:35:34,523-my_logging.py-INFO-日志信息：请求的数据是：{'case_id': 2, 'name': '输入错误的密码', 'method': 'post', 'url': 'http://47.107.168.87:8080/futureloan/mvc/api/member/login', 'expect': {'status': 0, 'code': '20111', 'data': None, 'msg': '用户名或密码错误'}, 'param': {'mobilephone': '18688773467', 'pwd': '12345678'}}
+2019-04-02 10:35:34,548-my_logging.py-INFO-日志信息：********开始将结果写回excel数据********
+2019-04-02 10:35:34,680-my_logging.py-INFO-日志信息：********结束将结果写回excel数据********
+2019-04-02 10:35:34,727-my_logging.py-INFO-日志信息：************************************
+2019-04-02 10:35:34,728-my_logging.py-INFO-日志信息：正在执行第3条用例“只输入手机号”
+2019-04-02 10:35:34,729-my_logging.py-INFO-日志信息：请求的数据是：{'case_id': 3, 'name': '只输入手机号', 'method': 'get', 'url': 'http://47.107.168.87:8080/futureloan/mvc/api/member/login', 'expect': {'status': 0, 'code': '20103', 'data': None, 'msg': '密码不能为空'}, 'param': {'mobilephone': '18688773467', 'pwd': ''}}
+2019-04-02 10:35:34,750-my_logging.py-INFO-日志信息：********开始将结果写回excel数据********
+2019-04-02 10:35:34,884-my_logging.py-INFO-日志信息：********结束将结果写回excel数据********
+2019-04-02 10:35:34,939-my_logging.py-INFO-日志信息：************************************
+2019-04-02 10:35:34,940-my_logging.py-INFO-日志信息：正在执行第4条用例“只输入密码”
+2019-04-02 10:35:34,942-my_logging.py-INFO-日志信息：请求的数据是：{'case_id': 4, 'name': '只输入密码', 'method': 'post', 'url': 'http://47.107.168.87:8080/futureloan/mvc/api/member/login', 'expect': {'status': 0, 'code': '20103', 'data': None, 'msg': '手机号不能为'}, 'param': {'mobilephone': '', 'pwd': '12345678'}}
+2019-04-02 10:35:34,965-my_logging.py-ERROR-日志信息：第4条用例“只输入密码”出错 :: {'code': '20103', 'data': None, 'msg': '手机号不能为', 'status': 0} != {'code': '20103', 'data': None, 'msg': '手机号不能为空', 'status': 0}
+2019-04-02 10:35:34,967-my_logging.py-INFO-日志信息：********开始将结果写回excel数据********
+2019-04-02 10:35:35,077-my_logging.py-INFO-日志信息：********结束将结果写回excel数据********
+2019-04-02 10:35:35,163-my_logging.py-INFO-日志信息：************************************
+2019-04-02 10:35:35,164-my_logging.py-INFO-日志信息：正在执行第5条用例“手机号长度不正确”
+2019-04-02 10:35:35,165-my_logging.py-INFO-日志信息：请求的数据是：{'case_id': 5, 'name': '手机号长度不正确', 'method': 'post', 'url': 'http://47.107.168.87:8080/futureloan/mvc/api/member/login', 'expect': {'status': 0, 'code': '20111', 'data': None, 'msg': '用户名或密码错误'}, 'param': {'mobilephone': '186887467', 'pwd': '123456'}}
+2019-04-02 10:35:35,205-my_logging.py-INFO-日志信息：********开始将结果写回excel数据********
+2019-04-02 10:35:35,327-my_logging.py-INFO-日志信息：********结束将结果写回excel数据********
+2019-04-02 10:35:35,375-my_logging.py-INFO-日志信息：************************************
+2019-04-02 10:35:35,376-my_logging.py-INFO-日志信息：正在执行第6条用例“输入网络手机号”
+2019-04-02 10:35:35,377-my_logging.py-INFO-日志信息：请求的数据是：{'case_id': 6, 'name': '输入网络手机号', 'method': 'get', 'url': 'http://47.107.168.87:8080/futureloan/mvc/api/member/login', 'expect': {'status': 0, 'code': '20111', 'data': None, 'msg': '用户名或密码错误'}, 'param': {'mobilephone': '2929987455', 'pwd': '123457'}}
+2019-04-02 10:35:35,399-my_logging.py-INFO-日志信息：********开始将结果写回excel数据********
+2019-04-02 10:35:35,516-my_logging.py-INFO-日志信息：********结束将结果写回excel数据********
+2019-04-02 10:39:54,319-my_logging.py-INFO-日志信息：************************************
+2019-04-02 10:39:54,319-my_logging.py-INFO-日志信息：正在执行第1条用例“正常登录”
+2019-04-02 10:39:54,320-my_logging.py-INFO-日志信息：请求的数据是：{'case_id': 1, 'name': '正常登录', 'method': 'get', 'url': 'http://47.107.168.87:8080/futureloan/mvc/api/member/login', 'expect': {'status': 1, 'code': '10001', 'data': None, 'msg': '登录成功'}, 'param': {'mobilephone': '18688773467', 'pwd': '123456'}}
+2019-04-02 10:39:54,347-my_logging.py-INFO-日志信息：********开始将结果写回excel数据********
+2019-04-02 10:39:54,450-my_logging.py-INFO-日志信息：********结束将结果写回excel数据********
+2019-04-02 10:39:54,496-my_logging.py-INFO-日志信息：************************************
+2019-04-02 10:39:54,497-my_logging.py-INFO-日志信息：正在执行第2条用例“输入错误的密码”
+2019-04-02 10:39:54,498-my_logging.py-INFO-日志信息：请求的数据是：{'case_id': 2, 'name': '输入错误的密码', 'method': 'post', 'url': 'http://47.107.168.87:8080/futureloan/mvc/api/member/login', 'expect': {'status': 0, 'code': '20111', 'data': None, 'msg': '用户名或密码错误'}, 'param': {'mobilephone': '18688773467', 'pwd': '12345678'}}
+2019-04-02 10:39:54,521-my_logging.py-INFO-日志信息：********开始将结果写回excel数据********
+2019-04-02 10:39:54,626-my_logging.py-INFO-日志信息：********结束将结果写回excel数据********
+2019-04-02 10:39:54,671-my_logging.py-INFO-日志信息：************************************
+2019-04-02 10:39:54,672-my_logging.py-INFO-日志信息：正在执行第3条用例“只输入手机号”
+2019-04-02 10:39:54,673-my_logging.py-INFO-日志信息：请求的数据是：{'case_id': 3, 'name': '只输入手机号', 'method': 'get', 'url': 'http://47.107.168.87:8080/futureloan/mvc/api/member/login', 'expect': {'status': 0, 'code': '20103', 'data': None, 'msg': '密码不能为空'}, 'param': {'mobilephone': '18688773467', 'pwd': ''}}
+2019-04-02 10:39:54,690-my_logging.py-INFO-日志信息：********开始将结果写回excel数据********
+2019-04-02 10:39:54,793-my_logging.py-INFO-日志信息：********结束将结果写回excel数据********
+2019-04-02 10:39:54,839-my_logging.py-INFO-日志信息：************************************
+2019-04-02 10:39:54,840-my_logging.py-INFO-日志信息：正在执行第4条用例“只输入密码”
+2019-04-02 10:39:54,841-my_logging.py-INFO-日志信息：请求的数据是：{'case_id': 4, 'name': '只输入密码', 'method': 'post', 'url': 'http://47.107.168.87:8080/futureloan/mvc/api/member/login', 'expect': {'status': 0, 'code': '20103', 'data': None, 'msg': '手机号不能为'}, 'param': {'mobilephone': '', 'pwd': '12345678'}}
+2019-04-02 10:39:54,862-my_logging.py-ERROR-日志信息：第4条用例“只输入密码”出错{'status': 0, 'code': '20103', 'data': None, 'msg': '手机号不能为'} != {'status': 0, 'code': '20103', 'data': None, 'msg': '手机号不能为空'}
+- {'code': '20103', 'data': None, 'msg': '手机号不能为', 'status': 0}
++ {'code': '20103', 'data': None, 'msg': '手机号不能为空', 'status': 0}
+?                                               +
+
+2019-04-02 10:39:54,863-my_logging.py-INFO-日志信息：********开始将结果写回excel数据********
+2019-04-02 10:39:54,966-my_logging.py-INFO-日志信息：********结束将结果写回excel数据********
+2019-04-02 10:39:55,014-my_logging.py-INFO-日志信息：************************************
+2019-04-02 10:39:55,014-my_logging.py-INFO-日志信息：正在执行第5条用例“手机号长度不正确”
+2019-04-02 10:39:55,015-my_logging.py-INFO-日志信息：请求的数据是：{'case_id': 5, 'name': '手机号长度不正确', 'method': 'post', 'url': 'http://47.107.168.87:8080/futureloan/mvc/api/member/login', 'expect': {'status': 0, 'code': '20111', 'data': None, 'msg': '用户名或密码错误'}, 'param': {'mobilephone': '186887467', 'pwd': '123456'}}
+2019-04-02 10:39:55,038-my_logging.py-INFO-日志信息：********开始将结果写回excel数据********
+2019-04-02 10:39:55,141-my_logging.py-INFO-日志信息：********结束将结果写回excel数据********
+2019-04-02 10:39:55,186-my_logging.py-INFO-日志信息：************************************
+2019-04-02 10:39:55,187-my_logging.py-INFO-日志信息：正在执行第6条用例“输入网络手机号”
+2019-04-02 10:39:55,188-my_logging.py-INFO-日志信息：请求的数据是：{'case_id': 6, 'name': '输入网络手机号', 'method': 'get', 'url': 'http://47.107.168.87:8080/futureloan/mvc/api/member/login', 'expect': {'status': 0, 'code': '20111', 'data': None, 'msg': '用户名或密码错误'}, 'param': {'mobilephone': '2929987455', 'pwd': '123457'}}
+2019-04-02 10:39:55,209-my_logging.py-INFO-日志信息：********开始将结果写回excel数据********
+2019-04-02 10:39:55,314-my_logging.py-INFO-日志信息：********结束将结果写回excel数据********
+2019-04-02 10:44:51,567-my_logging.py-INFO-日志信息：************************************
+2019-04-02 10:44:51,568-my_logging.py-INFO-日志信息：正在执行第1条用例“正常登录”
+2019-04-02 10:44:51,569-my_logging.py-INFO-日志信息：请求的数据是：{'case_id': 1, 'name': '正常登录', 'method': 'get', 'url': 'http://47.107.168.87:8080/futureloan/mvc/api/member/login', 'expect': {'status': 1, 'code': '10001', 'data': None, 'msg': '登录成功'}, 'param': {'mobilephone': '18688773467', 'pwd': '123456'}}
+2019-04-02 10:44:51,604-my_logging.py-INFO-日志信息：********开始将结果写回excel数据********
+2019-04-02 10:44:51,760-my_logging.py-INFO-日志信息：********结束将结果写回excel数据********
+2019-04-02 10:44:51,848-my_logging.py-INFO-日志信息：************************************
+2019-04-02 10:44:51,849-my_logging.py-INFO-日志信息：正在执行第2条用例“输入错误的密码”
+2019-04-02 10:44:51,851-my_logging.py-INFO-日志信息：请求的数据是：{'case_id': 2, 'name': '输入错误的密码', 'method': 'post', 'url': 'http://47.107.168.87:8080/futureloan/mvc/api/member/login', 'expect': {'status': 0, 'code': '20111', 'data': None, 'msg': '用户名或密码错误'}, 'param': {'mobilephone': '18688773467', 'pwd': '12345678'}}
+2019-04-02 10:44:51,875-my_logging.py-INFO-日志信息：********开始将结果写回excel数据********
+2019-04-02 10:44:52,046-my_logging.py-INFO-日志信息：********结束将结果写回excel数据********
+2019-04-02 10:44:52,148-my_logging.py-INFO-日志信息：************************************
+2019-04-02 10:44:52,150-my_logging.py-INFO-日志信息：正在执行第3条用例“只输入手机号”
+2019-04-02 10:44:52,152-my_logging.py-INFO-日志信息：请求的数据是：{'case_id': 3, 'name': '只输入手机号', 'method': 'get', 'url': 'http://47.107.168.87:8080/futureloan/mvc/api/member/login', 'expect': {'status': 0, 'code': '20103', 'data': None, 'msg': '密码不能为空'}, 'param': {'mobilephone': '18688773467', 'pwd': ''}}
+2019-04-02 10:44:52,171-my_logging.py-INFO-日志信息：********开始将结果写回excel数据********
+2019-04-02 10:44:52,326-my_logging.py-INFO-日志信息：********结束将结果写回excel数据********
+2019-04-02 10:44:52,398-my_logging.py-INFO-日志信息：************************************
+2019-04-02 10:44:52,400-my_logging.py-INFO-日志信息：正在执行第4条用例“只输入密码”
+2019-04-02 10:44:52,401-my_logging.py-INFO-日志信息：请求的数据是：{'case_id': 4, 'name': '只输入密码', 'method': 'post', 'url': 'http://47.107.168.87:8080/futureloan/mvc/api/member/login', 'expect': {'status': 0, 'code': '20103', 'data': None, 'msg': '手机号不能为'}, 'param': {'mobilephone': '', 'pwd': '12345678'}}
+2019-04-02 10:44:52,421-my_logging.py-ERROR-日志信息：第4条用例“只输入密码”出错{'status': 0, 'code': '20103', 'data': None, 'msg': '手机号不能为'} != {'status': 0, 'code': '20103', 'data': None, 'msg': '手机号不能为空'}
+- {'code': '20103', 'data': None, 'msg': '手机号不能为', 'status': 0}
++ {'code': '20103', 'data': None, 'msg': '手机号不能为空', 'status': 0}
+?                                               +
+
+2019-04-02 10:44:52,423-my_logging.py-INFO-日志信息：********开始将结果写回excel数据********
+2019-04-02 10:44:52,562-my_logging.py-INFO-日志信息：********结束将结果写回excel数据********
+2019-04-02 10:44:52,634-my_logging.py-INFO-日志信息：************************************
+2019-04-02 10:44:52,635-my_logging.py-INFO-日志信息：正在执行第5条用例“手机号长度不正确”
+2019-04-02 10:44:52,636-my_logging.py-INFO-日志信息：请求的数据是：{'case_id': 5, 'name': '手机号长度不正确', 'method': 'post', 'url': 'http://47.107.168.87:8080/futureloan/mvc/api/member/login', 'expect': {'status': 0, 'code': '20111', 'data': None, 'msg': '用户名或密码错误'}, 'param': {'mobilephone': '186887467', 'pwd': '123456'}}
+2019-04-02 10:44:52,658-my_logging.py-INFO-日志信息：********开始将结果写回excel数据********
+2019-04-02 10:44:52,801-my_logging.py-INFO-日志信息：********结束将结果写回excel数据********
+2019-04-02 10:44:52,864-my_logging.py-INFO-日志信息：************************************
+2019-04-02 10:44:52,865-my_logging.py-INFO-日志信息：正在执行第6条用例“输入网络手机号”
+2019-04-02 10:44:52,866-my_logging.py-INFO-日志信息：请求的数据是：{'case_id': 6, 'name': '输入网络手机号', 'method': 'get', 'url': 'http://47.107.168.87:8080/futureloan/mvc/api/member/login', 'expect': {'status': 0, 'code': '20111', 'data': None, 'msg': '用户名或密码错误'}, 'param': {'mobilephone': '2929987455', 'pwd': '123457'}}
+2019-04-02 10:44:52,888-my_logging.py-INFO-日志信息：********开始将结果写回excel数据********
+2019-04-02 10:44:53,023-my_logging.py-INFO-日志信息：********结束将结果写回excel数据********
+2019-04-02 10:57:59,116-my_logging.py-INFO-日志信息：************************************
+2019-04-02 10:57:59,140-my_logging.py-INFO-日志信息：正在执行第1条用例“正常登录”
+2019-04-02 10:57:59,141-my_logging.py-INFO-日志信息：请求的数据是：{'case_id': 1, 'name': '正常登录', 'method': 'get', 'url': 'http://47.107.168.87:8080/futureloan/mvc/api/member/login', 'expect': {'status': 1, 'code': '10001', 'data': None, 'msg': '登录成功'}, 'param': {'mobilephone': '18688773467', 'pwd': '123456'}}
+2019-04-02 10:57:59,242-my_logging.py-INFO-日志信息：********开始将结果写回excel数据********
+2019-04-02 10:57:59,357-my_logging.py-INFO-日志信息：********结束将结果写回excel数据********
+2019-04-02 10:57:59,404-my_logging.py-INFO-日志信息：************************************
+2019-04-02 10:57:59,405-my_logging.py-INFO-日志信息：正在执行第2条用例“输入错误的密码”
+2019-04-02 10:57:59,406-my_logging.py-INFO-日志信息：请求的数据是：{'case_id': 2, 'name': '输入错误的密码', 'method': 'post', 'url': 'http://47.107.168.87:8080/futureloan/mvc/api/member/login', 'expect': {'status': 0, 'code': '20111', 'data': None, 'msg': '用户名或密码错误'}, 'param': {'mobilephone': '18688773467', 'pwd': '12345678'}}
+2019-04-02 10:57:59,429-my_logging.py-INFO-日志信息：********开始将结果写回excel数据********
+2019-04-02 10:57:59,544-my_logging.py-INFO-日志信息：********结束将结果写回excel数据********
+2019-04-02 10:57:59,592-my_logging.py-INFO-日志信息：************************************
+2019-04-02 10:57:59,594-my_logging.py-INFO-日志信息：正在执行第3条用例“只输入手机号”
+2019-04-02 10:57:59,595-my_logging.py-INFO-日志信息：请求的数据是：{'case_id': 3, 'name': '只输入手机号', 'method': 'get', 'url': 'http://47.107.168.87:8080/futureloan/mvc/api/member/login', 'expect': {'status': 0, 'code': '20103', 'data': None, 'msg': '密码不能为空'}, 'param': {'mobilephone': '18688773467', 'pwd': ''}}
+2019-04-02 10:57:59,613-my_logging.py-INFO-日志信息：********开始将结果写回excel数据********
+2019-04-02 10:57:59,730-my_logging.py-INFO-日志信息：********结束将结果写回excel数据********
+2019-04-02 10:57:59,777-my_logging.py-INFO-日志信息：************************************
+2019-04-02 10:57:59,778-my_logging.py-INFO-日志信息：正在执行第4条用例“只输入密码”
+2019-04-02 10:57:59,779-my_logging.py-INFO-日志信息：请求的数据是：{'case_id': 4, 'name': '只输入密码', 'method': 'post', 'url': 'http://47.107.168.87:8080/futureloan/mvc/api/member/login', 'expect': {'status': 0, 'code': '20103', 'data': None, 'msg': '手机号不能为'}, 'param': {'mobilephone': '', 'pwd': '12345678'}}
+2019-04-02 10:57:59,799-my_logging.py-ERROR-日志信息：第4条用例“只输入密码”出错{'status': 0, 'code': '20103', 'data': None, 'msg': '手机号不能为'} != {'status': 0, 'code': '20103', 'data': None, 'msg': '手机号不能为空'}
+- {'code': '20103', 'data': None, 'msg': '手机号不能为', 'status': 0}
++ {'code': '20103', 'data': None, 'msg': '手机号不能为空', 'status': 0}
+?                                               +
+
+2019-04-02 10:57:59,800-my_logging.py-INFO-日志信息：********开始将结果写回excel数据********
+2019-04-02 10:57:59,913-my_logging.py-INFO-日志信息：********结束将结果写回excel数据********
+2019-04-02 10:58:00,017-my_logging.py-INFO-日志信息：************************************
+2019-04-02 10:58:00,018-my_logging.py-INFO-日志信息：正在执行第5条用例“手机号长度不正确”
+2019-04-02 10:58:00,019-my_logging.py-INFO-日志信息：请求的数据是：{'case_id': 5, 'name': '手机号长度不正确', 'method': 'post', 'url': 'http://47.107.168.87:8080/futureloan/mvc/api/member/login', 'expect': {'status': 0, 'code': '20111', 'data': None, 'msg': '用户名或密码错误'}, 'param': {'mobilephone': '186887467', 'pwd': '123456'}}
+2019-04-02 10:58:00,041-my_logging.py-INFO-日志信息：********开始将结果写回excel数据********
+2019-04-02 10:58:00,161-my_logging.py-INFO-日志信息：********结束将结果写回excel数据********
+2019-04-02 10:58:00,250-my_logging.py-INFO-日志信息：************************************
+2019-04-02 10:58:00,252-my_logging.py-INFO-日志信息：正在执行第6条用例“输入网络手机号”
+2019-04-02 10:58:00,254-my_logging.py-INFO-日志信息：请求的数据是：{'case_id': 6, 'name': '输入网络手机号', 'method': 'get', 'url': 'http://47.107.168.87:8080/futureloan/mvc/api/member/login', 'expect': {'status': 0, 'code': '20111', 'data': None, 'msg': '用户名或密码错误'}, 'param': {'mobilephone': '2929987455', 'pwd': '123457'}}
+2019-04-02 10:58:00,281-my_logging.py-INFO-日志信息：********开始将结果写回excel数据********
+2019-04-02 10:58:00,424-my_logging.py-INFO-日志信息：********结束将结果写回excel数据********
+2019-04-02 11:22:11,633-my_logging.py-INFO-日志信息：************************************
+2019-04-02 11:22:11,634-my_logging.py-INFO-日志信息：正在执行第1条用例“正常登录”
+2019-04-02 11:22:11,635-my_logging.py-INFO-日志信息：请求的数据是：{'case_id': 1, 'name': '正常登录', 'method': 'get', 'url': 'http://47.107.168.87:8080/futureloan/mvc/api/member/login', 'expect': {'status': 1, 'code': '10001', 'data': None, 'msg': '登录成功'}, 'param': {'mobilephone': '18688773467', 'pwd': '123456'}}
+2019-04-02 11:22:11,665-my_logging.py-INFO-日志信息：********开始将结果写回excel数据********
+2019-04-02 11:22:11,781-my_logging.py-INFO-日志信息：********结束将结果写回excel数据********
+2019-04-02 11:22:11,827-my_logging.py-INFO-日志信息：************************************
+2019-04-02 11:22:11,828-my_logging.py-INFO-日志信息：正在执行第2条用例“输入错误的密码”
+2019-04-02 11:22:11,830-my_logging.py-INFO-日志信息：请求的数据是：{'case_id': 2, 'name': '输入错误的密码', 'method': 'post', 'url': 'http://47.107.168.87:8080/futureloan/mvc/api/member/login', 'expect': {'status': 0, 'code': '20111', 'data': None, 'msg': '用户名或密码错误'}, 'param': {'mobilephone': '18688773467', 'pwd': '12345678'}}
+2019-04-02 11:22:11,853-my_logging.py-INFO-日志信息：********开始将结果写回excel数据********
+2019-04-02 11:22:11,968-my_logging.py-INFO-日志信息：********结束将结果写回excel数据********
+2019-04-02 11:22:12,015-my_logging.py-INFO-日志信息：************************************
+2019-04-02 11:22:12,016-my_logging.py-INFO-日志信息：正在执行第3条用例“只输入手机号”
+2019-04-02 11:22:12,017-my_logging.py-INFO-日志信息：请求的数据是：{'case_id': 3, 'name': '只输入手机号', 'method': 'get', 'url': 'http://47.107.168.87:8080/futureloan/mvc/api/member/login', 'expect': {'status': 0, 'code': '20103', 'data': None, 'msg': '密码不能为空'}, 'param': {'mobilephone': '18688773467', 'pwd': ''}}
+2019-04-02 11:22:12,037-my_logging.py-INFO-日志信息：********开始将结果写回excel数据********
+2019-04-02 11:22:12,159-my_logging.py-INFO-日志信息：********结束将结果写回excel数据********
+2019-04-02 11:22:12,204-my_logging.py-INFO-日志信息：************************************
+2019-04-02 11:22:12,206-my_logging.py-INFO-日志信息：正在执行第4条用例“只输入密码”
+2019-04-02 11:22:12,206-my_logging.py-INFO-日志信息：请求的数据是：{'case_id': 4, 'name': '只输入密码', 'method': 'post', 'url': 'http://47.107.168.87:8080/futureloan/mvc/api/member/login', 'expect': {'status': 0, 'code': '20103', 'data': None, 'msg': '手机号不能为'}, 'param': {'mobilephone': '', 'pwd': '12345678'}}
+2019-04-02 11:22:12,227-my_logging.py-ERROR-日志信息：第4条用例“只输入密码”出错{'status': 0, 'code': '20103', 'data': None, 'msg': '手机号不能为'} != {'status': 0, 'code': '20103', 'data': None, 'msg': '手机号不能为空'}
+- {'code': '20103', 'data': None, 'msg': '手机号不能为', 'status': 0}
++ {'code': '20103', 'data': None, 'msg': '手机号不能为空', 'status': 0}
+?                                               +
+
+2019-04-02 11:22:12,228-my_logging.py-INFO-日志信息：********开始将结果写回excel数据********
+2019-04-02 11:22:12,351-my_logging.py-INFO-日志信息：********结束将结果写回excel数据********
+2019-04-02 11:22:12,401-my_logging.py-INFO-日志信息：************************************
+2019-04-02 11:22:12,402-my_logging.py-INFO-日志信息：正在执行第5条用例“手机号长度不正确”
+2019-04-02 11:22:12,403-my_logging.py-INFO-日志信息：请求的数据是：{'case_id': 5, 'name': '手机号长度不正确', 'method': 'post', 'url': 'http://47.107.168.87:8080/futureloan/mvc/api/member/login', 'expect': {'status': 0, 'code': '20111', 'data': None, 'msg': '用户名或密码错误'}, 'param': {'mobilephone': '186887467', 'pwd': '123456'}}
+2019-04-02 11:22:12,425-my_logging.py-INFO-日志信息：********开始将结果写回excel数据********
+2019-04-02 11:22:12,538-my_logging.py-INFO-日志信息：********结束将结果写回excel数据********
+2019-04-02 11:22:12,584-my_logging.py-INFO-日志信息：************************************
+2019-04-02 11:22:12,585-my_logging.py-INFO-日志信息：正在执行第6条用例“输入网络手机号”
+2019-04-02 11:22:12,586-my_logging.py-INFO-日志信息：请求的数据是：{'case_id': 6, 'name': '输入网络手机号', 'method': 'get', 'url': 'http://47.107.168.87:8080/futureloan/mvc/api/member/login', 'expect': {'status': 0, 'code': '20111', 'data': None, 'msg': '用户名或密码错误'}, 'param': {'mobilephone': '2929987455', 'pwd': '123457'}}
+2019-04-02 11:22:12,609-my_logging.py-INFO-日志信息：********开始将结果写回excel数据********
+2019-04-02 11:22:12,722-my_logging.py-INFO-日志信息：********结束将结果写回excel数据********
+2019-04-02 11:22:12,846-my_logging.py-INFO-日志信息：************************************
+2019-04-02 11:22:12,847-my_logging.py-INFO-日志信息：正在执行第1条用例“正常登录”
+2019-04-02 11:22:12,849-my_logging.py-INFO-日志信息：请求的数据是：{'case_id': 1, 'name': '正常登录', 'method': 'get', 'url': 'http://47.107.168.87:8080/futureloan/mvc/api/member/login', 'expect': {'status': 1, 'code': '10001', 'data': None, 'msg': '登录成功'}, 'param': {'mobilephone': '18688773467', 'pwd': '123456'}}
+2019-04-02 11:22:12,869-my_logging.py-INFO-日志信息：********开始将结果写回excel数据********
+2019-04-02 11:22:12,985-my_logging.py-INFO-日志信息：********结束将结果写回excel数据********
+2019-04-02 11:22:13,031-my_logging.py-INFO-日志信息：************************************
+2019-04-02 11:22:13,032-my_logging.py-INFO-日志信息：正在执行第2条用例“输入错误的密码”
+2019-04-02 11:22:13,033-my_logging.py-INFO-日志信息：请求的数据是：{'case_id': 2, 'name': '输入错误的密码', 'method': 'post', 'url': 'http://47.107.168.87:8080/futureloan/mvc/api/member/login', 'expect': {'status': 0, 'code': '20111', 'data': None, 'msg': '用户名或密码错误'}, 'param': {'mobilephone': '18688773467', 'pwd': '12345678'}}
+2019-04-02 11:22:13,056-my_logging.py-INFO-日志信息：********开始将结果写回excel数据********
+2019-04-02 11:22:13,174-my_logging.py-INFO-日志信息：********结束将结果写回excel数据********
+2019-04-02 11:22:13,224-my_logging.py-INFO-日志信息：************************************
+2019-04-02 11:22:13,226-my_logging.py-INFO-日志信息：正在执行第3条用例“只输入手机号”
+2019-04-02 11:22:13,228-my_logging.py-INFO-日志信息：请求的数据是：{'case_id': 3, 'name': '只输入手机号', 'method': 'get', 'url': 'http://47.107.168.87:8080/futureloan/mvc/api/member/login', 'expect': {'status': 0, 'code': '20103', 'data': None, 'msg': '密码不能为空'}, 'param': {'mobilephone': '18688773467', 'pwd': ''}}
+2019-04-02 11:22:13,248-my_logging.py-INFO-日志信息：********开始将结果写回excel数据********
+2019-04-02 11:22:13,367-my_logging.py-INFO-日志信息：********结束将结果写回excel数据********
+2019-04-02 11:22:13,414-my_logging.py-INFO-日志信息：************************************
+2019-04-02 11:22:13,415-my_logging.py-INFO-日志信息：正在执行第4条用例“只输入密码”
+2019-04-02 11:22:13,415-my_logging.py-INFO-日志信息：请求的数据是：{'case_id': 4, 'name': '只输入密码', 'method': 'post', 'url': 'http://47.107.168.87:8080/futureloan/mvc/api/member/login', 'expect': {'status': 0, 'code': '20103', 'data': None, 'msg': '手机号不能为'}, 'param': {'mobilephone': '', 'pwd': '12345678'}}
+2019-04-02 11:22:13,433-my_logging.py-ERROR-日志信息：第4条用例“只输入密码”出错{'status': 0, 'code': '20103', 'data': None, 'msg': '手机号不能为'} != {'status': 0, 'code': '20103', 'data': None, 'msg': '手机号不能为空'}
+- {'code': '20103', 'data': None, 'msg': '手机号不能为', 'status': 0}
++ {'code': '20103', 'data': None, 'msg': '手机号不能为空', 'status': 0}
+?                                               +
+
+2019-04-02 11:22:13,435-my_logging.py-INFO-日志信息：********开始将结果写回excel数据********
+2019-04-02 11:22:13,551-my_logging.py-INFO-日志信息：********结束将结果写回excel数据********
+2019-04-02 11:22:13,629-my_logging.py-INFO-日志信息：************************************
+2019-04-02 11:22:13,629-my_logging.py-INFO-日志信息：正在执行第5条用例“手机号长度不正确”
+2019-04-02 11:22:13,630-my_logging.py-INFO-日志信息：请求的数据是：{'case_id': 5, 'name': '手机号长度不正确', 'method': 'post', 'url': 'http://47.107.168.87:8080/futureloan/mvc/api/member/login', 'expect': {'status': 0, 'code': '20111', 'data': None, 'msg': '用户名或密码错误'}, 'param': {'mobilephone': '186887467', 'pwd': '123456'}}
+2019-04-02 11:22:13,653-my_logging.py-INFO-日志信息：********开始将结果写回excel数据********
+2019-04-02 11:22:13,767-my_logging.py-INFO-日志信息：********结束将结果写回excel数据********
+2019-04-02 11:22:13,814-my_logging.py-INFO-日志信息：************************************
+2019-04-02 11:22:13,815-my_logging.py-INFO-日志信息：正在执行第6条用例“输入网络手机号”
+2019-04-02 11:22:13,816-my_logging.py-INFO-日志信息：请求的数据是：{'case_id': 6, 'name': '输入网络手机号', 'method': 'get', 'url': 'http://47.107.168.87:8080/futureloan/mvc/api/member/login', 'expect': {'status': 0, 'code': '20111', 'data': None, 'msg': '用户名或密码错误'}, 'param': {'mobilephone': '2929987455', 'pwd': '123457'}}
+2019-04-02 11:22:13,836-my_logging.py-INFO-日志信息：********开始将结果写回excel数据********
+2019-04-02 11:22:13,950-my_logging.py-INFO-日志信息：********结束将结果写回excel数据********
+2019-04-02 11:23:29,305-my_logging.py-INFO-日志信息：************************************
+2019-04-02 11:23:29,306-my_logging.py-INFO-日志信息：正在执行第1条用例“正常登录”
+2019-04-02 11:23:29,307-my_logging.py-INFO-日志信息：请求的数据是：{'case_id': 1, 'name': '正常登录', 'method': 'get', 'url': 'http://47.107.168.87:8080/futureloan/mvc/api/member/login', 'expect': {'status': 1, 'code': '10001', 'data': None, 'msg': '登录成功'}, 'param': {'mobilephone': '18688773467', 'pwd': '123456'}}
+2019-04-02 11:23:29,331-my_logging.py-INFO-日志信息：********开始将结果写回excel数据********
+2019-04-02 11:23:29,449-my_logging.py-INFO-日志信息：********结束将结果写回excel数据********
+2019-04-02 11:23:29,496-my_logging.py-INFO-日志信息：************************************
+2019-04-02 11:23:29,497-my_logging.py-INFO-日志信息：正在执行第2条用例“输入错误的密码”
+2019-04-02 11:23:29,498-my_logging.py-INFO-日志信息：请求的数据是：{'case_id': 2, 'name': '输入错误的密码', 'method': 'post', 'url': 'http://47.107.168.87:8080/futureloan/mvc/api/member/login', 'expect': {'status': 0, 'code': '20111', 'data': None, 'msg': '用户名或密码错误'}, 'param': {'mobilephone': '18688773467', 'pwd': '12345678'}}
+2019-04-02 11:23:29,521-my_logging.py-INFO-日志信息：********开始将结果写回excel数据********
+2019-04-02 11:23:29,729-my_logging.py-INFO-日志信息：********结束将结果写回excel数据********
+2019-04-02 11:23:29,781-my_logging.py-INFO-日志信息：************************************
+2019-04-02 11:23:29,782-my_logging.py-INFO-日志信息：正在执行第3条用例“只输入手机号”
+2019-04-02 11:23:29,783-my_logging.py-INFO-日志信息：请求的数据是：{'case_id': 3, 'name': '只输入手机号', 'method': 'get', 'url': 'http://47.107.168.87:8080/futureloan/mvc/api/member/login', 'expect': {'status': 0, 'code': '20103', 'data': None, 'msg': '密码不能为空'}, 'param': {'mobilephone': '18688773467', 'pwd': ''}}
+2019-04-02 11:23:29,803-my_logging.py-INFO-日志信息：********开始将结果写回excel数据********
+2019-04-02 11:23:29,919-my_logging.py-INFO-日志信息：********结束将结果写回excel数据********
+2019-04-02 11:23:29,967-my_logging.py-INFO-日志信息：************************************
+2019-04-02 11:23:29,968-my_logging.py-INFO-日志信息：正在执行第4条用例“只输入密码”
+2019-04-02 11:23:29,969-my_logging.py-INFO-日志信息：请求的数据是：{'case_id': 4, 'name': '只输入密码', 'method': 'post', 'url': 'http://47.107.168.87:8080/futureloan/mvc/api/member/login', 'expect': {'status': 0, 'code': '20103', 'data': None, 'msg': '手机号不能为'}, 'param': {'mobilephone': '', 'pwd': '12345678'}}
+2019-04-02 11:23:29,989-my_logging.py-ERROR-日志信息：第4条用例“只输入密码”出错{'status': 0, 'code': '20103', 'data': None, 'msg': '手机号不能为'} != {'status': 0, 'code': '20103', 'data': None, 'msg': '手机号不能为空'}
+- {'code': '20103', 'data': None, 'msg': '手机号不能为', 'status': 0}
++ {'code': '20103', 'data': None, 'msg': '手机号不能为空', 'status': 0}
+?                                               +
+
+2019-04-02 11:23:29,990-my_logging.py-INFO-日志信息：********开始将结果写回excel数据********
+2019-04-02 11:23:30,117-my_logging.py-INFO-日志信息：********结束将结果写回excel数据********
+2019-04-02 11:23:30,170-my_logging.py-INFO-日志信息：************************************
+2019-04-02 11:23:30,172-my_logging.py-INFO-日志信息：正在执行第5条用例“手机号长度不正确”
+2019-04-02 11:23:30,173-my_logging.py-INFO-日志信息：请求的数据是：{'case_id': 5, 'name': '手机号长度不正确', 'method': 'post', 'url': 'http://47.107.168.87:8080/futureloan/mvc/api/member/login', 'expect': {'status': 0, 'code': '20111', 'data': None, 'msg': '用户名或密码错误'}, 'param': {'mobilephone': '186887467', 'pwd': '123456'}}
+2019-04-02 11:23:30,196-my_logging.py-INFO-日志信息：********开始将结果写回excel数据********
+2019-04-02 11:23:30,319-my_logging.py-INFO-日志信息：********结束将结果写回excel数据********
+2019-04-02 11:23:30,370-my_logging.py-INFO-日志信息：************************************
+2019-04-02 11:23:30,371-my_logging.py-INFO-日志信息：正在执行第6条用例“输入网络手机号”
+2019-04-02 11:23:30,372-my_logging.py-INFO-日志信息：请求的数据是：{'case_id': 6, 'name': '输入网络手机号', 'method': 'get', 'url': 'http://47.107.168.87:8080/futureloan/mvc/api/member/login', 'expect': {'status': 0, 'code': '20111', 'data': None, 'msg': '用户名或密码错误'}, 'param': {'mobilephone': '2929987455', 'pwd': '123457'}}
+2019-04-02 11:23:30,392-my_logging.py-INFO-日志信息：********开始将结果写回excel数据********
+2019-04-02 11:23:30,517-my_logging.py-INFO-日志信息：********结束将结果写回excel数据********
+2019-04-02 11:23:30,620-my_logging.py-INFO-日志信息：************************************
+2019-04-02 11:23:30,621-my_logging.py-INFO-日志信息：正在执行第1条用例“正常登录”
+2019-04-02 11:23:30,622-my_logging.py-INFO-日志信息：请求的数据是：{'case_id': 1, 'name': '正常登录', 'method': 'get', 'url': 'http://47.107.168.87:8080/futureloan/mvc/api/member/login', 'expect': {'status': 1, 'code': '10001', 'data': None, 'msg': '登录成功'}, 'param': {'mobilephone': '18688773467', 'pwd': '123456'}}
+2019-04-02 11:23:30,643-my_logging.py-INFO-日志信息：********开始将结果写回excel数据********
+2019-04-02 11:23:30,762-my_logging.py-INFO-日志信息：********结束将结果写回excel数据********
+2019-04-02 11:23:30,813-my_logging.py-INFO-日志信息：************************************
+2019-04-02 11:23:30,813-my_logging.py-INFO-日志信息：正在执行第2条用例“输入错误的密码”
+2019-04-02 11:23:30,814-my_logging.py-INFO-日志信息：请求的数据是：{'case_id': 2, 'name': '输入错误的密码', 'method': 'post', 'url': 'http://47.107.168.87:8080/futureloan/mvc/api/member/login', 'expect': {'status': 0, 'code': '20111', 'data': None, 'msg': '用户名或密码错误'}, 'param': {'mobilephone': '18688773467', 'pwd': '12345678'}}
+2019-04-02 11:23:30,838-my_logging.py-INFO-日志信息：********开始将结果写回excel数据********
+2019-04-02 11:23:30,961-my_logging.py-INFO-日志信息：********结束将结果写回excel数据********
+2019-04-02 11:23:31,016-my_logging.py-INFO-日志信息：************************************
+2019-04-02 11:23:31,019-my_logging.py-INFO-日志信息：正在执行第3条用例“只输入手机号”
+2019-04-02 11:23:31,020-my_logging.py-INFO-日志信息：请求的数据是：{'case_id': 3, 'name': '只输入手机号', 'method': 'get', 'url': 'http://47.107.168.87:8080/futureloan/mvc/api/member/login', 'expect': {'status': 0, 'code': '20103', 'data': None, 'msg': '密码不能为空'}, 'param': {'mobilephone': '18688773467', 'pwd': ''}}
+2019-04-02 11:23:31,037-my_logging.py-INFO-日志信息：********开始将结果写回excel数据********
+2019-04-02 11:23:31,154-my_logging.py-INFO-日志信息：********结束将结果写回excel数据********
+2019-04-02 11:23:31,200-my_logging.py-INFO-日志信息：************************************
+2019-04-02 11:23:31,202-my_logging.py-INFO-日志信息：正在执行第4条用例“只输入密码”
+2019-04-02 11:23:31,203-my_logging.py-INFO-日志信息：请求的数据是：{'case_id': 4, 'name': '只输入密码', 'method': 'post', 'url': 'http://47.107.168.87:8080/futureloan/mvc/api/member/login', 'expect': {'status': 0, 'code': '20103', 'data': None, 'msg': '手机号不能为'}, 'param': {'mobilephone': '', 'pwd': '12345678'}}
+2019-04-02 11:23:31,221-my_logging.py-ERROR-日志信息：第4条用例“只输入密码”出错{'status': 0, 'code': '20103', 'data': None, 'msg': '手机号不能为'} != {'status': 0, 'code': '20103', 'data': None, 'msg': '手机号不能为空'}
+- {'code': '20103', 'data': None, 'msg': '手机号不能为', 'status': 0}
++ {'code': '20103', 'data': None, 'msg': '手机号不能为空', 'status': 0}
+?                                               +
+
+2019-04-02 11:23:31,222-my_logging.py-INFO-日志信息：********开始将结果写回excel数据********
+2019-04-02 11:23:31,346-my_logging.py-INFO-日志信息：********结束将结果写回excel数据********
+2019-04-02 11:23:31,421-my_logging.py-INFO-日志信息：************************************
+2019-04-02 11:23:31,422-my_logging.py-INFO-日志信息：正在执行第5条用例“手机号长度不正确”
+2019-04-02 11:23:31,422-my_logging.py-INFO-日志信息：请求的数据是：{'case_id': 5, 'name': '手机号长度不正确', 'method': 'post', 'url': 'http://47.107.168.87:8080/futureloan/mvc/api/member/login', 'expect': {'status': 0, 'code': '20111', 'data': None, 'msg': '用户名或密码错误'}, 'param': {'mobilephone': '186887467', 'pwd': '123456'}}
+2019-04-02 11:23:31,444-my_logging.py-INFO-日志信息：********开始将结果写回excel数据********
+2019-04-02 11:23:31,556-my_logging.py-INFO-日志信息：********结束将结果写回excel数据********
+2019-04-02 11:23:31,602-my_logging.py-INFO-日志信息：************************************
+2019-04-02 11:23:31,603-my_logging.py-INFO-日志信息：正在执行第6条用例“输入网络手机号”
+2019-04-02 11:23:31,604-my_logging.py-INFO-日志信息：请求的数据是：{'case_id': 6, 'name': '输入网络手机号', 'method': 'get', 'url': 'http://47.107.168.87:8080/futureloan/mvc/api/member/login', 'expect': {'status': 0, 'code': '20111', 'data': None, 'msg': '用户名或密码错误'}, 'param': {'mobilephone': '2929987455', 'pwd': '123457'}}
+2019-04-02 11:23:31,629-my_logging.py-INFO-日志信息：********开始将结果写回excel数据********
+2019-04-02 11:23:31,743-my_logging.py-INFO-日志信息：********结束将结果写回excel数据********
+2019-04-02 11:24:15,985-my_logging.py-INFO-日志信息：************************************
+2019-04-02 11:24:15,986-my_logging.py-INFO-日志信息：正在执行第1条用例“正常登录”
+2019-04-02 11:24:15,987-my_logging.py-INFO-日志信息：请求的数据是：{'case_id': 1, 'name': '正常登录', 'method': 'get', 'url': 'http://47.107.168.87:8080/futureloan/mvc/api/member/login', 'expect': {'status': 1, 'code': '10001', 'data': None, 'msg': '登录成功'}, 'param': {'mobilephone': '18688773467', 'pwd': '123456'}}
+2019-04-02 11:24:16,013-my_logging.py-INFO-日志信息：********开始将结果写回excel数据********
+2019-04-02 11:24:16,135-my_logging.py-INFO-日志信息：********结束将结果写回excel数据********
+2019-04-02 11:24:16,181-my_logging.py-INFO-日志信息：************************************
+2019-04-02 11:24:16,182-my_logging.py-INFO-日志信息：正在执行第2条用例“输入错误的密码”
+2019-04-02 11:24:16,183-my_logging.py-INFO-日志信息：请求的数据是：{'case_id': 2, 'name': '输入错误的密码', 'method': 'post', 'url': 'http://47.107.168.87:8080/futureloan/mvc/api/member/login', 'expect': {'status': 0, 'code': '20111', 'data': None, 'msg': '用户名或密码错误'}, 'param': {'mobilephone': '18688773467', 'pwd': '12345678'}}
+2019-04-02 11:24:16,203-my_logging.py-INFO-日志信息：********开始将结果写回excel数据********
+2019-04-02 11:24:16,323-my_logging.py-INFO-日志信息：********结束将结果写回excel数据********
+2019-04-02 11:24:16,370-my_logging.py-INFO-日志信息：************************************
+2019-04-02 11:24:16,371-my_logging.py-INFO-日志信息：正在执行第3条用例“只输入手机号”
+2019-04-02 11:24:16,372-my_logging.py-INFO-日志信息：请求的数据是：{'case_id': 3, 'name': '只输入手机号', 'method': 'get', 'url': 'http://47.107.168.87:8080/futureloan/mvc/api/member/login', 'expect': {'status': 0, 'code': '20103', 'data': None, 'msg': '密码不能为空'}, 'param': {'mobilephone': '18688773467', 'pwd': ''}}
+2019-04-02 11:24:16,392-my_logging.py-INFO-日志信息：********开始将结果写回excel数据********
+2019-04-02 11:24:16,502-my_logging.py-INFO-日志信息：********结束将结果写回excel数据********
+2019-04-02 11:24:16,554-my_logging.py-INFO-日志信息：************************************
+2019-04-02 11:24:16,555-my_logging.py-INFO-日志信息：正在执行第4条用例“只输入密码”
+2019-04-02 11:24:16,556-my_logging.py-INFO-日志信息：请求的数据是：{'case_id': 4, 'name': '只输入密码', 'method': 'post', 'url': 'http://47.107.168.87:8080/futureloan/mvc/api/member/login', 'expect': {'status': 0, 'code': '20103', 'data': None, 'msg': '手机号不能为'}, 'param': {'mobilephone': '', 'pwd': '12345678'}}
+2019-04-02 11:24:16,574-my_logging.py-ERROR-日志信息：第4条用例“只输入密码”出错{'status': 0, 'code': '20103', 'data': None, 'msg': '手机号不能为'} != {'status': 0, 'code': '20103', 'data': None, 'msg': '手机号不能为空'}
+- {'code': '20103', 'data': None, 'msg': '手机号不能为', 'status': 0}
++ {'code': '20103', 'data': None, 'msg': '手机号不能为空', 'status': 0}
+?                                               +
+
+2019-04-02 11:24:16,575-my_logging.py-INFO-日志信息：********开始将结果写回excel数据********
+2019-04-02 11:24:16,708-my_logging.py-INFO-日志信息：********结束将结果写回excel数据********
+2019-04-02 11:24:16,767-my_logging.py-INFO-日志信息：************************************
+2019-04-02 11:24:16,768-my_logging.py-INFO-日志信息：正在执行第5条用例“手机号长度不正确”
+2019-04-02 11:24:16,769-my_logging.py-INFO-日志信息：请求的数据是：{'case_id': 5, 'name': '手机号长度不正确', 'method': 'post', 'url': 'http://47.107.168.87:8080/futureloan/mvc/api/member/login', 'expect': {'status': 0, 'code': '20111', 'data': None, 'msg': '用户名或密码错误'}, 'param': {'mobilephone': '186887467', 'pwd': '123456'}}
+2019-04-02 11:24:16,789-my_logging.py-INFO-日志信息：********开始将结果写回excel数据********
+2019-04-02 11:24:16,901-my_logging.py-INFO-日志信息：********结束将结果写回excel数据********
+2019-04-02 11:24:16,950-my_logging.py-INFO-日志信息：************************************
+2019-04-02 11:24:16,951-my_logging.py-INFO-日志信息：正在执行第6条用例“输入网络手机号”
+2019-04-02 11:24:16,952-my_logging.py-INFO-日志信息：请求的数据是：{'case_id': 6, 'name': '输入网络手机号', 'method': 'get', 'url': 'http://47.107.168.87:8080/futureloan/mvc/api/member/login', 'expect': {'status': 0, 'code': '20111', 'data': None, 'msg': '用户名或密码错误'}, 'param': {'mobilephone': '2929987455', 'pwd': '123457'}}
+2019-04-02 11:24:16,972-my_logging.py-INFO-日志信息：********开始将结果写回excel数据********
+2019-04-02 11:24:17,094-my_logging.py-INFO-日志信息：********结束将结果写回excel数据********
+2019-04-02 11:24:17,188-my_logging.py-INFO-日志信息：************************************
+2019-04-02 11:24:17,189-my_logging.py-INFO-日志信息：正在执行第1条用例“正常登录”
+2019-04-02 11:24:17,190-my_logging.py-INFO-日志信息：请求的数据是：{'case_id': 1, 'name': '正常登录', 'method': 'get', 'url': 'http://47.107.168.87:8080/futureloan/mvc/api/member/login', 'expect': {'status': 1, 'code': '10001', 'data': None, 'msg': '登录成功'}, 'param': {'mobilephone': '18688773467', 'pwd': '123456'}}
+2019-04-02 11:24:17,212-my_logging.py-INFO-日志信息：********开始将结果写回excel数据********
+2019-04-02 11:24:17,364-my_logging.py-INFO-日志信息：********结束将结果写回excel数据********
+2019-04-02 11:24:17,411-my_logging.py-INFO-日志信息：************************************
+2019-04-02 11:24:17,412-my_logging.py-INFO-日志信息：正在执行第2条用例“输入错误的密码”
+2019-04-02 11:24:17,414-my_logging.py-INFO-日志信息：请求的数据是：{'case_id': 2, 'name': '输入错误的密码', 'method': 'post', 'url': 'http://47.107.168.87:8080/futureloan/mvc/api/member/login', 'expect': {'status': 0, 'code': '20111', 'data': None, 'msg': '用户名或密码错误'}, 'param': {'mobilephone': '18688773467', 'pwd': '12345678'}}
+2019-04-02 11:24:17,436-my_logging.py-INFO-日志信息：********开始将结果写回excel数据********
+2019-04-02 11:24:17,563-my_logging.py-INFO-日志信息：********结束将结果写回excel数据********
+2019-04-02 11:24:17,612-my_logging.py-INFO-日志信息：************************************
+2019-04-02 11:24:17,614-my_logging.py-INFO-日志信息：正在执行第3条用例“只输入手机号”
+2019-04-02 11:24:17,615-my_logging.py-INFO-日志信息：请求的数据是：{'case_id': 3, 'name': '只输入手机号', 'method': 'get', 'url': 'http://47.107.168.87:8080/futureloan/mvc/api/member/login', 'expect': {'status': 0, 'code': '20103', 'data': None, 'msg': '密码不能为空'}, 'param': {'mobilephone': '18688773467', 'pwd': ''}}
+2019-04-02 11:24:17,632-my_logging.py-INFO-日志信息：********开始将结果写回excel数据********
+2019-04-02 11:24:17,746-my_logging.py-INFO-日志信息：********结束将结果写回excel数据********
+2019-04-02 11:24:17,791-my_logging.py-INFO-日志信息：************************************
+2019-04-02 11:24:17,792-my_logging.py-INFO-日志信息：正在执行第4条用例“只输入密码”
+2019-04-02 11:24:17,793-my_logging.py-INFO-日志信息：请求的数据是：{'case_id': 4, 'name': '只输入密码', 'method': 'post', 'url': 'http://47.107.168.87:8080/futureloan/mvc/api/member/login', 'expect': {'status': 0, 'code': '20103', 'data': None, 'msg': '手机号不能为'}, 'param': {'mobilephone': '', 'pwd': '12345678'}}
+2019-04-02 11:24:17,812-my_logging.py-ERROR-日志信息：第4条用例“只输入密码”出错{'status': 0, 'code': '20103', 'data': None, 'msg': '手机号不能为'} != {'status': 0, 'code': '20103', 'data': None, 'msg': '手机号不能为空'}
+- {'code': '20103', 'data': None, 'msg': '手机号不能为', 'status': 0}
++ {'code': '20103', 'data': None, 'msg': '手机号不能为空', 'status': 0}
+?                                               +
+
+2019-04-02 11:24:17,814-my_logging.py-INFO-日志信息：********开始将结果写回excel数据********
+2019-04-02 11:24:17,927-my_logging.py-INFO-日志信息：********结束将结果写回excel数据********
+2019-04-02 11:24:18,001-my_logging.py-INFO-日志信息：************************************
+2019-04-02 11:24:18,002-my_logging.py-INFO-日志信息：正在执行第5条用例“手机号长度不正确”
+2019-04-02 11:24:18,003-my_logging.py-INFO-日志信息：请求的数据是：{'case_id': 5, 'name': '手机号长度不正确', 'method': 'post', 'url': 'http://47.107.168.87:8080/futureloan/mvc/api/member/login', 'expect': {'status': 0, 'code': '20111', 'data': None, 'msg': '用户名或密码错误'}, 'param': {'mobilephone': '186887467', 'pwd': '123456'}}
+2019-04-02 11:24:18,026-my_logging.py-INFO-日志信息：********开始将结果写回excel数据********
+2019-04-02 11:24:18,147-my_logging.py-INFO-日志信息：********结束将结果写回excel数据********
+2019-04-02 11:24:18,193-my_logging.py-INFO-日志信息：************************************
+2019-04-02 11:24:18,194-my_logging.py-INFO-日志信息：正在执行第6条用例“输入网络手机号”
+2019-04-02 11:24:18,195-my_logging.py-INFO-日志信息：请求的数据是：{'case_id': 6, 'name': '输入网络手机号', 'method': 'get', 'url': 'http://47.107.168.87:8080/futureloan/mvc/api/member/login', 'expect': {'status': 0, 'code': '20111', 'data': None, 'msg': '用户名或密码错误'}, 'param': {'mobilephone': '2929987455', 'pwd': '123457'}}
+2019-04-02 11:24:18,216-my_logging.py-INFO-日志信息：********开始将结果写回excel数据********
+2019-04-02 11:24:18,339-my_logging.py-INFO-日志信息：********结束将结果写回excel数据********
+2019-04-02 11:24:18,401-my_logging.py-INFO-日志信息：************************************
+2019-04-02 11:24:18,402-my_logging.py-INFO-日志信息：正在执行第1条用例“正常登录”
+2019-04-02 11:24:18,403-my_logging.py-INFO-日志信息：请求的数据是：{'case_id': 1, 'name': '正常登录', 'method': 'get', 'url': 'http://47.107.168.87:8080/futureloan/mvc/api/member/login', 'expect': {'status': 1, 'code': '10001', 'data': None, 'msg': '登录成功'}, 'param': {'mobilephone': '18688773467', 'pwd': '123456'}}
+2019-04-02 11:24:18,424-my_logging.py-INFO-日志信息：********开始将结果写回excel数据********
+2019-04-02 11:24:18,539-my_logging.py-INFO-日志信息：********结束将结果写回excel数据********
+2019-04-02 11:24:18,586-my_logging.py-INFO-日志信息：************************************
+2019-04-02 11:24:18,587-my_logging.py-INFO-日志信息：正在执行第2条用例“输入错误的密码”
+2019-04-02 11:24:18,588-my_logging.py-INFO-日志信息：请求的数据是：{'case_id': 2, 'name': '输入错误的密码', 'method': 'post', 'url': 'http://47.107.168.87:8080/futureloan/mvc/api/member/login', 'expect': {'status': 0, 'code': '20111', 'data': None, 'msg': '用户名或密码错误'}, 'param': {'mobilephone': '18688773467', 'pwd': '12345678'}}
+2019-04-02 11:24:18,609-my_logging.py-INFO-日志信息：********开始将结果写回excel数据********
+2019-04-02 11:24:18,723-my_logging.py-INFO-日志信息：********结束将结果写回excel数据********
+2019-04-02 11:24:18,769-my_logging.py-INFO-日志信息：************************************
+2019-04-02 11:24:18,770-my_logging.py-INFO-日志信息：正在执行第3条用例“只输入手机号”
+2019-04-02 11:24:18,771-my_logging.py-INFO-日志信息：请求的数据是：{'case_id': 3, 'name': '只输入手机号', 'method': 'get', 'url': 'http://47.107.168.87:8080/futureloan/mvc/api/member/login', 'expect': {'status': 0, 'code': '20103', 'data': None, 'msg': '密码不能为空'}, 'param': {'mobilephone': '18688773467', 'pwd': ''}}
+2019-04-02 11:24:18,792-my_logging.py-INFO-日志信息：********开始将结果写回excel数据********
+2019-04-02 11:24:18,903-my_logging.py-INFO-日志信息：********结束将结果写回excel数据********
+2019-04-02 11:24:18,949-my_logging.py-INFO-日志信息：************************************
+2019-04-02 11:24:18,950-my_logging.py-INFO-日志信息：正在执行第4条用例“只输入密码”
+2019-04-02 11:24:18,951-my_logging.py-INFO-日志信息：请求的数据是：{'case_id': 4, 'name': '只输入密码', 'method': 'post', 'url': 'http://47.107.168.87:8080/futureloan/mvc/api/member/login', 'expect': {'status': 0, 'code': '20103', 'data': None, 'msg': '手机号不能为'}, 'param': {'mobilephone': '', 'pwd': '12345678'}}
+2019-04-02 11:24:18,970-my_logging.py-ERROR-日志信息：第4条用例“只输入密码”出错{'status': 0, 'code': '20103', 'data': None, 'msg': '手机号不能为'} != {'status': 0, 'code': '20103', 'data': None, 'msg': '手机号不能为空'}
+- {'code': '20103', 'data': None, 'msg': '手机号不能为', 'status': 0}
++ {'code': '20103', 'data': None, 'msg': '手机号不能为空', 'status': 0}
+?                                               +
+
+2019-04-02 11:24:18,971-my_logging.py-INFO-日志信息：********开始将结果写回excel数据********
+2019-04-02 11:24:19,090-my_logging.py-INFO-日志信息：********结束将结果写回excel数据********
+2019-04-02 11:24:19,137-my_logging.py-INFO-日志信息：************************************
+2019-04-02 11:24:19,138-my_logging.py-INFO-日志信息：正在执行第5条用例“手机号长度不正确”
+2019-04-02 11:24:19,140-my_logging.py-INFO-日志信息：请求的数据是：{'case_id': 5, 'name': '手机号长度不正确', 'method': 'post', 'url': 'http://47.107.168.87:8080/futureloan/mvc/api/member/login', 'expect': {'status': 0, 'code': '20111', 'data': None, 'msg': '用户名或密码错误'}, 'param': {'mobilephone': '186887467', 'pwd': '123456'}}
+2019-04-02 11:24:19,161-my_logging.py-INFO-日志信息：********开始将结果写回excel数据********
+2019-04-02 11:24:19,278-my_logging.py-INFO-日志信息：********结束将结果写回excel数据********
+2019-04-02 11:24:19,324-my_logging.py-INFO-日志信息：************************************
+2019-04-02 11:24:19,325-my_logging.py-INFO-日志信息：正在执行第6条用例“输入网络手机号”
+2019-04-02 11:24:19,326-my_logging.py-INFO-日志信息：请求的数据是：{'case_id': 6, 'name': '输入网络手机号', 'method': 'get', 'url': 'http://47.107.168.87:8080/futureloan/mvc/api/member/login', 'expect': {'status': 0, 'code': '20111', 'data': None, 'msg': '用户名或密码错误'}, 'param': {'mobilephone': '2929987455', 'pwd': '123457'}}
+2019-04-02 11:24:19,349-my_logging.py-INFO-日志信息：********开始将结果写回excel数据********
+2019-04-02 11:24:19,476-my_logging.py-INFO-日志信息：********结束将结果写回excel数据********
+2019-04-02 11:26:19,669-my_logging.py-INFO-日志信息：************************************
+2019-04-02 11:26:19,670-my_logging.py-INFO-日志信息：正在执行第1条用例“正常登录”
+2019-04-02 11:26:19,671-my_logging.py-INFO-日志信息：请求的数据是：{'case_id': 1, 'name': '正常登录', 'method': 'get', 'url': 'http://47.107.168.87:8080/futureloan/mvc/api/member/login', 'expect': {'status': 1, 'code': '10001', 'data': None, 'msg': '登录成功'}, 'param': {'mobilephone': '18688773467', 'pwd': '123456'}}
+2019-04-02 11:26:19,694-my_logging.py-INFO-日志信息：********开始将结果写回excel数据********
+2019-04-02 11:26:19,806-my_logging.py-INFO-日志信息：********结束将结果写回excel数据********
+2019-04-02 11:26:19,854-my_logging.py-INFO-日志信息：************************************
+2019-04-02 11:26:19,855-my_logging.py-INFO-日志信息：正在执行第2条用例“输入错误的密码”
+2019-04-02 11:26:19,856-my_logging.py-INFO-日志信息：请求的数据是：{'case_id': 2, 'name': '输入错误的密码', 'method': 'post', 'url': 'http://47.107.168.87:8080/futureloan/mvc/api/member/login', 'expect': {'status': 0, 'code': '20111', 'data': None, 'msg': '用户名或密码错误'}, 'param': {'mobilephone': '18688773467', 'pwd': '12345678'}}
+2019-04-02 11:26:19,879-my_logging.py-INFO-日志信息：********开始将结果写回excel数据********
+2019-04-02 11:26:19,992-my_logging.py-INFO-日志信息：********结束将结果写回excel数据********
+2019-04-02 11:26:20,044-my_logging.py-INFO-日志信息：************************************
+2019-04-02 11:26:20,045-my_logging.py-INFO-日志信息：正在执行第3条用例“只输入手机号”
+2019-04-02 11:26:20,046-my_logging.py-INFO-日志信息：请求的数据是：{'case_id': 3, 'name': '只输入手机号', 'method': 'get', 'url': 'http://47.107.168.87:8080/futureloan/mvc/api/member/login', 'expect': {'status': 0, 'code': '20103', 'data': None, 'msg': '密码不能为空'}, 'param': {'mobilephone': '18688773467', 'pwd': ''}}
+2019-04-02 11:26:20,065-my_logging.py-INFO-日志信息：********开始将结果写回excel数据********
+2019-04-02 11:26:20,178-my_logging.py-INFO-日志信息：********结束将结果写回excel数据********
+2019-04-02 11:26:20,226-my_logging.py-INFO-日志信息：************************************
+2019-04-02 11:26:20,228-my_logging.py-INFO-日志信息：正在执行第4条用例“只输入密码”
+2019-04-02 11:26:20,230-my_logging.py-INFO-日志信息：请求的数据是：{'case_id': 4, 'name': '只输入密码', 'method': 'post', 'url': 'http://47.107.168.87:8080/futureloan/mvc/api/member/login', 'expect': {'status': 0, 'code': '20103', 'data': None, 'msg': '手机号不能为'}, 'param': {'mobilephone': '', 'pwd': '12345678'}}
+2019-04-02 11:26:20,250-my_logging.py-ERROR-日志信息：第4条用例“只输入密码”出错{'status': 0, 'code': '20103', 'data': None, 'msg': '手机号不能为'} != {'status': 0, 'code': '20103', 'data': None, 'msg': '手机号不能为空'}
+- {'code': '20103', 'data': None, 'msg': '手机号不能为', 'status': 0}
++ {'code': '20103', 'data': None, 'msg': '手机号不能为空', 'status': 0}
+?                                               +
+
+2019-04-02 11:26:20,251-my_logging.py-INFO-日志信息：********开始将结果写回excel数据********
+2019-04-02 11:26:20,361-my_logging.py-INFO-日志信息：********结束将结果写回excel数据********
+2019-04-02 11:26:20,411-my_logging.py-INFO-日志信息：************************************
+2019-04-02 11:26:20,412-my_logging.py-INFO-日志信息：正在执行第5条用例“手机号长度不正确”
+2019-04-02 11:26:20,413-my_logging.py-INFO-日志信息：请求的数据是：{'case_id': 5, 'name': '手机号长度不正确', 'method': 'post', 'url': 'http://47.107.168.87:8080/futureloan/mvc/api/member/login', 'expect': {'status': 0, 'code': '20111', 'data': None, 'msg': '用户名或密码错误'}, 'param': {'mobilephone': '186887467', 'pwd': '123456'}}
+2019-04-02 11:26:20,435-my_logging.py-INFO-日志信息：********开始将结果写回excel数据********
+2019-04-02 11:26:20,592-my_logging.py-INFO-日志信息：********结束将结果写回excel数据********
+2019-04-02 11:26:20,642-my_logging.py-INFO-日志信息：************************************
+2019-04-02 11:26:20,643-my_logging.py-INFO-日志信息：正在执行第6条用例“输入网络手机号”
+2019-04-02 11:26:20,643-my_logging.py-INFO-日志信息：请求的数据是：{'case_id': 6, 'name': '输入网络手机号', 'method': 'get', 'url': 'http://47.107.168.87:8080/futureloan/mvc/api/member/login', 'expect': {'status': 0, 'code': '20111', 'data': None, 'msg': '用户名或密码错误'}, 'param': {'mobilephone': '2929987455', 'pwd': '123457'}}
+2019-04-02 11:26:20,664-my_logging.py-INFO-日志信息：********开始将结果写回excel数据********
+2019-04-02 11:26:20,783-my_logging.py-INFO-日志信息：********结束将结果写回excel数据********
+2019-04-02 11:26:30,591-my_logging.py-INFO-日志信息：************************************
+2019-04-02 11:26:30,592-my_logging.py-INFO-日志信息：正在执行第1条用例“正常登录”
+2019-04-02 11:26:30,593-my_logging.py-INFO-日志信息：请求的数据是：{'case_id': 1, 'name': '正常登录', 'method': 'get', 'url': 'http://47.107.168.87:8080/futureloan/mvc/api/member/login', 'expect': {'status': 1, 'code': '10001', 'data': None, 'msg': '登录成功'}, 'param': {'mobilephone': '18688773467', 'pwd': '123456'}}
+2019-04-02 11:26:30,624-my_logging.py-INFO-日志信息：********开始将结果写回excel数据********
+2019-04-02 11:26:30,740-my_logging.py-INFO-日志信息：********结束将结果写回excel数据********
+2019-04-02 11:26:30,789-my_logging.py-INFO-日志信息：************************************
+2019-04-02 11:26:30,790-my_logging.py-INFO-日志信息：正在执行第2条用例“输入错误的密码”
+2019-04-02 11:26:30,790-my_logging.py-INFO-日志信息：请求的数据是：{'case_id': 2, 'name': '输入错误的密码', 'method': 'post', 'url': 'http://47.107.168.87:8080/futureloan/mvc/api/member/login', 'expect': {'status': 0, 'code': '20111', 'data': None, 'msg': '用户名或密码错误'}, 'param': {'mobilephone': '18688773467', 'pwd': '12345678'}}
+2019-04-02 11:26:30,813-my_logging.py-INFO-日志信息：********开始将结果写回excel数据********
+2019-04-02 11:26:30,938-my_logging.py-INFO-日志信息：********结束将结果写回excel数据********
+2019-04-02 11:26:30,988-my_logging.py-INFO-日志信息：************************************
+2019-04-02 11:26:30,989-my_logging.py-INFO-日志信息：正在执行第3条用例“只输入手机号”
+2019-04-02 11:26:30,990-my_logging.py-INFO-日志信息：请求的数据是：{'case_id': 3, 'name': '只输入手机号', 'method': 'get', 'url': 'http://47.107.168.87:8080/futureloan/mvc/api/member/login', 'expect': {'status': 0, 'code': '20103', 'data': None, 'msg': '密码不能为空'}, 'param': {'mobilephone': '18688773467', 'pwd': ''}}
+2019-04-02 11:26:31,009-my_logging.py-INFO-日志信息：********开始将结果写回excel数据********
+2019-04-02 11:26:31,124-my_logging.py-INFO-日志信息：********结束将结果写回excel数据********
+2019-04-02 11:26:31,170-my_logging.py-INFO-日志信息：************************************
+2019-04-02 11:26:31,171-my_logging.py-INFO-日志信息：正在执行第4条用例“只输入密码”
+2019-04-02 11:26:31,173-my_logging.py-INFO-日志信息：请求的数据是：{'case_id': 4, 'name': '只输入密码', 'method': 'post', 'url': 'http://47.107.168.87:8080/futureloan/mvc/api/member/login', 'expect': {'status': 0, 'code': '20103', 'data': None, 'msg': '手机号不能为'}, 'param': {'mobilephone': '', 'pwd': '12345678'}}
+2019-04-02 11:26:31,196-my_logging.py-ERROR-日志信息：第4条用例“只输入密码”出错{'status': 0, 'code': '20103', 'data': None, 'msg': '手机号不能为'} != {'status': 0, 'code': '20103', 'data': None, 'msg': '手机号不能为空'}
+- {'code': '20103', 'data': None, 'msg': '手机号不能为', 'status': 0}
++ {'code': '20103', 'data': None, 'msg': '手机号不能为空', 'status': 0}
+?                                               +
+
+2019-04-02 11:26:31,197-my_logging.py-INFO-日志信息：********开始将结果写回excel数据********
+2019-04-02 11:26:31,326-my_logging.py-INFO-日志信息：********结束将结果写回excel数据********
+2019-04-02 11:26:31,376-my_logging.py-INFO-日志信息：************************************
+2019-04-02 11:26:31,377-my_logging.py-INFO-日志信息：正在执行第5条用例“手机号长度不正确”
+2019-04-02 11:26:31,378-my_logging.py-INFO-日志信息：请求的数据是：{'case_id': 5, 'name': '手机号长度不正确', 'method': 'post', 'url': 'http://47.107.168.87:8080/futureloan/mvc/api/member/login', 'expect': {'status': 0, 'code': '20111', 'data': None, 'msg': '用户名或密码错误'}, 'param': {'mobilephone': '186887467', 'pwd': '123456'}}
+2019-04-02 11:26:31,399-my_logging.py-INFO-日志信息：********开始将结果写回excel数据********
+2019-04-02 11:26:31,514-my_logging.py-INFO-日志信息：********结束将结果写回excel数据********
+2019-04-02 11:26:31,563-my_logging.py-INFO-日志信息：************************************
+2019-04-02 11:26:31,564-my_logging.py-INFO-日志信息：正在执行第6条用例“输入网络手机号”
+2019-04-02 11:26:31,565-my_logging.py-INFO-日志信息：请求的数据是：{'case_id': 6, 'name': '输入网络手机号', 'method': 'get', 'url': 'http://47.107.168.87:8080/futureloan/mvc/api/member/login', 'expect': {'status': 0, 'code': '20111', 'data': None, 'msg': '用户名或密码错误'}, 'param': {'mobilephone': '2929987455', 'pwd': '123457'}}
+2019-04-02 11:26:31,587-my_logging.py-INFO-日志信息：********开始将结果写回excel数据********
+2019-04-02 11:26:31,700-my_logging.py-INFO-日志信息：********结束将结果写回excel数据********
+2019-04-02 11:54:36,477-my_logging.py-INFO-日志信息：************************************
+2019-04-02 11:54:36,478-my_logging.py-INFO-日志信息：正在执行第1条用例“正常登录”
+2019-04-02 11:54:36,479-my_logging.py-INFO-日志信息：请求的数据是：{'case_id': 1, 'name': '正常登录', 'method': 'get', 'url': 'http://47.107.168.87:8080/futureloan/mvc/api/member/login', 'expect': {'status': 1, 'code': '10001', 'data': None, 'msg': '登录成功'}, 'param': {'mobilephone': '18688773467', 'pwd': '123456'}}
+2019-04-02 11:54:36,509-my_logging.py-INFO-日志信息：********开始将结果写回excel数据********
+2019-04-02 11:54:36,616-my_logging.py-INFO-日志信息：********结束将结果写回excel数据********
+2019-04-02 11:54:36,660-my_logging.py-INFO-日志信息：************************************
+2019-04-02 11:54:36,662-my_logging.py-INFO-日志信息：正在执行第2条用例“输入错误的密码”
+2019-04-02 11:54:36,663-my_logging.py-INFO-日志信息：请求的数据是：{'case_id': 2, 'name': '输入错误的密码', 'method': 'post', 'url': 'http://47.107.168.87:8080/futureloan/mvc/api/member/login', 'expect': {'status': 0, 'code': '20111', 'data': None, 'msg': '用户名或密码错误'}, 'param': {'mobilephone': '18688773467', 'pwd': '12345678'}}
+2019-04-02 11:54:36,685-my_logging.py-INFO-日志信息：********开始将结果写回excel数据********
+2019-04-02 11:54:36,815-my_logging.py-INFO-日志信息：********结束将结果写回excel数据********
+2019-04-02 11:54:36,859-my_logging.py-INFO-日志信息：************************************
+2019-04-02 11:54:36,860-my_logging.py-INFO-日志信息：正在执行第3条用例“只输入手机号”
+2019-04-02 11:54:36,860-my_logging.py-INFO-日志信息：请求的数据是：{'case_id': 3, 'name': '只输入手机号', 'method': 'get', 'url': 'http://47.107.168.87:8080/futureloan/mvc/api/member/login', 'expect': {'status': 0, 'code': '20103', 'data': None, 'msg': '密码不能为空'}, 'param': {'mobilephone': '18688773467', 'pwd': ''}}
+2019-04-02 11:54:36,877-my_logging.py-INFO-日志信息：********开始将结果写回excel数据********
+2019-04-02 11:54:37,008-my_logging.py-INFO-日志信息：********结束将结果写回excel数据********
+2019-04-02 11:54:37,050-my_logging.py-INFO-日志信息：************************************
+2019-04-02 11:54:37,051-my_logging.py-INFO-日志信息：正在执行第4条用例“只输入密码”
+2019-04-02 11:54:37,052-my_logging.py-INFO-日志信息：请求的数据是：{'case_id': 4, 'name': '只输入密码', 'method': 'post', 'url': 'http://47.107.168.87:8080/futureloan/mvc/api/member/login', 'expect': {'status': 0, 'code': '20103', 'data': None, 'msg': '手机号不能为'}, 'param': {'mobilephone': '', 'pwd': '12345678'}}
+2019-04-02 11:54:37,070-my_logging.py-ERROR-日志信息：第4条用例“只输入密码”出错{'status': 0, 'code': '20103', 'data': None, 'msg': '手机号不能为'} != {'status': 0, 'code': '20103', 'data': None, 'msg': '手机号不能为空'}
+- {'code': '20103', 'data': None, 'msg': '手机号不能为', 'status': 0}
++ {'code': '20103', 'data': None, 'msg': '手机号不能为空', 'status': 0}
+?                                               +
+
+2019-04-02 11:54:37,071-my_logging.py-INFO-日志信息：********开始将结果写回excel数据********
+2019-04-02 11:54:37,178-my_logging.py-INFO-日志信息：********结束将结果写回excel数据********
+2019-04-02 11:54:37,225-my_logging.py-INFO-日志信息：************************************
+2019-04-02 11:54:37,226-my_logging.py-INFO-日志信息：正在执行第5条用例“手机号长度不正确”
+2019-04-02 11:54:37,227-my_logging.py-INFO-日志信息：请求的数据是：{'case_id': 5, 'name': '手机号长度不正确', 'method': 'post', 'url': 'http://47.107.168.87:8080/futureloan/mvc/api/member/login', 'expect': {'status': 0, 'code': '20111', 'data': None, 'msg': '用户名或密码错误'}, 'param': {'mobilephone': '186887467', 'pwd': '123456'}}
+2019-04-02 11:54:37,248-my_logging.py-INFO-日志信息：********开始将结果写回excel数据********
+2019-04-02 11:54:37,380-my_logging.py-INFO-日志信息：********结束将结果写回excel数据********
+2019-04-02 11:54:37,433-my_logging.py-INFO-日志信息：************************************
+2019-04-02 11:54:37,434-my_logging.py-INFO-日志信息：正在执行第6条用例“输入网络手机号”
+2019-04-02 11:54:37,435-my_logging.py-INFO-日志信息：请求的数据是：{'case_id': 6, 'name': '输入网络手机号', 'method': 'get', 'url': 'http://47.107.168.87:8080/futureloan/mvc/api/member/login', 'expect': {'status': 0, 'code': '20111', 'data': None, 'msg': '用户名或密码错误'}, 'param': {'mobilephone': '2929987455', 'pwd': '123457'}}
+2019-04-02 11:54:37,458-my_logging.py-INFO-日志信息：********开始将结果写回excel数据********
+2019-04-02 11:54:37,574-my_logging.py-INFO-日志信息：********结束将结果写回excel数据********
