@@ -10,7 +10,7 @@ from configparser import ConfigParser
 class GetPath:
     def __init__(self):
         self.cf = ConfigParser()
-        self.cf.read(r'E:\PycharmProjects\A_auto_test_interface\conf\path_conf.cfg', encoding='utf-8')
+        self.cf.read(r'F:\git-repository\A_auto_test_interface\conf\path_conf.cfg', encoding='utf-8')
 
     def get_logging_path(self):
         return self.cf['path']['logging_path']
