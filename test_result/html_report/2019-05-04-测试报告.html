@@ -7128,21 +7128,431 @@
 </script>
 <script type="text/javascript">
     var resultData = {
-    "testPass": 5,
+    "testPass": 55,
     "testResult": [
         {
-            "className": "TestHttpRequest",
-            "methodName": "test_httprequest_1",
-            "description": "对login接口请求的测试",
-            "spendTime": "0.202 s",
+            "className": "TestConnectInvest",
+            "methodName": "test_connect_invest_1",
+            "description": "对/member/bidLoan接口请求关联测试",
+            "spendTime": "0.25 s",
             "status": "成功",
             "log": [
                 ""
             ]
         },
         {
-            "className": "TestHttpRequest",
-            "methodName": "test_httprequest_2",
+            "className": "TestConnectInvest",
+            "methodName": "test_connect_invest_2",
+            "description": "对/member/bidLoan接口请求关联测试",
+            "spendTime": "0.242 s",
+            "status": "成功",
+            "log": [
+                ""
+            ]
+        },
+        {
+            "className": "TestConnectInvest",
+            "methodName": "test_connect_invest_3",
+            "description": "对/member/bidLoan接口请求关联测试",
+            "spendTime": "0.231 s",
+            "status": "成功",
+            "log": [
+                ""
+            ]
+        },
+        {
+            "className": "TestConnectInvest",
+            "methodName": "test_connect_invest_4",
+            "description": "对/member/bidLoan接口请求关联测试",
+            "spendTime": "0.282 s",
+            "status": "成功",
+            "log": [
+                ""
+            ]
+        },
+        {
+            "className": "TestConnectInvest",
+            "methodName": "test_connect_invest_5",
+            "description": "对/member/bidLoan接口请求关联测试",
+            "spendTime": "0.35 s",
+            "status": "成功",
+            "log": [
+                ""
+            ]
+        },
+        {
+            "className": "TestInvest",
+            "methodName": "test_invest_01",
+            "description": "对/member/bidLoan接口请求的测试",
+            "spendTime": "0.218 s",
+            "status": "成功",
+            "log": [
+                ""
+            ]
+        },
+        {
+            "className": "TestInvest",
+            "methodName": "test_invest_02",
+            "description": "对/member/bidLoan接口请求的测试",
+            "spendTime": "0.268 s",
+            "status": "成功",
+            "log": [
+                ""
+            ]
+        },
+        {
+            "className": "TestInvest",
+            "methodName": "test_invest_03",
+            "description": "对/member/bidLoan接口请求的测试",
+            "spendTime": "0.32 s",
+            "status": "成功",
+            "log": [
+                ""
+            ]
+        },
+        {
+            "className": "TestInvest",
+            "methodName": "test_invest_04",
+            "description": "对/member/bidLoan接口请求的测试",
+            "spendTime": "0.257 s",
+            "status": "成功",
+            "log": [
+                ""
+            ]
+        },
+        {
+            "className": "TestInvest",
+            "methodName": "test_invest_05",
+            "description": "对/member/bidLoan接口请求的测试",
+            "spendTime": "0.213 s",
+            "status": "失败",
+            "log": [
+                "",
+                "Traceback (most recent call last):\n",
+                "  File \"D:\\python\\python37\\lib\\unittest\\case.py\", line 59, in testPartExecutor\n    yield\n",
+                "  File \"D:\\python\\python37\\lib\\unittest\\case.py\", line 615, in run\n    testMethod()\n",
+                "  File \"D:\\python\\python37\\lib\\site-packages\\ddt.py\", line 145, in wrapper\n    return func(self, *args, **kwargs)\n",
+                "  File \"E:\\PycharmProjects\\FutureLoan_test_interface_V3\\test_case\\test_invest.py\", line 85, in test_invest\n    raise e\n",
+                "  File \"E:\\PycharmProjects\\FutureLoan_test_interface_V3\\test_case\\test_invest.py\", line 80, in test_invest\n    self.assertEqual(str(case.expect), json.loads(request_result.text)[\"code\"])\n",
+                "  File \"D:\\python\\python37\\lib\\unittest\\case.py\", line 839, in assertEqual\n    assertion_func(first, second, msg=msg)\n",
+                "  File \"D:\\python\\python37\\lib\\unittest\\case.py\", line 1220, in assertMultiLineEqual\n    self.fail(self._formatMessage(msg, standardMsg))\n",
+                "  File \"D:\\python\\python37\\lib\\unittest\\case.py\", line 680, in fail\n    raise self.failureException(msg)\n",
+                "AssertionError: '11005' != '11009'\n- 11005\n?     ^\n+ 11009\n?     ^\n\n"
+            ]
+        },
+        {
+            "className": "TestInvest",
+            "methodName": "test_invest_06",
+            "description": "对/member/bidLoan接口请求的测试",
+            "spendTime": "0.203 s",
+            "status": "成功",
+            "log": [
+                ""
+            ]
+        },
+        {
+            "className": "TestInvest",
+            "methodName": "test_invest_07",
+            "description": "对/member/bidLoan接口请求的测试",
+            "spendTime": "0.246 s",
+            "status": "成功",
+            "log": [
+                ""
+            ]
+        },
+        {
+            "className": "TestInvest",
+            "methodName": "test_invest_08",
+            "description": "对/member/bidLoan接口请求的测试",
+            "spendTime": "0.196 s",
+            "status": "成功",
+            "log": [
+                ""
+            ]
+        },
+        {
+            "className": "TestInvest",
+            "methodName": "test_invest_09",
+            "description": "对/member/bidLoan接口请求的测试",
+            "spendTime": "0.0 s",
+            "status": "跳过",
+            "log": [
+                "该条用例不执行"
+            ]
+        },
+        {
+            "className": "TestInvest",
+            "methodName": "test_invest_10",
+            "description": "对/member/bidLoan接口请求的测试",
+            "spendTime": "0.0 s",
+            "status": "跳过",
+            "log": [
+                "该条用例不执行"
+            ]
+        },
+        {
+            "className": "TestInvest",
+            "methodName": "test_invest_11",
+            "description": "对/member/bidLoan接口请求的测试",
+            "spendTime": "0.0 s",
+            "status": "跳过",
+            "log": [
+                "该条用例不执行"
+            ]
+        },
+        {
+            "className": "TestInvest",
+            "methodName": "test_invest_12",
+            "description": "对/member/bidLoan接口请求的测试",
+            "spendTime": "0.0 s",
+            "status": "跳过",
+            "log": [
+                "该条用例不执行"
+            ]
+        },
+        {
+            "className": "TestInvest",
+            "methodName": "test_invest_13",
+            "description": "对/member/bidLoan接口请求的测试",
+            "spendTime": "0.0 s",
+            "status": "跳过",
+            "log": [
+                "该条用例不执行"
+            ]
+        },
+        {
+            "className": "TestInvest",
+            "methodName": "test_invest_14",
+            "description": "对/member/bidLoan接口请求的测试",
+            "spendTime": "0.203 s",
+            "status": "成功",
+            "log": [
+                ""
+            ]
+        },
+        {
+            "className": "TestLoanAdd",
+            "methodName": "test_loanadd_01",
+            "description": "对/loan/add接口请求的测试",
+            "spendTime": "0.199 s",
+            "status": "成功",
+            "log": [
+                ""
+            ]
+        },
+        {
+            "className": "TestLoanAdd",
+            "methodName": "test_loanadd_02",
+            "description": "对/loan/add接口请求的测试",
+            "spendTime": "0.224 s",
+            "status": "成功",
+            "log": [
+                ""
+            ]
+        },
+        {
+            "className": "TestLoanAdd",
+            "methodName": "test_loanadd_03",
+            "description": "对/loan/add接口请求的测试",
+            "spendTime": "0.205 s",
+            "status": "成功",
+            "log": [
+                ""
+            ]
+        },
+        {
+            "className": "TestLoanAdd",
+            "methodName": "test_loanadd_04",
+            "description": "对/loan/add接口请求的测试",
+            "spendTime": "0.198 s",
+            "status": "成功",
+            "log": [
+                ""
+            ]
+        },
+        {
+            "className": "TestLoanAdd",
+            "methodName": "test_loanadd_05",
+            "description": "对/loan/add接口请求的测试",
+            "spendTime": "0.218 s",
+            "status": "成功",
+            "log": [
+                ""
+            ]
+        },
+        {
+            "className": "TestLoanAdd",
+            "methodName": "test_loanadd_06",
+            "description": "对/loan/add接口请求的测试",
+            "spendTime": "0.185 s",
+            "status": "失败",
+            "log": [
+                "",
+                "Traceback (most recent call last):\n",
+                "  File \"D:\\python\\python37\\lib\\unittest\\case.py\", line 59, in testPartExecutor\n    yield\n",
+                "  File \"D:\\python\\python37\\lib\\unittest\\case.py\", line 615, in run\n    testMethod()\n",
+                "  File \"D:\\python\\python37\\lib\\site-packages\\ddt.py\", line 145, in wrapper\n    return func(self, *args, **kwargs)\n",
+                "  File \"E:\\PycharmProjects\\FutureLoan_test_interface_V3\\test_case\\test_loanadd.py\", line 57, in test_loanadd\n    raise e\n",
+                "  File \"E:\\PycharmProjects\\FutureLoan_test_interface_V3\\test_case\\test_loanadd.py\", line 52, in test_loanadd\n    self.assertEqual(str(case.expect), json.loads(request_result.text)[\"code\"])\n",
+                "  File \"D:\\python\\python37\\lib\\unittest\\case.py\", line 839, in assertEqual\n    assertion_func(first, second, msg=msg)\n",
+                "  File \"D:\\python\\python37\\lib\\unittest\\case.py\", line 1220, in assertMultiLineEqual\n    self.fail(self._formatMessage(msg, standardMsg))\n",
+                "  File \"D:\\python\\python37\\lib\\unittest\\case.py\", line 680, in fail\n    raise self.failureException(msg)\n",
+                "AssertionError: '20104' != '20109'\n- 20104\n?     ^\n+ 20109\n?     ^\n\n"
+            ]
+        },
+        {
+            "className": "TestLoanAdd",
+            "methodName": "test_loanadd_07",
+            "description": "对/loan/add接口请求的测试",
+            "spendTime": "0.188 s",
+            "status": "成功",
+            "log": [
+                ""
+            ]
+        },
+        {
+            "className": "TestLoanAdd",
+            "methodName": "test_loanadd_08",
+            "description": "对/loan/add接口请求的测试",
+            "spendTime": "0.196 s",
+            "status": "成功",
+            "log": [
+                ""
+            ]
+        },
+        {
+            "className": "TestLoanAdd",
+            "methodName": "test_loanadd_09",
+            "description": "对/loan/add接口请求的测试",
+            "spendTime": "0.191 s",
+            "status": "成功",
+            "log": [
+                ""
+            ]
+        },
+        {
+            "className": "TestLoanAdd",
+            "methodName": "test_loanadd_10",
+            "description": "对/loan/add接口请求的测试",
+            "spendTime": "0.203 s",
+            "status": "成功",
+            "log": [
+                ""
+            ]
+        },
+        {
+            "className": "TestLoanAdd",
+            "methodName": "test_loanadd_11",
+            "description": "对/loan/add接口请求的测试",
+            "spendTime": "0.195 s",
+            "status": "成功",
+            "log": [
+                ""
+            ]
+        },
+        {
+            "className": "TestLoanAdd",
+            "methodName": "test_loanadd_12",
+            "description": "对/loan/add接口请求的测试",
+            "spendTime": "0.187 s",
+            "status": "成功",
+            "log": [
+                ""
+            ]
+        },
+        {
+            "className": "TestLoanAdd",
+            "methodName": "test_loanadd_13",
+            "description": "对/loan/add接口请求的测试",
+            "spendTime": "0.201 s",
+            "status": "成功",
+            "log": [
+                ""
+            ]
+        },
+        {
+            "className": "TestLoanAdd",
+            "methodName": "test_loanadd_14",
+            "description": "对/loan/add接口请求的测试",
+            "spendTime": "0.203 s",
+            "status": "成功",
+            "log": [
+                ""
+            ]
+        },
+        {
+            "className": "TestLoanAdd",
+            "methodName": "test_loanadd_15",
+            "description": "对/loan/add接口请求的测试",
+            "spendTime": "0.222 s",
+            "status": "失败",
+            "log": [
+                "",
+                "Traceback (most recent call last):\n",
+                "  File \"D:\\python\\python37\\lib\\unittest\\case.py\", line 59, in testPartExecutor\n    yield\n",
+                "  File \"D:\\python\\python37\\lib\\unittest\\case.py\", line 615, in run\n    testMethod()\n",
+                "  File \"D:\\python\\python37\\lib\\site-packages\\ddt.py\", line 145, in wrapper\n    return func(self, *args, **kwargs)\n",
+                "  File \"E:\\PycharmProjects\\FutureLoan_test_interface_V3\\test_case\\test_loanadd.py\", line 57, in test_loanadd\n    raise e\n",
+                "  File \"E:\\PycharmProjects\\FutureLoan_test_interface_V3\\test_case\\test_loanadd.py\", line 52, in test_loanadd\n    self.assertEqual(str(case.expect), json.loads(request_result.text)[\"code\"])\n",
+                "  File \"D:\\python\\python37\\lib\\unittest\\case.py\", line 839, in assertEqual\n    assertion_func(first, second, msg=msg)\n",
+                "  File \"D:\\python\\python37\\lib\\unittest\\case.py\", line 1220, in assertMultiLineEqual\n    self.fail(self._formatMessage(msg, standardMsg))\n",
+                "  File \"D:\\python\\python37\\lib\\unittest\\case.py\", line 680, in fail\n    raise self.failureException(msg)\n",
+                "AssertionError: '20106' != '10001'\n- 20106\n+ 10001\n\n"
+            ]
+        },
+        {
+            "className": "TestLoanAdd",
+            "methodName": "test_loanadd_16",
+            "description": "对/loan/add接口请求的测试",
+            "spendTime": "0.195 s",
+            "status": "成功",
+            "log": [
+                ""
+            ]
+        },
+        {
+            "className": "TestLoanAdd",
+            "methodName": "test_loanadd_17",
+            "description": "对/loan/add接口请求的测试",
+            "spendTime": "0.195 s",
+            "status": "成功",
+            "log": [
+                ""
+            ]
+        },
+        {
+            "className": "TestLoanAdd",
+            "methodName": "test_loanadd_18",
+            "description": "对/loan/add接口请求的测试",
+            "spendTime": "0.198 s",
+            "status": "成功",
+            "log": [
+                ""
+            ]
+        },
+        {
+            "className": "TestLoanAdd",
+            "methodName": "test_loanadd_19",
+            "description": "对/loan/add接口请求的测试",
+            "spendTime": "0.239 s",
+            "status": "成功",
+            "log": [
+                ""
+            ]
+        },
+        {
+            "className": "TestLoanAdd",
+            "methodName": "test_loanadd_20",
+            "description": "对/loan/add接口请求的测试",
+            "spendTime": "0.211 s",
+            "status": "成功",
+            "log": [
+                ""
+            ]
+        },
+        {
+            "className": "TestLogin",
+            "methodName": "test_login_1",
             "description": "对login接口请求的测试",
             "spendTime": "0.249 s",
             "status": "成功",
@@ -7151,20 +7561,30 @@
             ]
         },
         {
-            "className": "TestHttpRequest",
-            "methodName": "test_httprequest_3",
+            "className": "TestLogin",
+            "methodName": "test_login_2",
             "description": "对login接口请求的测试",
-            "spendTime": "0.233 s",
+            "spendTime": "0.2 s",
             "status": "成功",
             "log": [
                 ""
             ]
         },
         {
-            "className": "TestHttpRequest",
-            "methodName": "test_httprequest_4",
+            "className": "TestLogin",
+            "methodName": "test_login_3",
             "description": "对login接口请求的测试",
-            "spendTime": "0.266 s",
+            "spendTime": "0.213 s",
+            "status": "成功",
+            "log": [
+                ""
+            ]
+        },
+        {
+            "className": "TestLogin",
+            "methodName": "test_login_4",
+            "description": "对login接口请求的测试",
+            "spendTime": "0.204 s",
             "status": "失败",
             "log": [
                 "",
@@ -7172,29 +7592,258 @@
                 "  File \"D:\\python\\python37\\lib\\unittest\\case.py\", line 59, in testPartExecutor\n    yield\n",
                 "  File \"D:\\python\\python37\\lib\\unittest\\case.py\", line 615, in run\n    testMethod()\n",
                 "  File \"D:\\python\\python37\\lib\\site-packages\\ddt.py\", line 145, in wrapper\n    return func(self, *args, **kwargs)\n",
-                "  File \"E:\\PycharmProjects\\Python_15\\Practices\\case\\test_C_httprequest_openpyxl.py\", line 39, in test_httprequest\n    raise e\n",
-                "  File \"E:\\PycharmProjects\\Python_15\\Practices\\case\\test_C_httprequest_openpyxl.py\", line 33, in test_httprequest\n    self.assertEqual(expect, request_result.json())\n",
+                "  File \"E:\\PycharmProjects\\FutureLoan_test_interface_V3\\test_case\\test_login.py\", line 50, in test_login\n    raise e\n",
+                "  File \"E:\\PycharmProjects\\FutureLoan_test_interface_V3\\test_case\\test_login.py\", line 45, in test_login\n    self.assertEqual(case.expect, request_result.text)\n",
                 "  File \"D:\\python\\python37\\lib\\unittest\\case.py\", line 839, in assertEqual\n    assertion_func(first, second, msg=msg)\n",
-                "  File \"D:\\python\\python37\\lib\\unittest\\case.py\", line 1138, in assertDictEqual\n    self.fail(self._formatMessage(msg, standardMsg))\n",
+                "  File \"D:\\python\\python37\\lib\\unittest\\case.py\", line 1220, in assertMultiLineEqual\n    self.fail(self._formatMessage(msg, standardMsg))\n",
                 "  File \"D:\\python\\python37\\lib\\unittest\\case.py\", line 680, in fail\n    raise self.failureException(msg)\n",
-                "AssertionError: {'status': 0, 'code': '20103', 'data': None, 'msg': '手机号不能为'} != {'status': 0, 'code': '20103', 'data': None, 'msg': '手机号不能为空'}\n- {'code': '20103', 'data': None, 'msg': '手机号不能为', 'status': 0}\n+ {'code': '20103', 'data': None, 'msg': '手机号不能为空', 'status': 0}\n?                                               +\n\n"
+                "AssertionError: '{\"status\":0,\"code\":null,\"data\":null,\"msg\":\"抱歉，请先登录。\"}' != '<html><head><title>Apache Tomcat/6.0.53 -[904 chars]tml>'\nDiff is 1009 characters long. Set self.maxDiff to None to see it.\n"
             ]
         },
         {
-            "className": "TestHttpRequest",
-            "methodName": "test_httprequest_5",
+            "className": "TestLogin",
+            "methodName": "test_login_5",
             "description": "对login接口请求的测试",
-            "spendTime": "0.197 s",
+            "spendTime": "0.189 s",
             "status": "成功",
             "log": [
                 ""
             ]
         },
         {
-            "className": "TestHttpRequest",
-            "methodName": "test_httprequest_6",
+            "className": "TestLogin",
+            "methodName": "test_login_6",
             "description": "对login接口请求的测试",
-            "spendTime": "0.257 s",
+            "spendTime": "0.19 s",
+            "status": "成功",
+            "log": [
+                ""
+            ]
+        },
+        {
+            "className": "TestLogin",
+            "methodName": "test_login_7",
+            "description": "对login接口请求的测试",
+            "spendTime": "0.194 s",
+            "status": "成功",
+            "log": [
+                ""
+            ]
+        },
+        {
+            "className": "TestLogin",
+            "methodName": "test_login_8",
+            "description": "对login接口请求的测试",
+            "spendTime": "0.0 s",
+            "status": "跳过",
+            "log": [
+                "该条用例不执行"
+            ]
+        },
+        {
+            "className": "TestRecharge",
+            "methodName": "test_recharge_01",
+            "description": "对recharge接口请求的测试",
+            "spendTime": "0.294 s",
+            "status": "成功",
+            "log": [
+                ""
+            ]
+        },
+        {
+            "className": "TestRecharge",
+            "methodName": "test_recharge_02",
+            "description": "对recharge接口请求的测试",
+            "spendTime": "0.209 s",
+            "status": "成功",
+            "log": [
+                ""
+            ]
+        },
+        {
+            "className": "TestRecharge",
+            "methodName": "test_recharge_03",
+            "description": "对recharge接口请求的测试",
+            "spendTime": "0.297 s",
+            "status": "失败",
+            "log": [
+                "",
+                "Traceback (most recent call last):\n",
+                "  File \"D:\\python\\python37\\lib\\unittest\\case.py\", line 59, in testPartExecutor\n    yield\n",
+                "  File \"D:\\python\\python37\\lib\\unittest\\case.py\", line 615, in run\n    testMethod()\n",
+                "  File \"D:\\python\\python37\\lib\\site-packages\\ddt.py\", line 145, in wrapper\n    return func(self, *args, **kwargs)\n",
+                "  File \"E:\\PycharmProjects\\FutureLoan_test_interface_V3\\test_case\\test_recharge.py\", line 65, in test_recharge\n    raise e\n",
+                "  File \"E:\\PycharmProjects\\FutureLoan_test_interface_V3\\test_case\\test_recharge.py\", line 55, in test_recharge\n    if self.assertEqual(before + recharge_amount, after):\n",
+                "  File \"D:\\python\\python37\\lib\\unittest\\case.py\", line 839, in assertEqual\n    assertion_func(first, second, msg=msg)\n",
+                "  File \"D:\\python\\python37\\lib\\unittest\\case.py\", line 832, in _baseAssertEqual\n    raise self.failureException(msg)\n",
+                "AssertionError: Decimal('-800.00') != Decimal('-1800.00')\n"
+            ]
+        },
+        {
+            "className": "TestRecharge",
+            "methodName": "test_recharge_04",
+            "description": "对recharge接口请求的测试",
+            "spendTime": "0.0 s",
+            "status": "跳过",
+            "log": [
+                "该条用例不执行"
+            ]
+        },
+        {
+            "className": "TestRecharge",
+            "methodName": "test_recharge_05",
+            "description": "对recharge接口请求的测试",
+            "spendTime": "0.187 s",
+            "status": "成功",
+            "log": [
+                ""
+            ]
+        },
+        {
+            "className": "TestRecharge",
+            "methodName": "test_recharge_06",
+            "description": "对recharge接口请求的测试",
+            "spendTime": "0.184 s",
+            "status": "成功",
+            "log": [
+                ""
+            ]
+        },
+        {
+            "className": "TestRecharge",
+            "methodName": "test_recharge_07",
+            "description": "对recharge接口请求的测试",
+            "spendTime": "0.214 s",
+            "status": "成功",
+            "log": [
+                ""
+            ]
+        },
+        {
+            "className": "TestRecharge",
+            "methodName": "test_recharge_08",
+            "description": "对recharge接口请求的测试",
+            "spendTime": "0.184 s",
+            "status": "成功",
+            "log": [
+                ""
+            ]
+        },
+        {
+            "className": "TestRecharge",
+            "methodName": "test_recharge_09",
+            "description": "对recharge接口请求的测试",
+            "spendTime": "0.188 s",
+            "status": "成功",
+            "log": [
+                ""
+            ]
+        },
+        {
+            "className": "TestRecharge",
+            "methodName": "test_recharge_10",
+            "description": "对recharge接口请求的测试",
+            "spendTime": "0.199 s",
+            "status": "成功",
+            "log": [
+                ""
+            ]
+        },
+        {
+            "className": "TestRecharge",
+            "methodName": "test_recharge_11",
+            "description": "对recharge接口请求的测试",
+            "spendTime": "0.186 s",
+            "status": "成功",
+            "log": [
+                ""
+            ]
+        },
+        {
+            "className": "TestRegister",
+            "methodName": "test_register_1",
+            "description": "对register接口请求的测试",
+            "spendTime": "0.244 s",
+            "status": "成功",
+            "log": [
+                ""
+            ]
+        },
+        {
+            "className": "TestRegister",
+            "methodName": "test_register_2",
+            "description": "对register接口请求的测试",
+            "spendTime": "0.234 s",
+            "status": "成功",
+            "log": [
+                ""
+            ]
+        },
+        {
+            "className": "TestRegister",
+            "methodName": "test_register_3",
+            "description": "对register接口请求的测试",
+            "spendTime": "0.252 s",
+            "status": "成功",
+            "log": [
+                ""
+            ]
+        },
+        {
+            "className": "TestRegister",
+            "methodName": "test_register_4",
+            "description": "对register接口请求的测试",
+            "spendTime": "0.199 s",
+            "status": "成功",
+            "log": [
+                ""
+            ]
+        },
+        {
+            "className": "TestRegister",
+            "methodName": "test_register_5",
+            "description": "对register接口请求的测试",
+            "spendTime": "0.203 s",
+            "status": "成功",
+            "log": [
+                ""
+            ]
+        },
+        {
+            "className": "TestRegister",
+            "methodName": "test_register_6",
+            "description": "对register接口请求的测试",
+            "spendTime": "0.184 s",
+            "status": "成功",
+            "log": [
+                ""
+            ]
+        },
+        {
+            "className": "TestRegister",
+            "methodName": "test_register_7",
+            "description": "对register接口请求的测试",
+            "spendTime": "0.229 s",
+            "status": "成功",
+            "log": [
+                ""
+            ]
+        },
+        {
+            "className": "TestRegister",
+            "methodName": "test_register_8",
+            "description": "对register接口请求的测试",
+            "spendTime": "0.194 s",
+            "status": "成功",
+            "log": [
+                ""
+            ]
+        },
+        {
+            "className": "TestRegister",
+            "methodName": "test_register_9",
+            "description": "对register接口请求的测试",
+            "spendTime": "0.194 s",
             "status": "成功",
             "log": [
                 ""
@@ -7202,11 +7851,11 @@
         }
     ],
     "testName": "Http请求的测试报告",
-    "testAll": 6,
-    "testFail": 1,
-    "beginTime": "2019-03-28 17:23:50",
-    "totalTime": "1s",
-    "testSkip": 0,
+    "testAll": 67,
+    "testFail": 5,
+    "beginTime": "2019-05-04 10:43:10",
+    "totalTime": "13s",
+    "testSkip": 7,
     "testError": 0
 };
 

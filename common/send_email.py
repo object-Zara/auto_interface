@@ -1,7 +1,7 @@
 # -*- coding:utf-8 -*-
 # @datetime:2019/4/1 19:37
-# @author:Xiaoyuan
-# @email:Object_ycm@sina.com
+# @author:123
+# @email:1111@sina.com
 # @File:send_email.py
 
 import smtplib
@@ -71,6 +71,6 @@ if __name__ == '__main__':
     smail = SendEMail()
     smail.add_content('html', r'../test_result/html_report/2019-04-01测试报告.html', '测试报告.html')
     # smail.add_content('image', 'png', 'conf/表情.png', '表情.png')
-    smail.send_email('彩', '测试报告', '接口测试报告')
+    smail.send_email('haha', '测试报告', '接口测试报告')
 
 

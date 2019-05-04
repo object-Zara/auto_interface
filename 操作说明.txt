@@ -1,0 +1,9 @@
+基本说明：
+用例的执行入口为：run_generate_report.py
+发送邮件的入口为：run_email.py
+邮件发送：在test_data/email_info.xlsx内配置发送用户和接收用户
+
+
+
+
+

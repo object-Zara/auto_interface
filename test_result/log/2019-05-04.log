@@ -1,0 +1,1297 @@
+2019-05-04 09:56:12,041-my_logging.py-INFO-日志信息：************************************
+2019-05-04 09:56:12,045-my_logging.py-INFO-日志信息：正在执行第1条用例“正常登录”
+2019-05-04 09:56:12,049-my_logging.py-INFO-日志信息：请求的参数为http://test.lemonban.com/futureloan/mvc/api/member/login,“{'mobilephone': '13777487502', 'pwd': '123456'}”
+2019-05-04 09:56:12,075-my_logging.py-INFO-日志信息：********开始将结果写回excel数据********
+2019-05-04 09:56:13,377-my_logging.py-INFO-日志信息：********结束将结果写回excel数据********
+2019-05-04 09:56:13,381-my_logging.py-INFO-日志信息：************************************
+2019-05-04 09:56:13,383-my_logging.py-INFO-日志信息：正在执行第3条用例“投资金额为空”
+2019-05-04 09:56:13,389-my_logging.py-INFO-日志信息：请求的参数为http://test.lemonban.com/futureloan/mvc/api/member/bidLoan,“{'memberId': '97', 'password': '123456', 'loanId': '36', 'amount': ''}”
+2019-05-04 09:56:13,402-my_logging.py-INFO-日志信息：********开始将结果写回excel数据********
+2019-05-04 09:56:14,836-my_logging.py-INFO-日志信息：********结束将结果写回excel数据********
+2019-05-04 09:56:14,838-my_logging.py-INFO-日志信息：************************************
+2019-05-04 09:56:14,840-my_logging.py-INFO-日志信息：正在执行第4条用例“用户ID小于0”
+2019-05-04 09:56:14,844-my_logging.py-INFO-日志信息：请求的参数为http://test.lemonban.com/futureloan/mvc/api/member/bidLoan,“{'memberId': -2, 'password': '123456', 'loanId': '36', 'amount': 100}”
+2019-05-04 09:56:14,857-my_logging.py-INFO-日志信息：********开始将结果写回excel数据********
+2019-05-04 09:56:15,992-my_logging.py-INFO-日志信息：********结束将结果写回excel数据********
+2019-05-04 09:56:15,995-my_logging.py-INFO-日志信息：************************************
+2019-05-04 09:56:15,996-my_logging.py-INFO-日志信息：正在执行第5条用例“投资ID小于0”
+2019-05-04 09:56:16,000-my_logging.py-INFO-日志信息：请求的参数为http://test.lemonban.com/futureloan/mvc/api/member/bidLoan,“{'memberId': '97', 'password': '123456', 'loanId': -3, 'amount': 200}”
+2019-05-04 09:56:16,022-my_logging.py-ERROR-日志信息：第5条用例“投资ID小于0”出错 :: 11005 != 11009
+2019-05-04 09:56:16,024-my_logging.py-INFO-日志信息：********开始将结果写回excel数据********
+2019-05-04 09:56:17,330-my_logging.py-INFO-日志信息：********结束将结果写回excel数据********
+2019-05-04 09:56:17,337-my_logging.py-INFO-日志信息：************************************
+2019-05-04 09:56:17,339-my_logging.py-INFO-日志信息：正在执行第6条用例“密码小于6位”
+2019-05-04 09:56:17,344-my_logging.py-INFO-日志信息：请求的参数为http://test.lemonban.com/futureloan/mvc/api/member/bidLoan,“{'memberId': '97', 'password': '12345', 'loanId': '36', 'amount': 100}”
+2019-05-04 09:56:17,359-my_logging.py-INFO-日志信息：********开始将结果写回excel数据********
+2019-05-04 09:56:18,683-my_logging.py-INFO-日志信息：********结束将结果写回excel数据********
+2019-05-04 09:56:18,687-my_logging.py-INFO-日志信息：************************************
+2019-05-04 09:56:18,689-my_logging.py-INFO-日志信息：正在执行第7条用例“密码大于18位”
+2019-05-04 09:56:18,693-my_logging.py-INFO-日志信息：请求的参数为http://test.lemonban.com/futureloan/mvc/api/member/bidLoan,“{'memberId': '97', 'password': '1234567890123456789', 'loanId': '36', 'amount': 100}”
+2019-05-04 09:56:18,706-my_logging.py-INFO-日志信息：********开始将结果写回excel数据********
+2019-05-04 09:56:19,927-my_logging.py-INFO-日志信息：********结束将结果写回excel数据********
+2019-05-04 09:56:19,929-my_logging.py-INFO-日志信息：************************************
+2019-05-04 09:56:19,931-my_logging.py-INFO-日志信息：正在执行第8条用例“投资金额不能被100整除”
+2019-05-04 09:56:19,937-my_logging.py-INFO-日志信息：请求的参数为http://test.lemonban.com/futureloan/mvc/api/member/bidLoan,“{'memberId': '97', 'password': '123456', 'loanId': '36', 'amount': 101}”
+2019-05-04 09:56:19,952-my_logging.py-INFO-日志信息：********开始将结果写回excel数据********
+2019-05-04 09:56:21,158-my_logging.py-INFO-日志信息：********结束将结果写回excel数据********
+2019-05-04 09:56:21,160-my_logging.py-INFO-日志信息：************************************
+2019-05-04 09:56:21,162-my_logging.py-INFO-日志信息：正在执行第9条用例“用户不存在”
+2019-05-04 09:56:21,168-my_logging.py-INFO-日志信息：请求的参数为http://test.lemonban.com/futureloan/mvc/api/member/bidLoan,“{'memberId': '97', 'password': '123456', 'loanId': '36', 'amount': 200}”
+2019-05-04 09:56:21,208-my_logging.py-ERROR-日志信息：第9条用例“用户不存在”出错 :: 11008 != 10001
+2019-05-04 09:56:21,209-my_logging.py-INFO-日志信息：********开始将结果写回excel数据********
+2019-05-04 09:56:22,543-my_logging.py-INFO-日志信息：********结束将结果写回excel数据********
+2019-05-04 09:56:22,547-my_logging.py-INFO-日志信息：************************************
+2019-05-04 09:56:22,548-my_logging.py-INFO-日志信息：正在执行第10条用例“标不存在”
+2019-05-04 09:56:22,555-my_logging.py-INFO-日志信息：请求的参数为http://test.lemonban.com/futureloan/mvc/api/member/bidLoan,“{'memberId': '97', 'password': '123456', 'loanId': '36', 'amount': 200}”
+2019-05-04 09:56:22,609-my_logging.py-ERROR-日志信息：第10条用例“标不存在”出错 :: 11009 != 10001
+2019-05-04 09:56:22,610-my_logging.py-INFO-日志信息：********开始将结果写回excel数据********
+2019-05-04 09:56:24,021-my_logging.py-INFO-日志信息：********结束将结果写回excel数据********
+2019-05-04 09:56:24,027-my_logging.py-INFO-日志信息：************************************
+2019-05-04 09:56:24,029-my_logging.py-INFO-日志信息：正在执行第11条用例“对满标的标投资”
+2019-05-04 09:56:24,040-my_logging.py-INFO-日志信息：请求的参数为http://test.lemonban.com/futureloan/mvc/api/member/bidLoan,“{'memberId': '97', 'password': '123456', 'loanId': '36', 'amount': 200}”
+2019-05-04 09:56:24,084-my_logging.py-ERROR-日志信息：第11条用例“对满标的标投资”出错 :: 11011 != 10001
+2019-05-04 09:56:24,085-my_logging.py-INFO-日志信息：********开始将结果写回excel数据********
+2019-05-04 09:56:25,459-my_logging.py-INFO-日志信息：********结束将结果写回excel数据********
+2019-05-04 09:56:25,463-my_logging.py-INFO-日志信息：************************************
+2019-05-04 09:56:25,464-my_logging.py-INFO-日志信息：正在执行第12条用例“对不在竞标状态的标投资”
+2019-05-04 09:56:25,472-my_logging.py-INFO-日志信息：请求的参数为http://test.lemonban.com/futureloan/mvc/api/member/bidLoan,“{'memberId': '97', 'password': '123456', 'loanId': '36', 'amount': 200}”
+2019-05-04 09:56:25,521-my_logging.py-ERROR-日志信息：第12条用例“对不在竞标状态的标投资”出错 :: 11010 != 10001
+2019-05-04 09:56:25,522-my_logging.py-INFO-日志信息：********开始将结果写回excel数据********
+2019-05-04 09:56:26,955-my_logging.py-INFO-日志信息：********结束将结果写回excel数据********
+2019-05-04 09:56:26,960-my_logging.py-INFO-日志信息：************************************
+2019-05-04 09:56:26,962-my_logging.py-INFO-日志信息：正在执行第13条用例“用户余额不足”
+2019-05-04 09:56:26,972-my_logging.py-INFO-日志信息：请求的参数为http://test.lemonban.com/futureloan/mvc/api/member/bidLoan,“{'memberId': '97', 'password': '123456', 'loanId': '36', 'amount': 100}”
+2019-05-04 09:56:27,010-my_logging.py-ERROR-日志信息：第13条用例“用户余额不足”出错 :: 11012 != 10001
+2019-05-04 09:56:27,011-my_logging.py-INFO-日志信息：********开始将结果写回excel数据********
+2019-05-04 09:56:28,410-my_logging.py-INFO-日志信息：********结束将结果写回excel数据********
+2019-05-04 09:56:28,414-my_logging.py-INFO-日志信息：************************************
+2019-05-04 09:56:28,416-my_logging.py-INFO-日志信息：正在执行第14条用例“输入非法数据”
+2019-05-04 09:56:28,424-my_logging.py-INFO-日志信息：请求的参数为http://test.lemonban.com/futureloan/mvc/api/member/bidLoan,“{'memberId': '97', 'password': '123456', 'loanId': '36', 'amount': 'ab'}”
+2019-05-04 09:56:28,439-my_logging.py-INFO-日志信息：********开始将结果写回excel数据********
+2019-05-04 09:56:30,084-my_logging.py-INFO-日志信息：********结束将结果写回excel数据********
+2019-05-04 10:05:47,119-my_logging.py-INFO-日志信息：************************************
+2019-05-04 10:05:47,125-my_logging.py-INFO-日志信息：正在执行第1条用例“正常登录”
+2019-05-04 10:05:47,132-my_logging.py-INFO-日志信息：请求的参数为http://test.lemonban.com/futureloan/mvc/api/member/login,“{'mobilephone': '13777487502', 'pwd': '123456'}”
+2019-05-04 10:05:47,159-my_logging.py-INFO-日志信息：********开始将结果写回excel数据********
+2019-05-04 10:05:48,478-my_logging.py-INFO-日志信息：********结束将结果写回excel数据********
+2019-05-04 10:05:48,482-my_logging.py-INFO-日志信息：************************************
+2019-05-04 10:05:48,483-my_logging.py-INFO-日志信息：正在执行第3条用例“投资金额为空”
+2019-05-04 10:05:48,489-my_logging.py-INFO-日志信息：请求的参数为http://test.lemonban.com/futureloan/mvc/api/member/bidLoan,“{'memberId': '97', 'password': '123456', 'loanId': '36', 'amount': ''}”
+2019-05-04 10:05:48,502-my_logging.py-INFO-日志信息：********开始将结果写回excel数据********
+2019-05-04 10:05:49,731-my_logging.py-INFO-日志信息：********结束将结果写回excel数据********
+2019-05-04 10:05:49,733-my_logging.py-INFO-日志信息：************************************
+2019-05-04 10:05:49,734-my_logging.py-INFO-日志信息：正在执行第4条用例“用户ID小于0”
+2019-05-04 10:05:49,738-my_logging.py-INFO-日志信息：请求的参数为http://test.lemonban.com/futureloan/mvc/api/member/bidLoan,“{'memberId': -2, 'password': '123456', 'loanId': '36', 'amount': 100}”
+2019-05-04 10:05:49,752-my_logging.py-INFO-日志信息：********开始将结果写回excel数据********
+2019-05-04 10:05:50,984-my_logging.py-INFO-日志信息：********结束将结果写回excel数据********
+2019-05-04 10:05:50,985-my_logging.py-INFO-日志信息：************************************
+2019-05-04 10:05:50,987-my_logging.py-INFO-日志信息：正在执行第5条用例“投资ID小于0”
+2019-05-04 10:05:50,990-my_logging.py-INFO-日志信息：请求的参数为http://test.lemonban.com/futureloan/mvc/api/member/bidLoan,“{'memberId': '97', 'password': '123456', 'loanId': -3, 'amount': 200}”
+2019-05-04 10:05:51,007-my_logging.py-ERROR-日志信息：第5条用例“投资ID小于0”出错 :: 11005 != 11009
+2019-05-04 10:05:51,008-my_logging.py-INFO-日志信息：********开始将结果写回excel数据********
+2019-05-04 10:05:52,300-my_logging.py-INFO-日志信息：********结束将结果写回excel数据********
+2019-05-04 10:05:52,305-my_logging.py-INFO-日志信息：************************************
+2019-05-04 10:05:52,306-my_logging.py-INFO-日志信息：正在执行第6条用例“密码小于6位”
+2019-05-04 10:05:52,310-my_logging.py-INFO-日志信息：请求的参数为http://test.lemonban.com/futureloan/mvc/api/member/bidLoan,“{'memberId': '97', 'password': '12345', 'loanId': '36', 'amount': 100}”
+2019-05-04 10:05:52,324-my_logging.py-INFO-日志信息：********开始将结果写回excel数据********
+2019-05-04 10:05:53,533-my_logging.py-INFO-日志信息：********结束将结果写回excel数据********
+2019-05-04 10:05:53,534-my_logging.py-INFO-日志信息：************************************
+2019-05-04 10:05:53,536-my_logging.py-INFO-日志信息：正在执行第7条用例“密码大于18位”
+2019-05-04 10:05:53,543-my_logging.py-INFO-日志信息：请求的参数为http://test.lemonban.com/futureloan/mvc/api/member/bidLoan,“{'memberId': '97', 'password': '1234567890123456789', 'loanId': '36', 'amount': 100}”
+2019-05-04 10:05:53,561-my_logging.py-INFO-日志信息：********开始将结果写回excel数据********
+2019-05-04 10:05:54,896-my_logging.py-INFO-日志信息：********结束将结果写回excel数据********
+2019-05-04 10:05:54,898-my_logging.py-INFO-日志信息：************************************
+2019-05-04 10:05:54,899-my_logging.py-INFO-日志信息：正在执行第8条用例“投资金额不能被100整除”
+2019-05-04 10:05:54,905-my_logging.py-INFO-日志信息：请求的参数为http://test.lemonban.com/futureloan/mvc/api/member/bidLoan,“{'memberId': '97', 'password': '123456', 'loanId': '36', 'amount': 101}”
+2019-05-04 10:05:54,918-my_logging.py-INFO-日志信息：********开始将结果写回excel数据********
+2019-05-04 10:05:56,138-my_logging.py-INFO-日志信息：********结束将结果写回excel数据********
+2019-05-04 10:05:56,142-my_logging.py-INFO-日志信息：************************************
+2019-05-04 10:05:56,145-my_logging.py-INFO-日志信息：正在执行第9条用例“用户不存在”
+2019-05-04 10:05:56,149-my_logging.py-INFO-日志信息：请求的参数为http://test.lemonban.com/futureloan/mvc/api/member/bidLoan,“{'memberId': '97', 'password': '123456', 'loanId': '36', 'amount': 200}”
+2019-05-04 10:05:56,187-my_logging.py-ERROR-日志信息：第9条用例“用户不存在”出错 :: 11008 != 10001
+2019-05-04 10:05:56,188-my_logging.py-INFO-日志信息：********开始将结果写回excel数据********
+2019-05-04 10:05:57,431-my_logging.py-INFO-日志信息：********结束将结果写回excel数据********
+2019-05-04 10:05:57,435-my_logging.py-INFO-日志信息：************************************
+2019-05-04 10:05:57,436-my_logging.py-INFO-日志信息：正在执行第10条用例“标不存在”
+2019-05-04 10:05:57,441-my_logging.py-INFO-日志信息：请求的参数为http://test.lemonban.com/futureloan/mvc/api/member/bidLoan,“{'memberId': '97', 'password': '123456', 'loanId': '36', 'amount': 200}”
+2019-05-04 10:05:57,484-my_logging.py-ERROR-日志信息：第10条用例“标不存在”出错 :: 11009 != 10001
+2019-05-04 10:05:57,485-my_logging.py-INFO-日志信息：********开始将结果写回excel数据********
+2019-05-04 10:05:58,906-my_logging.py-INFO-日志信息：********结束将结果写回excel数据********
+2019-05-04 10:05:58,911-my_logging.py-INFO-日志信息：************************************
+2019-05-04 10:05:58,912-my_logging.py-INFO-日志信息：正在执行第11条用例“对满标的标投资”
+2019-05-04 10:05:58,917-my_logging.py-INFO-日志信息：请求的参数为http://test.lemonban.com/futureloan/mvc/api/member/bidLoan,“{'memberId': '97', 'password': '123456', 'loanId': '36', 'amount': 200}”
+2019-05-04 10:05:58,954-my_logging.py-ERROR-日志信息：第11条用例“对满标的标投资”出错 :: 11011 != 10001
+2019-05-04 10:05:58,955-my_logging.py-INFO-日志信息：********开始将结果写回excel数据********
+2019-05-04 10:06:00,600-my_logging.py-INFO-日志信息：********结束将结果写回excel数据********
+2019-05-04 10:06:00,605-my_logging.py-INFO-日志信息：************************************
+2019-05-04 10:06:00,607-my_logging.py-INFO-日志信息：正在执行第12条用例“对不在竞标状态的标投资”
+2019-05-04 10:06:00,614-my_logging.py-INFO-日志信息：请求的参数为http://test.lemonban.com/futureloan/mvc/api/member/bidLoan,“{'memberId': '97', 'password': '123456', 'loanId': '36', 'amount': 200}”
+2019-05-04 10:06:00,675-my_logging.py-ERROR-日志信息：第12条用例“对不在竞标状态的标投资”出错 :: 11010 != 10001
+2019-05-04 10:06:00,677-my_logging.py-INFO-日志信息：********开始将结果写回excel数据********
+2019-05-04 10:06:02,145-my_logging.py-INFO-日志信息：********结束将结果写回excel数据********
+2019-05-04 10:06:02,148-my_logging.py-INFO-日志信息：************************************
+2019-05-04 10:06:02,150-my_logging.py-INFO-日志信息：正在执行第13条用例“用户余额不足”
+2019-05-04 10:06:02,157-my_logging.py-INFO-日志信息：请求的参数为http://test.lemonban.com/futureloan/mvc/api/member/bidLoan,“{'memberId': '97', 'password': '123456', 'loanId': '36', 'amount': 100}”
+2019-05-04 10:06:02,200-my_logging.py-ERROR-日志信息：第13条用例“用户余额不足”出错 :: 11012 != 10001
+2019-05-04 10:06:02,201-my_logging.py-INFO-日志信息：********开始将结果写回excel数据********
+2019-05-04 10:06:03,631-my_logging.py-INFO-日志信息：********结束将结果写回excel数据********
+2019-05-04 10:06:03,635-my_logging.py-INFO-日志信息：************************************
+2019-05-04 10:06:03,636-my_logging.py-INFO-日志信息：正在执行第14条用例“输入非法数据”
+2019-05-04 10:06:03,645-my_logging.py-INFO-日志信息：请求的参数为http://test.lemonban.com/futureloan/mvc/api/member/bidLoan,“{'memberId': '97', 'password': '123456', 'loanId': '36', 'amount': 'ab'}”
+2019-05-04 10:06:03,658-my_logging.py-INFO-日志信息：********开始将结果写回excel数据********
+2019-05-04 10:12:22,988-my_logging.py-INFO-日志信息：************************************
+2019-05-04 10:12:22,992-my_logging.py-INFO-日志信息：正在执行第1条用例“管理员正常登录”
+2019-05-04 10:12:22,996-my_logging.py-INFO-日志信息：请求的参数为http://test.lemonban.com/futureloan/mvc/api/member/login,“{'mobilephone': '13661409257', 'pwd': '123456'}”
+2019-05-04 10:12:23,021-my_logging.py-INFO-日志信息：********开始将结果写回excel数据********
+2019-05-04 10:12:23,244-my_logging.py-INFO-日志信息：********结束将结果写回excel数据********
+2019-05-04 10:12:23,248-my_logging.py-INFO-日志信息：************************************
+2019-05-04 10:12:23,250-my_logging.py-INFO-日志信息：正在执行第2条用例“管理员加标”
+2019-05-04 10:12:23,254-my_logging.py-INFO-日志信息：请求的参数为http://test.lemonban.com/futureloan/mvc/api/loan/add,“{'memberId': '97', 'title': '世界这么大，想去看一看', 'amount': 20000, 'loanRate': '12.0', 'loanTerm': 3, 'loanDateType': 0, 'repaymemtWay': 11, 'biddingDays': 5}”
+2019-05-04 10:12:23,310-my_logging.py-INFO-日志信息：********开始将结果写回excel数据********
+2019-05-04 10:12:23,553-my_logging.py-INFO-日志信息：********结束将结果写回excel数据********
+2019-05-04 10:12:23,556-my_logging.py-INFO-日志信息：************************************
+2019-05-04 10:12:23,558-my_logging.py-INFO-日志信息：正在执行第3条用例“管理员审核”
+2019-05-04 10:12:23,561-my_logging.py-INFO-日志信息：请求的参数为http://test.lemonban.com/futureloan/mvc/api/loan/audit,“{'id': '265', 'status': 4}”
+2019-05-04 10:12:23,590-my_logging.py-INFO-日志信息：********开始将结果写回excel数据********
+2019-05-04 10:12:23,828-my_logging.py-INFO-日志信息：********结束将结果写回excel数据********
+2019-05-04 10:12:23,830-my_logging.py-INFO-日志信息：************************************
+2019-05-04 10:12:23,831-my_logging.py-INFO-日志信息：正在执行第4条用例“投资人正常登录”
+2019-05-04 10:12:23,835-my_logging.py-INFO-日志信息：请求的参数为http://test.lemonban.com/futureloan/mvc/api/member/login,“{'mobilephone': '13777487502', 'pwd': '123456'}”
+2019-05-04 10:12:23,851-my_logging.py-INFO-日志信息：********开始将结果写回excel数据********
+2019-05-04 10:12:24,019-my_logging.py-INFO-日志信息：********结束将结果写回excel数据********
+2019-05-04 10:12:24,021-my_logging.py-INFO-日志信息：************************************
+2019-05-04 10:12:24,022-my_logging.py-INFO-日志信息：正在执行第5条用例“投资人正常投资”
+2019-05-04 10:12:24,027-my_logging.py-INFO-日志信息：请求的参数为http://test.lemonban.com/futureloan/mvc/api/member/bidLoan,“{'memberId': '96', 'password': '123456', 'loanId': '265', 'amount': '100'}”
+2019-05-04 10:12:24,056-my_logging.py-INFO-日志信息：********开始将结果写回excel数据********
+2019-05-04 10:12:24,250-my_logging.py-INFO-日志信息：********结束将结果写回excel数据********
+2019-05-04 10:12:36,802-my_logging.py-INFO-日志信息：************************************
+2019-05-04 10:12:36,805-my_logging.py-INFO-日志信息：正在执行第1条用例“正常登录”
+2019-05-04 10:12:36,809-my_logging.py-INFO-日志信息：请求的参数为http://test.lemonban.com/futureloan/mvc/api/member/login,“{'mobilephone': '13777487502', 'pwd': '123456'}”
+2019-05-04 10:12:36,837-my_logging.py-INFO-日志信息：********开始将结果写回excel数据********
+2019-05-04 10:12:37,021-my_logging.py-INFO-日志信息：********结束将结果写回excel数据********
+2019-05-04 10:12:37,024-my_logging.py-INFO-日志信息：************************************
+2019-05-04 10:12:37,028-my_logging.py-INFO-日志信息：正在执行第2条用例“竞标成功”
+2019-05-04 10:12:37,034-my_logging.py-INFO-日志信息：请求的参数为http://test.lemonban.com/futureloan/mvc/api/member/bidLoan,“{'memberId': '97', 'password': '123456', 'loanId': '36', 'amount': 200}”
+2019-05-04 10:12:37,083-my_logging.py-INFO-日志信息：********开始将结果写回excel数据********
+2019-05-04 10:12:37,265-my_logging.py-INFO-日志信息：********结束将结果写回excel数据********
+2019-05-04 10:12:37,267-my_logging.py-INFO-日志信息：************************************
+2019-05-04 10:12:37,267-my_logging.py-INFO-日志信息：正在执行第3条用例“投资金额为空”
+2019-05-04 10:12:37,273-my_logging.py-INFO-日志信息：请求的参数为http://test.lemonban.com/futureloan/mvc/api/member/bidLoan,“{'memberId': '97', 'password': '123456', 'loanId': '36', 'amount': ''}”
+2019-05-04 10:12:37,286-my_logging.py-INFO-日志信息：********开始将结果写回excel数据********
+2019-05-04 10:12:37,462-my_logging.py-INFO-日志信息：********结束将结果写回excel数据********
+2019-05-04 10:12:37,464-my_logging.py-INFO-日志信息：************************************
+2019-05-04 10:12:37,465-my_logging.py-INFO-日志信息：正在执行第4条用例“用户ID小于0”
+2019-05-04 10:12:37,468-my_logging.py-INFO-日志信息：请求的参数为http://test.lemonban.com/futureloan/mvc/api/member/bidLoan,“{'memberId': -2, 'password': '123456', 'loanId': '36', 'amount': 100}”
+2019-05-04 10:12:37,483-my_logging.py-INFO-日志信息：********开始将结果写回excel数据********
+2019-05-04 10:12:37,660-my_logging.py-INFO-日志信息：********结束将结果写回excel数据********
+2019-05-04 10:12:37,661-my_logging.py-INFO-日志信息：************************************
+2019-05-04 10:12:37,662-my_logging.py-INFO-日志信息：正在执行第5条用例“投资ID小于0”
+2019-05-04 10:12:37,667-my_logging.py-INFO-日志信息：请求的参数为http://test.lemonban.com/futureloan/mvc/api/member/bidLoan,“{'memberId': '97', 'password': '123456', 'loanId': -3, 'amount': 200}”
+2019-05-04 10:12:37,682-my_logging.py-ERROR-日志信息：第5条用例“投资ID小于0”出错 :: 11005 != 11009
+2019-05-04 10:12:37,684-my_logging.py-INFO-日志信息：********开始将结果写回excel数据********
+2019-05-04 10:12:37,859-my_logging.py-INFO-日志信息：********结束将结果写回excel数据********
+2019-05-04 10:12:37,864-my_logging.py-INFO-日志信息：************************************
+2019-05-04 10:12:37,864-my_logging.py-INFO-日志信息：正在执行第6条用例“密码小于6位”
+2019-05-04 10:12:37,869-my_logging.py-INFO-日志信息：请求的参数为http://test.lemonban.com/futureloan/mvc/api/member/bidLoan,“{'memberId': '97', 'password': '12345', 'loanId': '36', 'amount': 100}”
+2019-05-04 10:12:37,881-my_logging.py-INFO-日志信息：********开始将结果写回excel数据********
+2019-05-04 10:12:38,067-my_logging.py-INFO-日志信息：********结束将结果写回excel数据********
+2019-05-04 10:12:38,068-my_logging.py-INFO-日志信息：************************************
+2019-05-04 10:12:38,069-my_logging.py-INFO-日志信息：正在执行第7条用例“密码大于18位”
+2019-05-04 10:12:38,073-my_logging.py-INFO-日志信息：请求的参数为http://test.lemonban.com/futureloan/mvc/api/member/bidLoan,“{'memberId': '97', 'password': '1234567890123456789', 'loanId': '36', 'amount': 100}”
+2019-05-04 10:12:38,087-my_logging.py-INFO-日志信息：********开始将结果写回excel数据********
+2019-05-04 10:12:38,258-my_logging.py-INFO-日志信息：********结束将结果写回excel数据********
+2019-05-04 10:12:38,259-my_logging.py-INFO-日志信息：************************************
+2019-05-04 10:12:38,260-my_logging.py-INFO-日志信息：正在执行第8条用例“投资金额不能被100整除”
+2019-05-04 10:12:38,267-my_logging.py-INFO-日志信息：请求的参数为http://test.lemonban.com/futureloan/mvc/api/member/bidLoan,“{'memberId': '97', 'password': '123456', 'loanId': '36', 'amount': 101}”
+2019-05-04 10:12:38,280-my_logging.py-INFO-日志信息：********开始将结果写回excel数据********
+2019-05-04 10:12:38,466-my_logging.py-INFO-日志信息：********结束将结果写回excel数据********
+2019-05-04 10:12:38,471-my_logging.py-INFO-日志信息：************************************
+2019-05-04 10:12:38,472-my_logging.py-INFO-日志信息：正在执行第14条用例“输入非法数据”
+2019-05-04 10:12:38,477-my_logging.py-INFO-日志信息：请求的参数为http://test.lemonban.com/futureloan/mvc/api/member/bidLoan,“{'memberId': '97', 'password': '123456', 'loanId': '36', 'amount': 'ab'}”
+2019-05-04 10:12:38,492-my_logging.py-INFO-日志信息：********开始将结果写回excel数据********
+2019-05-04 10:12:38,683-my_logging.py-INFO-日志信息：********结束将结果写回excel数据********
+2019-05-04 10:12:57,430-my_logging.py-INFO-日志信息：************************************
+2019-05-04 10:12:57,433-my_logging.py-INFO-日志信息：正在执行第1条用例“正常登录”
+2019-05-04 10:12:57,437-my_logging.py-INFO-日志信息：请求的参数为：/member/login,{"mobilephone":"13777487502","pwd":"123456"}
+2019-05-04 10:12:57,439-my_logging.py-INFO-日志信息：请求的参数为http://test.lemonban.com/futureloan/mvc/api/member/login,“{'mobilephone': '13777487502', 'pwd': '123456'}”
+2019-05-04 10:12:57,467-my_logging.py-INFO-日志信息：********开始将结果写回excel数据********
+2019-05-04 10:12:57,681-my_logging.py-INFO-日志信息：********结束将结果写回excel数据********
+2019-05-04 10:12:57,684-my_logging.py-INFO-日志信息：************************************
+2019-05-04 10:12:57,687-my_logging.py-INFO-日志信息：正在执行第2条用例“加标(月标，一次性还款)”
+2019-05-04 10:12:57,690-my_logging.py-INFO-日志信息：请求的参数为：/loan/add,{"memberId":"97","title":"买车","amount":20000,"loanRate":"12.0","loanTerm":3,"loanDateType":0,"repaymemtWay":11,"biddingDays":4}
+2019-05-04 10:12:57,692-my_logging.py-INFO-日志信息：请求的参数为http://test.lemonban.com/futureloan/mvc/api/loan/add,“{'memberId': '97', 'title': '买车', 'amount': 20000, 'loanRate': '12.0', 'loanTerm': 3, 'loanDateType': 0, 'repaymemtWay': 11, 'biddingDays': 4}”
+2019-05-04 10:12:57,719-my_logging.py-INFO-日志信息：********开始将结果写回excel数据********
+2019-05-04 10:12:57,896-my_logging.py-INFO-日志信息：********结束将结果写回excel数据********
+2019-05-04 10:12:57,898-my_logging.py-INFO-日志信息：************************************
+2019-05-04 10:12:57,899-my_logging.py-INFO-日志信息：正在执行第3条用例“加标(天标，按月等额本息)”
+2019-05-04 10:12:57,901-my_logging.py-INFO-日志信息：请求的参数为：/loan/add,{"memberId":"97","title":"买车","amount":20000,"loanRate":"12.0","loanTerm":30,"loanDateType":2,"repaymemtWay":11,"biddingDays":5}
+2019-05-04 10:12:57,902-my_logging.py-INFO-日志信息：请求的参数为http://test.lemonban.com/futureloan/mvc/api/loan/add,“{'memberId': '97', 'title': '买车', 'amount': 20000, 'loanRate': '12.0', 'loanTerm': 30, 'loanDateType': 2, 'repaymemtWay': 11, 'biddingDays': 5}”
+2019-05-04 10:12:57,920-my_logging.py-INFO-日志信息：********开始将结果写回excel数据********
+2019-05-04 10:12:58,097-my_logging.py-INFO-日志信息：********结束将结果写回excel数据********
+2019-05-04 10:12:58,098-my_logging.py-INFO-日志信息：************************************
+2019-05-04 10:12:58,100-my_logging.py-INFO-日志信息：正在执行第4条用例“加标(周，按
+月等额本息线下)”
+2019-05-04 10:12:58,102-my_logging.py-INFO-日志信息：请求的参数为：/loan/add,{"memberId":"97","title":"买车","amount":20000,"loanRate":"18.0","loanTerm":10,"loanDateType":4,"repaymemtWay":11,"biddingDays":10}
+2019-05-04 10:12:58,103-my_logging.py-INFO-日志信息：请求的参数为http://test.lemonban.com/futureloan/mvc/api/loan/add,“{'memberId': '97', 'title': '买车', 'amount': 20000, 'loanRate': '18.0', 'loanTerm': 10, 'loanDateType': 4, 'repaymemtWay': 11, 'biddingDays': 10}”
+2019-05-04 10:12:58,122-my_logging.py-INFO-日志信息：********开始将结果写回excel数据********
+2019-05-04 10:12:58,290-my_logging.py-INFO-日志信息：********结束将结果写回excel数据********
+2019-05-04 10:12:58,293-my_logging.py-INFO-日志信息：************************************
+2019-05-04 10:12:58,295-my_logging.py-INFO-日志信息：正在执行第5条用例“加标(天标，按月付息到期还本)”
+2019-05-04 10:12:58,298-my_logging.py-INFO-日志信息：请求的参数为：/loan/add,{"memberId":"97","title":"买车","amount":20000,"loanRate":"12.0","loanTerm":30,"loanDateType":2,"repaymemtWay":11,"biddingDays":11}
+2019-05-04 10:12:58,299-my_logging.py-INFO-日志信息：请求的参数为http://test.lemonban.com/futureloan/mvc/api/loan/add,“{'memberId': '97', 'title': '买车', 'amount': 20000, 'loanRate': '12.0', 'loanTerm': 30, 'loanDateType': 2, 'repaymemtWay': 11, 'biddingDays': 11}”
+2019-05-04 10:12:58,324-my_logging.py-INFO-日志信息：********开始将结果写回excel数据********
+2019-05-04 10:12:58,497-my_logging.py-INFO-日志信息：********结束将结果写回excel数据********
+2019-05-04 10:12:58,499-my_logging.py-INFO-日志信息：************************************
+2019-05-04 10:12:58,501-my_logging.py-INFO-日志信息：正在执行第6条用例“用户ID错误”
+2019-05-04 10:12:58,504-my_logging.py-INFO-日志信息：请求的参数为：/loan/add,{"memberId":"FFFF","title":"买车","amount":20000,"loanRate":"12.0","loanTerm":3,"loanDateType":0,"repaymemtWay":11,"biddingDays":6}
+2019-05-04 10:12:58,505-my_logging.py-INFO-日志信息：请求的参数为http://test.lemonban.com/futureloan/mvc/api/loan/add,“{'memberId': 'FFFF', 'title': '买车', 'amount': 20000, 'loanRate': '12.0', 'loanTerm': 3, 'loanDateType': 0, 'repaymemtWay': 11, 'biddingDays': 6}”
+2019-05-04 10:12:58,521-my_logging.py-ERROR-日志信息：第6条用例“用户ID错误”出错 :: 20104 != 20109
+2019-05-04 10:12:58,523-my_logging.py-INFO-日志信息：********开始将结果写回excel数据********
+2019-05-04 10:12:58,703-my_logging.py-INFO-日志信息：********结束将结果写回excel数据********
+2019-05-04 10:12:58,707-my_logging.py-INFO-日志信息：************************************
+2019-05-04 10:12:58,708-my_logging.py-INFO-日志信息：正在执行第7条用例“用户ID为空”
+2019-05-04 10:12:58,709-my_logging.py-INFO-日志信息：请求的参数为：/loan/add,{"memberId":"","title":"买车","amount":20000,"loanRate":"12.0","loanTerm":3,"loanDateType":0,"repaymemtWay":11,"biddingDays":5}
+2019-05-04 10:12:58,710-my_logging.py-INFO-日志信息：请求的参数为http://test.lemonban.com/futureloan/mvc/api/loan/add,“{'memberId': '', 'title': '买车', 'amount': 20000, 'loanRate': '12.0', 'loanTerm': 3, 'loanDateType': 0, 'repaymemtWay': 11, 'biddingDays': 5}”
+2019-05-04 10:12:58,724-my_logging.py-INFO-日志信息：********开始将结果写回excel数据********
+2019-05-04 10:12:58,899-my_logging.py-INFO-日志信息：********结束将结果写回excel数据********
+2019-05-04 10:12:58,901-my_logging.py-INFO-日志信息：************************************
+2019-05-04 10:12:58,902-my_logging.py-INFO-日志信息：正在执行第8条用例“标的title为空”
+2019-05-04 10:12:58,905-my_logging.py-INFO-日志信息：请求的参数为：/loan/add,{"memberId":"97","title":"","amount":20000,"loanRate":"12.0","loanTerm":3,"loanDateType":0,"repaymemtWay":11,"biddingDays":5}
+2019-05-04 10:12:58,907-my_logging.py-INFO-日志信息：请求的参数为http://test.lemonban.com/futureloan/mvc/api/loan/add,“{'memberId': '97', 'title': '', 'amount': 20000, 'loanRate': '12.0', 'loanTerm': 3, 'loanDateType': 0, 'repaymemtWay': 11, 'biddingDays': 5}”
+2019-05-04 10:12:58,920-my_logging.py-INFO-日志信息：********开始将结果写回excel数据********
+2019-05-04 10:12:59,109-my_logging.py-INFO-日志信息：********结束将结果写回excel数据********
+2019-05-04 10:12:59,111-my_logging.py-INFO-日志信息：************************************
+2019-05-04 10:12:59,112-my_logging.py-INFO-日志信息：正在执行第9条用例“标的amount为空”
+2019-05-04 10:12:59,114-my_logging.py-INFO-日志信息：请求的参数为：/loan/add,{"memberId":"97","title":"买车","amount":"","loanRate":"12.0","loanTerm":3,"loanDateType":0,"repaymemtWay":11,"biddingDays":5}
+2019-05-04 10:12:59,116-my_logging.py-INFO-日志信息：请求的参数为http://test.lemonban.com/futureloan/mvc/api/loan/add,“{'memberId': '97', 'title': '买车', 'amount': '', 'loanRate': '12.0', 'loanTerm': 3, 'loanDateType': 0, 'repaymemtWay': 11, 'biddingDays': 5}”
+2019-05-04 10:12:59,130-my_logging.py-INFO-日志信息：********开始将结果写回excel数据********
+2019-05-04 10:12:59,323-my_logging.py-INFO-日志信息：********结束将结果写回excel数据********
+2019-05-04 10:12:59,325-my_logging.py-INFO-日志信息：************************************
+2019-05-04 10:12:59,326-my_logging.py-INFO-日志信息：正在执行第10条用例“年利率为空”
+2019-05-04 10:12:59,328-my_logging.py-INFO-日志信息：请求的参数为：/loan/add,{"memberId":"97","title":"买车","amount":20000,"loanRate":"","loanTerm":3,"loanDateType":0,"repaymemtWay":11,"biddingDays":5}
+2019-05-04 10:12:59,329-my_logging.py-INFO-日志信息：请求的参数为http://test.lemonban.com/futureloan/mvc/api/loan/add,“{'memberId': '97', 'title': '买车', 'amount': 20000, 'loanRate': '', 'loanTerm': 3, 'loanDateType': 0, 'repaymemtWay': 11, 'biddingDays': 5}”
+2019-05-04 10:12:59,343-my_logging.py-INFO-日志信息：********开始将结果写回excel数据********
+2019-05-04 10:12:59,522-my_logging.py-INFO-日志信息：********结束将结果写回excel数据********
+2019-05-04 10:12:59,524-my_logging.py-INFO-日志信息：************************************
+2019-05-04 10:12:59,526-my_logging.py-INFO-日志信息：正在执行第11条用例“借款期限为空”
+2019-05-04 10:12:59,529-my_logging.py-INFO-日志信息：请求的参数为：/loan/add,{"memberId":"97","title":"买车","amount":20000,"loanRate":"12.0","loanTerm":"","loanDateType":0,"repaymemtWay":11,"biddingDays":5}
+2019-05-04 10:12:59,530-my_logging.py-INFO-日志信息：请求的参数为http://test.lemonban.com/futureloan/mvc/api/loan/add,“{'memberId': '97', 'title': '买车', 'amount': 20000, 'loanRate': '12.0', 'loanTerm': '', 'loanDateType': 0, 'repaymemtWay': 11, 'biddingDays': 5}”
+2019-05-04 10:12:59,546-my_logging.py-INFO-日志信息：********开始将结果写回excel数据********
+2019-05-04 10:12:59,734-my_logging.py-INFO-日志信息：********结束将结果写回excel数据********
+2019-05-04 10:12:59,736-my_logging.py-INFO-日志信息：************************************
+2019-05-04 10:12:59,737-my_logging.py-INFO-日志信息：正在执行第12条用例“还款方式为空”
+2019-05-04 10:12:59,739-my_logging.py-INFO-日志信息：请求的参数为：/loan/add,{"memberId":"97","title":"买车","amount":20000,"loanRate":"12.0","loanTerm":3,"loanDateType":"","repaymemtWay":11,"biddingDays":5}
+2019-05-04 10:12:59,740-my_logging.py-INFO-日志信息：请求的参数为http://test.lemonban.com/futureloan/mvc/api/loan/add,“{'memberId': '97', 'title': '买车', 'amount': 20000, 'loanRate': '12.0', 'loanTerm': 3, 'loanDateType': '', 'repaymemtWay': 11, 'biddingDays': 5}”
+2019-05-04 10:12:59,754-my_logging.py-INFO-日志信息：********开始将结果写回excel数据********
+2019-05-04 10:12:59,930-my_logging.py-INFO-日志信息：********结束将结果写回excel数据********
+2019-05-04 10:12:59,931-my_logging.py-INFO-日志信息：************************************
+2019-05-04 10:12:59,932-my_logging.py-INFO-日志信息：正在执行第13条用例“竞标天数为空”
+2019-05-04 10:12:59,936-my_logging.py-INFO-日志信息：请求的参数为：/loan/add,{"memberId":"97","title":"买车","amount":20000,"loanRate":"12.0","loanTerm":3,"loanDateType":0,"repaymemtWay":11,"biddingDays":""}
+2019-05-04 10:12:59,937-my_logging.py-INFO-日志信息：请求的参数为http://test.lemonban.com/futureloan/mvc/api/loan/add,“{'memberId': '97', 'title': '买车', 'amount': 20000, 'loanRate': '12.0', 'loanTerm': 3, 'loanDateType': 0, 'repaymemtWay': 11, 'biddingDays': ''}”
+2019-05-04 10:12:59,954-my_logging.py-INFO-日志信息：********开始将结果写回excel数据********
+2019-05-04 10:13:00,128-my_logging.py-INFO-日志信息：********结束将结果写回excel数据********
+2019-05-04 10:13:00,129-my_logging.py-INFO-日志信息：************************************
+2019-05-04 10:13:00,130-my_logging.py-INFO-日志信息：正在执行第14条用例“未注册的用户加标”
+2019-05-04 10:13:00,147-my_logging.py-INFO-日志信息：请求的参数为：/loan/add,{"memberId":"694","title":"买车","amount":20000,"loanRate":"12.0","loanTerm":3,"loanDateType":0,"repaymemtWay":11,"biddingDays":5}
+2019-05-04 10:13:00,148-my_logging.py-INFO-日志信息：请求的参数为http://test.lemonban.com/futureloan/mvc/api/loan/add,“{'memberId': '694', 'title': '买车', 'amount': 20000, 'loanRate': '12.0', 'loanTerm': 3, 'loanDateType': 0, 'repaymemtWay': 11, 'biddingDays': 5}”
+2019-05-04 10:13:00,164-my_logging.py-INFO-日志信息：********开始将结果写回excel数据********
+2019-05-04 10:13:00,343-my_logging.py-INFO-日志信息：********结束将结果写回excel数据********
+2019-05-04 10:13:00,345-my_logging.py-INFO-日志信息：************************************
+2019-05-04 10:13:00,346-my_logging.py-INFO-日志信息：正在执行第15条用例“借款金额小于 1000”
+2019-05-04 10:13:00,348-my_logging.py-INFO-日志信息：请求的参数为：/loan/add,{"memberId":"97","title":"买房","amount":200,"loanRate":"12.0","loanTerm":3,"loanDateType":0,"repaymemtWay":11,"biddingDays":4}
+2019-05-04 10:13:00,349-my_logging.py-INFO-日志信息：请求的参数为http://test.lemonban.com/futureloan/mvc/api/loan/add,“{'memberId': '97', 'title': '买房', 'amount': 200, 'loanRate': '12.0', 'loanTerm': 3, 'loanDateType': 0, 'repaymemtWay': 11, 'biddingDays': 4}”
+2019-05-04 10:13:00,390-my_logging.py-ERROR-日志信息：第15条用例“借款金额小于 1000”出错 :: 20106 != 10001
+2019-05-04 10:13:00,391-my_logging.py-INFO-日志信息：********开始将结果写回excel数据********
+2019-05-04 10:13:00,601-my_logging.py-INFO-日志信息：********结束将结果写回excel数据********
+2019-05-04 10:13:00,606-my_logging.py-INFO-日志信息：************************************
+2019-05-04 10:13:00,607-my_logging.py-INFO-日志信息：正在执行第16条用例“借款金额不能被 100 整除的正整数”
+2019-05-04 10:13:00,609-my_logging.py-INFO-日志信息：请求的参数为：/loan/add,{"memberId":"97","title":"买房","amount":20001,"loanRate":"12.0","loanTerm":3,"loanDateType":0,"repaymemtWay":11,"biddingDays":4}
+2019-05-04 10:13:00,610-my_logging.py-INFO-日志信息：请求的参数为http://test.lemonban.com/futureloan/mvc/api/loan/add,“{'memberId': '97', 'title': '买房', 'amount': 20001, 'loanRate': '12.0', 'loanTerm': 3, 'loanDateType': 0, 'repaymemtWay': 11, 'biddingDays': 4}”
+2019-05-04 10:13:00,624-my_logging.py-INFO-日志信息：********开始将结果写回excel数据********
+2019-05-04 10:13:02,151-my_logging.py-INFO-日志信息：********结束将结果写回excel数据********
+2019-05-04 10:13:02,154-my_logging.py-INFO-日志信息：************************************
+2019-05-04 10:13:02,155-my_logging.py-INFO-日志信息：正在执行第17条用例“借款利率小于 0”
+2019-05-04 10:13:02,158-my_logging.py-INFO-日志信息：请求的参数为：/loan/add,{"memberId":"97","title":"买房","amount":200,"loanRate":"-2","loanTerm":3,"loanDateType":0,"repaymemtWay":11,"biddingDays":4}
+2019-05-04 10:13:02,159-my_logging.py-INFO-日志信息：请求的参数为http://test.lemonban.com/futureloan/mvc/api/loan/add,“{'memberId': '97', 'title': '买房', 'amount': 200, 'loanRate': '-2', 'loanTerm': 3, 'loanDateType': 0, 'repaymemtWay': 11, 'biddingDays': 4}”
+2019-05-04 10:13:02,175-my_logging.py-INFO-日志信息：********开始将结果写回excel数据********
+2019-05-04 10:13:02,405-my_logging.py-INFO-日志信息：********结束将结果写回excel数据********
+2019-05-04 10:13:02,407-my_logging.py-INFO-日志信息：************************************
+2019-05-04 10:13:02,408-my_logging.py-INFO-日志信息：正在执行第18条用例“借款利率大于 24”
+2019-05-04 10:13:02,411-my_logging.py-INFO-日志信息：请求的参数为：/loan/add,{"memberId":"97","title":"买房","amount":200,"loanRate":"26","loanTerm":3,"loanDateType":0,"repaymemtWay":11,"biddingDays":4}
+2019-05-04 10:13:02,412-my_logging.py-INFO-日志信息：请求的参数为http://test.lemonban.com/futureloan/mvc/api/loan/add,“{'memberId': '97', 'title': '买房', 'amount': 200, 'loanRate': '26', 'loanTerm': 3, 'loanDateType': 0, 'repaymemtWay': 11, 'biddingDays': 4}”
+2019-05-04 10:13:02,427-my_logging.py-INFO-日志信息：********开始将结果写回excel数据********
+2019-05-04 10:13:04,067-my_logging.py-INFO-日志信息：********结束将结果写回excel数据********
+2019-05-04 10:13:04,071-my_logging.py-INFO-日志信息：************************************
+2019-05-04 10:13:04,072-my_logging.py-INFO-日志信息：正在执行第19条用例“借款日期类型不为 0,2,4”
+2019-05-04 10:13:04,074-my_logging.py-INFO-日志信息：请求的参数为：/loan/add,{"memberId":"97","title":"买房","amount":200,"loanRate":"12.0","loanTerm":3,"loanDateType":5,"repaymemtWay":11,"biddingDays":4}
+2019-05-04 10:13:04,076-my_logging.py-INFO-日志信息：请求的参数为http://test.lemonban.com/futureloan/mvc/api/loan/add,“{'memberId': '97', 'title': '买房', 'amount': 200, 'loanRate': '12.0', 'loanTerm': 3, 'loanDateType': 5, 'repaymemtWay': 11, 'biddingDays': 4}”
+2019-05-04 10:13:04,091-my_logging.py-INFO-日志信息：********开始将结果写回excel数据********
+2019-05-04 10:13:04,271-my_logging.py-INFO-日志信息：********结束将结果写回excel数据********
+2019-05-04 10:13:04,274-my_logging.py-INFO-日志信息：************************************
+2019-05-04 10:13:04,276-my_logging.py-INFO-日志信息：正在执行第20条用例“输入非数字”
+2019-05-04 10:13:04,279-my_logging.py-INFO-日志信息：请求的参数为：/loan/add,{"memberId":"97","title":"买房","amount":200,"loanRate":"12.0","loanTerm":3,"loanDateType":2,"repaymemtWay":11,"biddingDays":"a"}
+2019-05-04 10:13:04,280-my_logging.py-INFO-日志信息：请求的参数为http://test.lemonban.com/futureloan/mvc/api/loan/add,“{'memberId': '97', 'title': '买房', 'amount': 200, 'loanRate': '12.0', 'loanTerm': 3, 'loanDateType': 2, 'repaymemtWay': 11, 'biddingDays': 'a'}”
+2019-05-04 10:13:04,296-my_logging.py-INFO-日志信息：********开始将结果写回excel数据********
+2019-05-04 10:13:04,527-my_logging.py-INFO-日志信息：********结束将结果写回excel数据********
+2019-05-04 10:13:09,805-my_logging.py-INFO-日志信息：************************************
+2019-05-04 10:13:09,809-my_logging.py-INFO-日志信息：正在执行第1条用例“正常注册”
+2019-05-04 10:13:09,825-my_logging.py-INFO-日志信息：请求的参数为http://test.lemonban.com/futureloan/mvc/api/member/register,“{'mobilephone': '18999999373', 'pwd': '123456', 'regname': '六月'}”
+2019-05-04 10:13:09,871-my_logging.py-INFO-日志信息：********开始将结果写回excel数据********
+2019-05-04 10:13:10,061-my_logging.py-INFO-日志信息：********结束将结果写回excel数据********
+2019-05-04 10:13:10,064-my_logging.py-INFO-日志信息：************************************
+2019-05-04 10:13:10,065-my_logging.py-INFO-日志信息：正在执行第2条用例“正常登录”
+2019-05-04 10:13:10,067-my_logging.py-INFO-日志信息：请求的参数为http://test.lemonban.com/futureloan/mvc/api/member/login,“{'mobilephone': '15019215377', 'pwd': '123456'}”
+2019-05-04 10:13:10,082-my_logging.py-INFO-日志信息：********开始将结果写回excel数据********
+2019-05-04 10:13:10,280-my_logging.py-INFO-日志信息：********结束将结果写回excel数据********
+2019-05-04 10:13:10,282-my_logging.py-INFO-日志信息：************************************
+2019-05-04 10:13:10,283-my_logging.py-INFO-日志信息：正在执行第3条用例“未注册的手机号”
+2019-05-04 10:13:10,307-my_logging.py-INFO-日志信息：请求的参数为http://test.lemonban.com/futureloan/mvc/api/member/login,“{'mobilephone': '18999999374', 'pwd': '123456'}”
+2019-05-04 10:13:10,322-my_logging.py-INFO-日志信息：********开始将结果写回excel数据********
+2019-05-04 10:13:10,501-my_logging.py-INFO-日志信息：********结束将结果写回excel数据********
+2019-05-04 10:13:10,502-my_logging.py-INFO-日志信息：************************************
+2019-05-04 10:13:10,503-my_logging.py-INFO-日志信息：正在执行第4条用例“接口地址错误”
+2019-05-04 10:13:10,505-my_logging.py-INFO-日志信息：请求的参数为http://test.lemonban.com/futureloan/mvc/api/member/logi,“{'mobilephone': '15019215377', 'pwd': '123456'}”
+2019-05-04 10:13:10,519-my_logging.py-ERROR-日志信息：第4条用例“接口地址错误”出错 :: {"status":0,"code":null,"data":null,"msg":"抱歉，请先登录。"} != <html><head><title>Apache Tomcat/6.0.53 - Error report</title><style><!--H1 {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;font-size:22px;} H2 {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;font-size:16px;} H3 {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;font-size:14px;} BODY {font-family:Tahoma,Arial,sans-serif;color:black;background-color:white;} B {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;} P {font-family:Tahoma,Arial,sans-serif;background:white;color:black;font-size:12px;}A {color : black;}A.name {color : black;}HR {color : #525D76;}--></style> </head><body><h1>HTTP Status 404 - </h1><HR size="1" noshade="noshade"><p><b>type</b> Status report</p><p><b>message</b> <u></u></p><p><b>description</b> <u>The requested resource is not available.</u></p><HR size="1" noshade="noshade"><h3>Apache Tomcat/6.0.53</h3></body></html>
+2019-05-04 10:13:10,520-my_logging.py-INFO-日志信息：********开始将结果写回excel数据********
+2019-05-04 10:13:10,695-my_logging.py-INFO-日志信息：********结束将结果写回excel数据********
+2019-05-04 10:13:10,702-my_logging.py-INFO-日志信息：************************************
+2019-05-04 10:13:10,703-my_logging.py-INFO-日志信息：正在执行第5条用例“错误的密码”
+2019-05-04 10:13:10,704-my_logging.py-INFO-日志信息：请求的参数为http://test.lemonban.com/futureloan/mvc/api/member/login,“{'mobilephone': '15019215377', 'pwd': '123356'}”
+2019-05-04 10:13:10,719-my_logging.py-INFO-日志信息：********开始将结果写回excel数据********
+2019-05-04 10:13:10,895-my_logging.py-INFO-日志信息：********结束将结果写回excel数据********
+2019-05-04 10:13:10,898-my_logging.py-INFO-日志信息：************************************
+2019-05-04 10:13:10,899-my_logging.py-INFO-日志信息：正在执行第6条用例“密码为空”
+2019-05-04 10:13:10,901-my_logging.py-INFO-日志信息：请求的参数为http://test.lemonban.com/futureloan/mvc/api/member/login,“{'mobilephone': '15019215377', 'pwd': ''}”
+2019-05-04 10:13:10,914-my_logging.py-INFO-日志信息：********开始将结果写回excel数据********
+2019-05-04 10:13:11,118-my_logging.py-INFO-日志信息：********结束将结果写回excel数据********
+2019-05-04 10:13:11,120-my_logging.py-INFO-日志信息：************************************
+2019-05-04 10:13:11,121-my_logging.py-INFO-日志信息：正在执行第7条用例“手机号为空”
+2019-05-04 10:13:11,123-my_logging.py-INFO-日志信息：请求的参数为http://test.lemonban.com/futureloan/mvc/api/member/login,“{'mobilephone': '', 'pwd': '123356'}”
+2019-05-04 10:13:11,135-my_logging.py-INFO-日志信息：********开始将结果写回excel数据********
+2019-05-04 10:13:11,330-my_logging.py-INFO-日志信息：********结束将结果写回excel数据********
+2019-05-04 10:13:31,454-my_logging.py-INFO-日志信息：************************************
+2019-05-04 10:13:31,458-my_logging.py-INFO-日志信息：正在执行第1条用例“正常登录”
+2019-05-04 10:13:31,459-my_logging.py-INFO-日志信息：请求的参数为http://test.lemonban.com/futureloan/mvc/api/member/login,“{'mobilephone': '15019215377', 'pwd': '123456'}”
+2019-05-04 10:13:31,487-my_logging.py-INFO-日志信息：********开始将结果写回excel数据********
+2019-05-04 10:13:31,678-my_logging.py-INFO-日志信息：********结束将结果写回excel数据********
+2019-05-04 10:13:31,680-my_logging.py-INFO-日志信息：************************************
+2019-05-04 10:13:31,681-my_logging.py-INFO-日志信息：正在执行第2条用例“正常充值”
+2019-05-04 10:13:31,682-my_logging.py-INFO-日志信息：请求的参数为http://test.lemonban.com/futureloan/mvc/api/member/recharge,“{'mobilephone': '15019215377', 'amount': '1000'}”
+2019-05-04 10:13:31,765-my_logging.py-INFO-日志信息：********开始将结果写回excel数据********
+2019-05-04 10:13:31,939-my_logging.py-INFO-日志信息：********结束将结果写回excel数据********
+2019-05-04 10:13:31,995-my_logging.py-INFO-日志信息：************************************
+2019-05-04 10:13:31,995-my_logging.py-INFO-日志信息：正在执行第4条用例“手机号为空”
+2019-05-04 10:13:31,996-my_logging.py-INFO-日志信息：请求的参数为http://test.lemonban.com/futureloan/mvc/api/member/recharge,“{'mobilephone': '', 'amount': '1000'}”
+2019-05-04 10:13:32,010-my_logging.py-INFO-日志信息：********开始将结果写回excel数据********
+2019-05-04 10:13:32,186-my_logging.py-INFO-日志信息：********结束将结果写回excel数据********
+2019-05-04 10:13:32,187-my_logging.py-INFO-日志信息：************************************
+2019-05-04 10:13:32,188-my_logging.py-INFO-日志信息：正在执行第5条用例“充值金额为空”
+2019-05-04 10:13:32,189-my_logging.py-INFO-日志信息：请求的参数为http://test.lemonban.com/futureloan/mvc/api/member/recharge,“{'mobilephone': '15019215377', 'amount': ''}”
+2019-05-04 10:13:32,202-my_logging.py-INFO-日志信息：********开始将结果写回excel数据********
+2019-05-04 10:13:32,377-my_logging.py-INFO-日志信息：********结束将结果写回excel数据********
+2019-05-04 10:13:32,379-my_logging.py-INFO-日志信息：************************************
+2019-05-04 10:13:32,380-my_logging.py-INFO-日志信息：正在执行第6条用例“手机号未注册”
+2019-05-04 10:13:32,385-my_logging.py-INFO-日志信息：************************************
+2019-05-04 10:13:32,387-my_logging.py-INFO-日志信息：正在执行第7条用例“金额超过两位小数”
+2019-05-04 10:13:32,389-my_logging.py-INFO-日志信息：请求的参数为http://test.lemonban.com/futureloan/mvc/api/member/recharge,“{'mobilephone': '15019215377', 'amount': '1000.123'}”
+2019-05-04 10:13:32,402-my_logging.py-INFO-日志信息：********开始将结果写回excel数据********
+2019-05-04 10:13:32,597-my_logging.py-INFO-日志信息：********结束将结果写回excel数据********
+2019-05-04 10:13:32,599-my_logging.py-INFO-日志信息：************************************
+2019-05-04 10:13:32,600-my_logging.py-INFO-日志信息：正在执行第8条用例“金额为负数”
+2019-05-04 10:13:32,602-my_logging.py-INFO-日志信息：请求的参数为http://test.lemonban.com/futureloan/mvc/api/member/recharge,“{'mobilephone': '15019215377', 'amount': '-1000.12'}”
+2019-05-04 10:13:32,614-my_logging.py-INFO-日志信息：********开始将结果写回excel数据********
+2019-05-04 10:13:32,790-my_logging.py-INFO-日志信息：********结束将结果写回excel数据********
+2019-05-04 10:13:32,792-my_logging.py-INFO-日志信息：************************************
+2019-05-04 10:13:32,793-my_logging.py-INFO-日志信息：正在执行第9条用例“输入非数字格式的金额”
+2019-05-04 10:13:32,794-my_logging.py-INFO-日志信息：请求的参数为http://test.lemonban.com/futureloan/mvc/api/member/recharge,“{'mobilephone': '15019215377', 'amount': 'a'}”
+2019-05-04 10:13:32,807-my_logging.py-INFO-日志信息：********开始将结果写回excel数据********
+2019-05-04 10:13:32,988-my_logging.py-INFO-日志信息：********结束将结果写回excel数据********
+2019-05-04 10:13:32,990-my_logging.py-INFO-日志信息：************************************
+2019-05-04 10:13:32,992-my_logging.py-INFO-日志信息：正在执行第10条用例“非法的手机号”
+2019-05-04 10:13:32,994-my_logging.py-INFO-日志信息：请求的参数为http://test.lemonban.com/futureloan/mvc/api/member/recharge,“{'mobilephone': '25019215377', 'amount': '1000'}”
+2019-05-04 10:13:33,006-my_logging.py-INFO-日志信息：********开始将结果写回excel数据********
+2019-05-04 10:13:33,204-my_logging.py-INFO-日志信息：********结束将结果写回excel数据********
+2019-05-04 10:15:46,394-my_logging.py-INFO-日志信息：************************************
+2019-05-04 10:15:46,398-my_logging.py-INFO-日志信息：正在执行第1条用例“正常注册”
+2019-05-04 10:15:46,414-my_logging.py-INFO-日志信息：请求的参数为http://test.lemonban.com/futureloan/mvc/api/member/register,“{'mobilephone': '18999999374', 'pwd': '123456', 'regname': '六月'}”
+2019-05-04 10:15:46,451-my_logging.py-ERROR-日志信息：第1条用例“正常注册”出错 :: {"status":1,"code":"10001","data":null,"msg":"注册成功"} != 注册成功
+2019-05-04 10:15:46,452-my_logging.py-INFO-日志信息：********开始将结果写回excel数据********
+2019-05-04 10:15:46,635-my_logging.py-INFO-日志信息：********结束将结果写回excel数据********
+2019-05-04 10:15:46,641-my_logging.py-INFO-日志信息：************************************
+2019-05-04 10:15:46,643-my_logging.py-INFO-日志信息：正在执行第2条用例“正常登录”
+2019-05-04 10:15:46,659-my_logging.py-INFO-日志信息：请求的参数为http://test.lemonban.com/futureloan/mvc/api/member/login,“{'mobilephone': '18999999374', 'pwd': '123456'}”
+2019-05-04 10:15:46,674-my_logging.py-INFO-日志信息：********开始将结果写回excel数据********
+2019-05-04 10:15:46,868-my_logging.py-INFO-日志信息：********结束将结果写回excel数据********
+2019-05-04 10:15:46,870-my_logging.py-INFO-日志信息：************************************
+2019-05-04 10:15:46,871-my_logging.py-INFO-日志信息：正在执行第3条用例“正常充值”
+2019-05-04 10:15:46,897-my_logging.py-INFO-日志信息：************************************
+2019-05-04 10:15:46,899-my_logging.py-INFO-日志信息：正在执行第5条用例“手机号为空”
+2019-05-04 10:15:46,900-my_logging.py-INFO-日志信息：请求的参数为http://test.lemonban.com/futureloan/mvc/api/member/recharge,“{'mobilephone': '', 'amount': '1000'}”
+2019-05-04 10:15:46,913-my_logging.py-INFO-日志信息：********开始将结果写回excel数据********
+2019-05-04 10:15:47,090-my_logging.py-INFO-日志信息：********结束将结果写回excel数据********
+2019-05-04 10:15:47,093-my_logging.py-INFO-日志信息：************************************
+2019-05-04 10:15:47,094-my_logging.py-INFO-日志信息：正在执行第6条用例“充值金额为空”
+2019-05-04 10:15:47,095-my_logging.py-INFO-日志信息：请求的参数为http://test.lemonban.com/futureloan/mvc/api/member/recharge,“{'mobilephone': '15019215377', 'amount': ''}”
+2019-05-04 10:15:47,108-my_logging.py-INFO-日志信息：********开始将结果写回excel数据********
+2019-05-04 10:15:47,314-my_logging.py-INFO-日志信息：********结束将结果写回excel数据********
+2019-05-04 10:15:47,317-my_logging.py-INFO-日志信息：************************************
+2019-05-04 10:15:47,318-my_logging.py-INFO-日志信息：正在执行第7条用例“手机号未注册”
+2019-05-04 10:15:47,328-my_logging.py-INFO-日志信息：************************************
+2019-05-04 10:15:47,329-my_logging.py-INFO-日志信息：正在执行第8条用例“金额超过两位小数”
+2019-05-04 10:15:47,331-my_logging.py-INFO-日志信息：请求的参数为http://test.lemonban.com/futureloan/mvc/api/member/recharge,“{'mobilephone': '15019215377', 'amount': '1000.123'}”
+2019-05-04 10:15:47,344-my_logging.py-INFO-日志信息：********开始将结果写回excel数据********
+2019-05-04 10:15:47,537-my_logging.py-INFO-日志信息：********结束将结果写回excel数据********
+2019-05-04 10:15:47,538-my_logging.py-INFO-日志信息：************************************
+2019-05-04 10:15:47,541-my_logging.py-INFO-日志信息：正在执行第9条用例“金额为负数”
+2019-05-04 10:15:47,542-my_logging.py-INFO-日志信息：请求的参数为http://test.lemonban.com/futureloan/mvc/api/member/recharge,“{'mobilephone': '15019215377', 'amount': '-1000.12'}”
+2019-05-04 10:15:47,555-my_logging.py-INFO-日志信息：********开始将结果写回excel数据********
+2019-05-04 10:15:47,743-my_logging.py-INFO-日志信息：********结束将结果写回excel数据********
+2019-05-04 10:15:47,745-my_logging.py-INFO-日志信息：************************************
+2019-05-04 10:15:47,746-my_logging.py-INFO-日志信息：正在执行第10条用例“输入非数字格式的金额”
+2019-05-04 10:15:47,747-my_logging.py-INFO-日志信息：请求的参数为http://test.lemonban.com/futureloan/mvc/api/member/recharge,“{'mobilephone': '15019215377', 'amount': 'a'}”
+2019-05-04 10:15:47,768-my_logging.py-INFO-日志信息：********开始将结果写回excel数据********
+2019-05-04 10:15:47,942-my_logging.py-INFO-日志信息：********结束将结果写回excel数据********
+2019-05-04 10:15:47,943-my_logging.py-INFO-日志信息：************************************
+2019-05-04 10:15:47,944-my_logging.py-INFO-日志信息：正在执行第11条用例“非法的手机号”
+2019-05-04 10:15:47,945-my_logging.py-INFO-日志信息：请求的参数为http://test.lemonban.com/futureloan/mvc/api/member/recharge,“{'mobilephone': '25019215377', 'amount': '1000'}”
+2019-05-04 10:15:47,963-my_logging.py-INFO-日志信息：********开始将结果写回excel数据********
+2019-05-04 10:15:48,154-my_logging.py-INFO-日志信息：********结束将结果写回excel数据********
+2019-05-04 10:16:47,461-my_logging.py-INFO-日志信息：************************************
+2019-05-04 10:16:47,465-my_logging.py-INFO-日志信息：正在执行第1条用例“正常注册”
+2019-05-04 10:16:47,481-my_logging.py-INFO-日志信息：请求的参数为http://test.lemonban.com/futureloan/mvc/api/member/register,“{'mobilephone': '18999999375', 'pwd': '123456', 'regname': '六月'}”
+2019-05-04 10:16:47,524-my_logging.py-INFO-日志信息：********开始将结果写回excel数据********
+2019-05-04 10:16:47,720-my_logging.py-INFO-日志信息：********结束将结果写回excel数据********
+2019-05-04 10:16:47,722-my_logging.py-INFO-日志信息：************************************
+2019-05-04 10:16:47,723-my_logging.py-INFO-日志信息：正在执行第2条用例“正常登录”
+2019-05-04 10:16:47,764-my_logging.py-INFO-日志信息：请求的参数为http://test.lemonban.com/futureloan/mvc/api/member/login,“{'mobilephone': '18999999375', 'pwd': '123456'}”
+2019-05-04 10:16:47,783-my_logging.py-INFO-日志信息：********开始将结果写回excel数据********
+2019-05-04 10:16:48,024-my_logging.py-INFO-日志信息：********结束将结果写回excel数据********
+2019-05-04 10:16:48,026-my_logging.py-INFO-日志信息：************************************
+2019-05-04 10:16:48,027-my_logging.py-INFO-日志信息：正在执行第3条用例“正常充值”
+2019-05-04 10:16:48,070-my_logging.py-INFO-日志信息：************************************
+2019-05-04 10:16:48,072-my_logging.py-INFO-日志信息：正在执行第5条用例“手机号为空”
+2019-05-04 10:16:48,073-my_logging.py-INFO-日志信息：请求的参数为http://test.lemonban.com/futureloan/mvc/api/member/recharge,“{'mobilephone': '', 'amount': '1000'}”
+2019-05-04 10:16:48,087-my_logging.py-INFO-日志信息：********开始将结果写回excel数据********
+2019-05-04 10:16:48,290-my_logging.py-INFO-日志信息：********结束将结果写回excel数据********
+2019-05-04 10:16:48,292-my_logging.py-INFO-日志信息：************************************
+2019-05-04 10:16:48,293-my_logging.py-INFO-日志信息：正在执行第6条用例“充值金额为空”
+2019-05-04 10:16:48,294-my_logging.py-INFO-日志信息：请求的参数为http://test.lemonban.com/futureloan/mvc/api/member/recharge,“{'mobilephone': '15019215377', 'amount': ''}”
+2019-05-04 10:16:48,308-my_logging.py-INFO-日志信息：********开始将结果写回excel数据********
+2019-05-04 10:16:48,497-my_logging.py-INFO-日志信息：********结束将结果写回excel数据********
+2019-05-04 10:16:48,499-my_logging.py-INFO-日志信息：************************************
+2019-05-04 10:16:48,500-my_logging.py-INFO-日志信息：正在执行第7条用例“手机号未注册”
+2019-05-04 10:16:48,503-my_logging.py-INFO-日志信息：************************************
+2019-05-04 10:16:48,505-my_logging.py-INFO-日志信息：正在执行第8条用例“金额超过两位小数”
+2019-05-04 10:16:48,506-my_logging.py-INFO-日志信息：请求的参数为http://test.lemonban.com/futureloan/mvc/api/member/recharge,“{'mobilephone': '15019215377', 'amount': '1000.123'}”
+2019-05-04 10:16:48,521-my_logging.py-INFO-日志信息：********开始将结果写回excel数据********
+2019-05-04 10:16:48,738-my_logging.py-INFO-日志信息：********结束将结果写回excel数据********
+2019-05-04 10:16:48,741-my_logging.py-INFO-日志信息：************************************
+2019-05-04 10:16:48,741-my_logging.py-INFO-日志信息：正在执行第9条用例“金额为负数”
+2019-05-04 10:16:48,742-my_logging.py-INFO-日志信息：请求的参数为http://test.lemonban.com/futureloan/mvc/api/member/recharge,“{'mobilephone': '15019215377', 'amount': '-1000.12'}”
+2019-05-04 10:16:48,756-my_logging.py-INFO-日志信息：********开始将结果写回excel数据********
+2019-05-04 10:16:48,940-my_logging.py-INFO-日志信息：********结束将结果写回excel数据********
+2019-05-04 10:16:48,941-my_logging.py-INFO-日志信息：************************************
+2019-05-04 10:16:48,942-my_logging.py-INFO-日志信息：正在执行第10条用例“输入非数字格式的金额”
+2019-05-04 10:16:48,943-my_logging.py-INFO-日志信息：请求的参数为http://test.lemonban.com/futureloan/mvc/api/member/recharge,“{'mobilephone': '15019215377', 'amount': 'a'}”
+2019-05-04 10:16:48,959-my_logging.py-INFO-日志信息：********开始将结果写回excel数据********
+2019-05-04 10:16:49,136-my_logging.py-INFO-日志信息：********结束将结果写回excel数据********
+2019-05-04 10:16:49,138-my_logging.py-INFO-日志信息：************************************
+2019-05-04 10:16:49,139-my_logging.py-INFO-日志信息：正在执行第11条用例“非法的手机号”
+2019-05-04 10:16:49,140-my_logging.py-INFO-日志信息：请求的参数为http://test.lemonban.com/futureloan/mvc/api/member/recharge,“{'mobilephone': '25019215377', 'amount': '1000'}”
+2019-05-04 10:16:49,154-my_logging.py-INFO-日志信息：********开始将结果写回excel数据********
+2019-05-04 10:16:49,331-my_logging.py-INFO-日志信息：********结束将结果写回excel数据********
+2019-05-04 10:19:41,138-my_logging.py-INFO-日志信息：************************************
+2019-05-04 10:19:41,142-my_logging.py-INFO-日志信息：正在执行第1条用例“正常注册”
+2019-05-04 10:19:41,161-my_logging.py-INFO-日志信息：请求的参数为http://test.lemonban.com/futureloan/mvc/api/member/register,“{'mobilephone': '18999999376', 'pwd': '123456', 'regname': '六月'}”
+2019-05-04 10:19:41,204-my_logging.py-INFO-日志信息：********开始将结果写回excel数据********
+2019-05-04 10:19:41,388-my_logging.py-INFO-日志信息：********结束将结果写回excel数据********
+2019-05-04 10:19:41,390-my_logging.py-INFO-日志信息：************************************
+2019-05-04 10:19:41,391-my_logging.py-INFO-日志信息：正在执行第2条用例“正常登录”
+2019-05-04 10:19:41,409-my_logging.py-INFO-日志信息：请求的参数为http://test.lemonban.com/futureloan/mvc/api/member/login,“{'mobilephone': '18999999376', 'pwd': '123456'}”
+2019-05-04 10:19:41,425-my_logging.py-INFO-日志信息：********开始将结果写回excel数据********
+2019-05-04 10:19:41,600-my_logging.py-INFO-日志信息：********结束将结果写回excel数据********
+2019-05-04 10:19:41,603-my_logging.py-INFO-日志信息：************************************
+2019-05-04 10:19:41,605-my_logging.py-INFO-日志信息：正在执行第3条用例“正常充值”
+2019-05-04 10:19:41,641-my_logging.py-INFO-日志信息：************************************
+2019-05-04 10:19:41,642-my_logging.py-INFO-日志信息：正在执行第5条用例“手机号为空”
+2019-05-04 10:19:41,643-my_logging.py-INFO-日志信息：请求的参数为http://test.lemonban.com/futureloan/mvc/api/member/recharge,“{'mobilephone': '', 'amount': '1000'}”
+2019-05-04 10:19:41,657-my_logging.py-INFO-日志信息：********开始将结果写回excel数据********
+2019-05-04 10:19:41,836-my_logging.py-INFO-日志信息：********结束将结果写回excel数据********
+2019-05-04 10:19:41,838-my_logging.py-INFO-日志信息：************************************
+2019-05-04 10:19:41,841-my_logging.py-INFO-日志信息：正在执行第6条用例“充值金额为空”
+2019-05-04 10:19:41,842-my_logging.py-INFO-日志信息：请求的参数为http://test.lemonban.com/futureloan/mvc/api/member/recharge,“{'mobilephone': '15019215377', 'amount': ''}”
+2019-05-04 10:19:41,855-my_logging.py-INFO-日志信息：********开始将结果写回excel数据********
+2019-05-04 10:19:42,031-my_logging.py-INFO-日志信息：********结束将结果写回excel数据********
+2019-05-04 10:19:42,033-my_logging.py-INFO-日志信息：************************************
+2019-05-04 10:19:42,034-my_logging.py-INFO-日志信息：正在执行第7条用例“手机号未注册”
+2019-05-04 10:19:42,038-my_logging.py-INFO-日志信息：************************************
+2019-05-04 10:19:42,039-my_logging.py-INFO-日志信息：正在执行第8条用例“金额超过两位小数”
+2019-05-04 10:19:42,041-my_logging.py-INFO-日志信息：请求的参数为http://test.lemonban.com/futureloan/mvc/api/member/recharge,“{'mobilephone': '15019215377', 'amount': '1000.123'}”
+2019-05-04 10:19:42,055-my_logging.py-INFO-日志信息：********开始将结果写回excel数据********
+2019-05-04 10:19:42,252-my_logging.py-INFO-日志信息：********结束将结果写回excel数据********
+2019-05-04 10:19:42,254-my_logging.py-INFO-日志信息：************************************
+2019-05-04 10:19:42,256-my_logging.py-INFO-日志信息：正在执行第9条用例“金额为负数”
+2019-05-04 10:19:42,261-my_logging.py-INFO-日志信息：请求的参数为http://test.lemonban.com/futureloan/mvc/api/member/recharge,“{'mobilephone': '15019215377', 'amount': '-1000.12'}”
+2019-05-04 10:19:42,276-my_logging.py-INFO-日志信息：********开始将结果写回excel数据********
+2019-05-04 10:19:42,457-my_logging.py-INFO-日志信息：********结束将结果写回excel数据********
+2019-05-04 10:19:42,458-my_logging.py-INFO-日志信息：************************************
+2019-05-04 10:19:42,460-my_logging.py-INFO-日志信息：正在执行第10条用例“输入非数字格式的金额”
+2019-05-04 10:19:42,461-my_logging.py-INFO-日志信息：请求的参数为http://test.lemonban.com/futureloan/mvc/api/member/recharge,“{'mobilephone': '15019215377', 'amount': 'a'}”
+2019-05-04 10:19:42,475-my_logging.py-INFO-日志信息：********开始将结果写回excel数据********
+2019-05-04 10:19:42,653-my_logging.py-INFO-日志信息：********结束将结果写回excel数据********
+2019-05-04 10:19:42,655-my_logging.py-INFO-日志信息：************************************
+2019-05-04 10:19:42,656-my_logging.py-INFO-日志信息：正在执行第11条用例“非法的手机号”
+2019-05-04 10:19:42,657-my_logging.py-INFO-日志信息：请求的参数为http://test.lemonban.com/futureloan/mvc/api/member/recharge,“{'mobilephone': '25019215377', 'amount': '1000'}”
+2019-05-04 10:19:42,669-my_logging.py-INFO-日志信息：********开始将结果写回excel数据********
+2019-05-04 10:19:42,854-my_logging.py-INFO-日志信息：********结束将结果写回excel数据********
+2019-05-04 10:30:29,649-my_logging.py-INFO-日志信息：************************************
+2019-05-04 10:30:29,653-my_logging.py-INFO-日志信息：正在执行第1条用例“正常注册”
+2019-05-04 10:30:29,670-my_logging.py-INFO-日志信息：请求的参数为http://test.lemonban.com/futureloan/mvc/api/member/register,“{'mobilephone': '18999999377', 'pwd': '123456', 'regname': '六月'}”
+2019-05-04 10:30:29,710-my_logging.py-INFO-日志信息：********开始将结果写回excel数据********
+2019-05-04 10:30:29,913-my_logging.py-INFO-日志信息：********结束将结果写回excel数据********
+2019-05-04 10:30:29,917-my_logging.py-INFO-日志信息：************************************
+2019-05-04 10:30:29,918-my_logging.py-INFO-日志信息：正在执行第2条用例“正常登录”
+2019-05-04 10:30:29,933-my_logging.py-INFO-日志信息：请求的参数为http://test.lemonban.com/futureloan/mvc/api/member/login,“{'mobilephone': '18999999377', 'pwd': '123456'}”
+2019-05-04 10:30:29,947-my_logging.py-INFO-日志信息：********开始将结果写回excel数据********
+2019-05-04 10:30:30,134-my_logging.py-INFO-日志信息：********结束将结果写回excel数据********
+2019-05-04 10:30:30,136-my_logging.py-INFO-日志信息：************************************
+2019-05-04 10:30:30,137-my_logging.py-INFO-日志信息：正在执行第3条用例“正常充值”
+2019-05-04 10:30:30,166-my_logging.py-INFO-日志信息：请求的参数为http://test.lemonban.com/futureloan/mvc/api/member/recharge,“{'mobilephone': '18999999377', 'amount': '1000'}”
+2019-05-04 10:30:30,204-my_logging.py-ERROR-日志信息：第3条用例“正常充值”出错 :: Decimal('4000.00') != Decimal('3000.00')
+2019-05-04 10:30:30,205-my_logging.py-INFO-日志信息：********开始将结果写回excel数据********
+2019-05-04 10:30:30,376-my_logging.py-INFO-日志信息：********结束将结果写回excel数据********
+2019-05-04 10:30:30,383-my_logging.py-INFO-日志信息：************************************
+2019-05-04 10:30:30,385-my_logging.py-INFO-日志信息：正在执行第5条用例“手机号为空”
+2019-05-04 10:30:30,386-my_logging.py-INFO-日志信息：请求的参数为http://test.lemonban.com/futureloan/mvc/api/member/recharge,“{'mobilephone': '', 'amount': '1000'}”
+2019-05-04 10:30:30,399-my_logging.py-INFO-日志信息：********开始将结果写回excel数据********
+2019-05-04 10:30:30,579-my_logging.py-INFO-日志信息：********结束将结果写回excel数据********
+2019-05-04 10:30:30,582-my_logging.py-INFO-日志信息：************************************
+2019-05-04 10:30:30,583-my_logging.py-INFO-日志信息：正在执行第6条用例“充值金额为空”
+2019-05-04 10:30:30,584-my_logging.py-INFO-日志信息：请求的参数为http://test.lemonban.com/futureloan/mvc/api/member/recharge,“{'mobilephone': '15019215377', 'amount': ''}”
+2019-05-04 10:30:30,598-my_logging.py-INFO-日志信息：********开始将结果写回excel数据********
+2019-05-04 10:30:30,783-my_logging.py-INFO-日志信息：********结束将结果写回excel数据********
+2019-05-04 10:30:30,786-my_logging.py-INFO-日志信息：************************************
+2019-05-04 10:30:30,788-my_logging.py-INFO-日志信息：正在执行第7条用例“手机号未注册”
+2019-05-04 10:30:30,807-my_logging.py-INFO-日志信息：请求的参数为http://test.lemonban.com/futureloan/mvc/api/member/recharge,“{'mobilephone': '18999999378', 'amount': '1000'}”
+2019-05-04 10:30:30,822-my_logging.py-INFO-日志信息：********开始将结果写回excel数据********
+2019-05-04 10:30:30,994-my_logging.py-INFO-日志信息：********结束将结果写回excel数据********
+2019-05-04 10:30:30,996-my_logging.py-INFO-日志信息：************************************
+2019-05-04 10:30:30,998-my_logging.py-INFO-日志信息：正在执行第8条用例“金额超过两位小数”
+2019-05-04 10:30:30,999-my_logging.py-INFO-日志信息：请求的参数为http://test.lemonban.com/futureloan/mvc/api/member/recharge,“{'mobilephone': '15019215377', 'amount': '1000.123'}”
+2019-05-04 10:30:31,011-my_logging.py-INFO-日志信息：********开始将结果写回excel数据********
+2019-05-04 10:30:31,188-my_logging.py-INFO-日志信息：********结束将结果写回excel数据********
+2019-05-04 10:30:31,193-my_logging.py-INFO-日志信息：************************************
+2019-05-04 10:30:31,195-my_logging.py-INFO-日志信息：正在执行第9条用例“金额为负数”
+2019-05-04 10:30:31,196-my_logging.py-INFO-日志信息：请求的参数为http://test.lemonban.com/futureloan/mvc/api/member/recharge,“{'mobilephone': '15019215377', 'amount': '-1000.12'}”
+2019-05-04 10:30:31,209-my_logging.py-INFO-日志信息：********开始将结果写回excel数据********
+2019-05-04 10:30:31,398-my_logging.py-INFO-日志信息：********结束将结果写回excel数据********
+2019-05-04 10:30:31,399-my_logging.py-INFO-日志信息：************************************
+2019-05-04 10:30:31,400-my_logging.py-INFO-日志信息：正在执行第10条用例“输入非数字格式的金额”
+2019-05-04 10:30:31,402-my_logging.py-INFO-日志信息：请求的参数为http://test.lemonban.com/futureloan/mvc/api/member/recharge,“{'mobilephone': '15019215377', 'amount': 'a'}”
+2019-05-04 10:30:31,415-my_logging.py-INFO-日志信息：********开始将结果写回excel数据********
+2019-05-04 10:30:31,601-my_logging.py-INFO-日志信息：********结束将结果写回excel数据********
+2019-05-04 10:30:31,603-my_logging.py-INFO-日志信息：************************************
+2019-05-04 10:30:31,604-my_logging.py-INFO-日志信息：正在执行第11条用例“非法的手机号”
+2019-05-04 10:30:31,605-my_logging.py-INFO-日志信息：请求的参数为http://test.lemonban.com/futureloan/mvc/api/member/recharge,“{'mobilephone': '25019215377', 'amount': '1000'}”
+2019-05-04 10:30:31,620-my_logging.py-INFO-日志信息：********开始将结果写回excel数据********
+2019-05-04 10:30:31,811-my_logging.py-INFO-日志信息：********结束将结果写回excel数据********
+2019-05-04 10:33:04,493-my_logging.py-INFO-日志信息：************************************
+2019-05-04 10:33:04,497-my_logging.py-INFO-日志信息：正在执行第1条用例“正常注册”
+2019-05-04 10:33:04,516-my_logging.py-INFO-日志信息：请求的参数为http://test.lemonban.com/futureloan/mvc/api/member/register,“{'mobilephone': '18999999378', 'pwd': '123456', 'regname': '六月'}”
+2019-05-04 10:33:04,556-my_logging.py-INFO-日志信息：********开始将结果写回excel数据********
+2019-05-04 10:33:04,775-my_logging.py-INFO-日志信息：********结束将结果写回excel数据********
+2019-05-04 10:33:04,777-my_logging.py-INFO-日志信息：************************************
+2019-05-04 10:33:04,778-my_logging.py-INFO-日志信息：正在执行第2条用例“正常登录”
+2019-05-04 10:33:04,797-my_logging.py-INFO-日志信息：请求的参数为http://test.lemonban.com/futureloan/mvc/api/member/login,“{'mobilephone': '18999999378', 'pwd': '123456'}”
+2019-05-04 10:33:04,814-my_logging.py-INFO-日志信息：********开始将结果写回excel数据********
+2019-05-04 10:33:04,991-my_logging.py-INFO-日志信息：********结束将结果写回excel数据********
+2019-05-04 10:33:04,992-my_logging.py-INFO-日志信息：************************************
+2019-05-04 10:33:04,995-my_logging.py-INFO-日志信息：正在执行第3条用例“正常充值”
+2019-05-04 10:33:05,054-my_logging.py-INFO-日志信息：************************************
+2019-05-04 10:33:05,055-my_logging.py-INFO-日志信息：正在执行第5条用例“手机号为空”
+2019-05-04 10:33:05,057-my_logging.py-INFO-日志信息：请求的参数为http://test.lemonban.com/futureloan/mvc/api/member/recharge,“{'mobilephone': '', 'amount': '1000'}”
+2019-05-04 10:33:05,070-my_logging.py-INFO-日志信息：********开始将结果写回excel数据********
+2019-05-04 10:33:05,252-my_logging.py-INFO-日志信息：********结束将结果写回excel数据********
+2019-05-04 10:33:05,254-my_logging.py-INFO-日志信息：************************************
+2019-05-04 10:33:05,255-my_logging.py-INFO-日志信息：正在执行第6条用例“充值金额为空”
+2019-05-04 10:33:05,256-my_logging.py-INFO-日志信息：请求的参数为http://test.lemonban.com/futureloan/mvc/api/member/recharge,“{'mobilephone': '15019215377', 'amount': ''}”
+2019-05-04 10:33:05,271-my_logging.py-INFO-日志信息：********开始将结果写回excel数据********
+2019-05-04 10:33:05,449-my_logging.py-INFO-日志信息：********结束将结果写回excel数据********
+2019-05-04 10:33:05,451-my_logging.py-INFO-日志信息：************************************
+2019-05-04 10:33:05,452-my_logging.py-INFO-日志信息：正在执行第7条用例“手机号未注册”
+2019-05-04 10:33:05,456-my_logging.py-INFO-日志信息：************************************
+2019-05-04 10:33:05,458-my_logging.py-INFO-日志信息：正在执行第8条用例“金额超过两位小数”
+2019-05-04 10:33:05,459-my_logging.py-INFO-日志信息：请求的参数为http://test.lemonban.com/futureloan/mvc/api/member/recharge,“{'mobilephone': '15019215377', 'amount': '1000.123'}”
+2019-05-04 10:33:05,474-my_logging.py-INFO-日志信息：********开始将结果写回excel数据********
+2019-05-04 10:33:05,660-my_logging.py-INFO-日志信息：********结束将结果写回excel数据********
+2019-05-04 10:33:05,661-my_logging.py-INFO-日志信息：************************************
+2019-05-04 10:33:05,665-my_logging.py-INFO-日志信息：正在执行第9条用例“金额为负数”
+2019-05-04 10:33:05,666-my_logging.py-INFO-日志信息：请求的参数为http://test.lemonban.com/futureloan/mvc/api/member/recharge,“{'mobilephone': '15019215377', 'amount': '-1000.12'}”
+2019-05-04 10:33:05,679-my_logging.py-INFO-日志信息：********开始将结果写回excel数据********
+2019-05-04 10:33:05,845-my_logging.py-INFO-日志信息：********结束将结果写回excel数据********
+2019-05-04 10:33:05,846-my_logging.py-INFO-日志信息：************************************
+2019-05-04 10:33:05,848-my_logging.py-INFO-日志信息：正在执行第10条用例“输入非数字格式的金额”
+2019-05-04 10:33:05,849-my_logging.py-INFO-日志信息：请求的参数为http://test.lemonban.com/futureloan/mvc/api/member/recharge,“{'mobilephone': '15019215377', 'amount': 'a'}”
+2019-05-04 10:33:05,863-my_logging.py-INFO-日志信息：********开始将结果写回excel数据********
+2019-05-04 10:33:06,050-my_logging.py-INFO-日志信息：********结束将结果写回excel数据********
+2019-05-04 10:33:06,052-my_logging.py-INFO-日志信息：************************************
+2019-05-04 10:33:06,052-my_logging.py-INFO-日志信息：正在执行第11条用例“非法的手机号”
+2019-05-04 10:33:06,057-my_logging.py-INFO-日志信息：请求的参数为http://test.lemonban.com/futureloan/mvc/api/member/recharge,“{'mobilephone': '25019215377', 'amount': '1000'}”
+2019-05-04 10:33:06,069-my_logging.py-INFO-日志信息：********开始将结果写回excel数据********
+2019-05-04 10:33:06,316-my_logging.py-INFO-日志信息：********结束将结果写回excel数据********
+2019-05-04 10:36:00,967-my_logging.py-INFO-日志信息：************************************
+2019-05-04 10:36:00,971-my_logging.py-INFO-日志信息：正在执行第1条用例“正常注册”
+2019-05-04 10:36:00,988-my_logging.py-INFO-日志信息：请求的参数为http://test.lemonban.com/futureloan/mvc/api/member/register,“{'mobilephone': '18999999379', 'pwd': '123456', 'regname': '六月'}”
+2019-05-04 10:36:01,045-my_logging.py-INFO-日志信息：********开始将结果写回excel数据********
+2019-05-04 10:36:01,224-my_logging.py-INFO-日志信息：********结束将结果写回excel数据********
+2019-05-04 10:36:01,227-my_logging.py-INFO-日志信息：************************************
+2019-05-04 10:36:01,228-my_logging.py-INFO-日志信息：正在执行第2条用例“正常登录”
+2019-05-04 10:36:01,246-my_logging.py-INFO-日志信息：请求的参数为http://test.lemonban.com/futureloan/mvc/api/member/login,“{'mobilephone': '18999999379', 'pwd': '123456'}”
+2019-05-04 10:36:01,261-my_logging.py-INFO-日志信息：********开始将结果写回excel数据********
+2019-05-04 10:36:01,437-my_logging.py-INFO-日志信息：********结束将结果写回excel数据********
+2019-05-04 10:36:01,438-my_logging.py-INFO-日志信息：************************************
+2019-05-04 10:36:01,439-my_logging.py-INFO-日志信息：正在执行第3条用例“正常充值”
+2019-05-04 10:36:01,472-my_logging.py-INFO-日志信息：请求的参数为http://test.lemonban.com/futureloan/mvc/api/member/recharge,“{'mobilephone': '18999999379', 'amount': '1000'}”
+2019-05-04 10:36:01,527-my_logging.py-ERROR-日志信息：第3条用例“正常充值”出错 :: Decimal('-800.00') != Decimal('-1800.00')
+2019-05-04 10:36:01,528-my_logging.py-INFO-日志信息：********开始将结果写回excel数据********
+2019-05-04 10:36:01,706-my_logging.py-INFO-日志信息：********结束将结果写回excel数据********
+2019-05-04 10:36:01,714-my_logging.py-INFO-日志信息：************************************
+2019-05-04 10:36:01,716-my_logging.py-INFO-日志信息：正在执行第5条用例“手机号为空”
+2019-05-04 10:36:01,717-my_logging.py-INFO-日志信息：请求的参数为http://test.lemonban.com/futureloan/mvc/api/member/recharge,“{'mobilephone': '', 'amount': '1000'}”
+2019-05-04 10:36:01,729-my_logging.py-INFO-日志信息：********开始将结果写回excel数据********
+2019-05-04 10:36:01,963-my_logging.py-INFO-日志信息：********结束将结果写回excel数据********
+2019-05-04 10:36:01,966-my_logging.py-INFO-日志信息：************************************
+2019-05-04 10:36:01,967-my_logging.py-INFO-日志信息：正在执行第6条用例“充值金额为空”
+2019-05-04 10:36:01,968-my_logging.py-INFO-日志信息：请求的参数为http://test.lemonban.com/futureloan/mvc/api/member/recharge,“{'mobilephone': '15019215377', 'amount': ''}”
+2019-05-04 10:36:01,980-my_logging.py-INFO-日志信息：********开始将结果写回excel数据********
+2019-05-04 10:36:02,157-my_logging.py-INFO-日志信息：********结束将结果写回excel数据********
+2019-05-04 10:36:02,159-my_logging.py-INFO-日志信息：************************************
+2019-05-04 10:36:02,160-my_logging.py-INFO-日志信息：正在执行第7条用例“手机号未注册”
+2019-05-04 10:36:02,178-my_logging.py-INFO-日志信息：请求的参数为http://test.lemonban.com/futureloan/mvc/api/member/recharge,“{'mobilephone': '18999999380', 'amount': '1000'}”
+2019-05-04 10:36:02,194-my_logging.py-INFO-日志信息：********开始将结果写回excel数据********
+2019-05-04 10:36:02,367-my_logging.py-INFO-日志信息：********结束将结果写回excel数据********
+2019-05-04 10:36:02,369-my_logging.py-INFO-日志信息：************************************
+2019-05-04 10:36:02,370-my_logging.py-INFO-日志信息：正在执行第8条用例“金额超过两位小数”
+2019-05-04 10:36:02,371-my_logging.py-INFO-日志信息：请求的参数为http://test.lemonban.com/futureloan/mvc/api/member/recharge,“{'mobilephone': '15019215377', 'amount': '1000.123'}”
+2019-05-04 10:36:02,384-my_logging.py-INFO-日志信息：********开始将结果写回excel数据********
+2019-05-04 10:36:02,555-my_logging.py-INFO-日志信息：********结束将结果写回excel数据********
+2019-05-04 10:36:02,557-my_logging.py-INFO-日志信息：************************************
+2019-05-04 10:36:02,558-my_logging.py-INFO-日志信息：正在执行第9条用例“金额为负数”
+2019-05-04 10:36:02,559-my_logging.py-INFO-日志信息：请求的参数为http://test.lemonban.com/futureloan/mvc/api/member/recharge,“{'mobilephone': '15019215377', 'amount': '-1000.12'}”
+2019-05-04 10:36:02,571-my_logging.py-INFO-日志信息：********开始将结果写回excel数据********
+2019-05-04 10:36:02,770-my_logging.py-INFO-日志信息：********结束将结果写回excel数据********
+2019-05-04 10:36:02,772-my_logging.py-INFO-日志信息：************************************
+2019-05-04 10:36:02,773-my_logging.py-INFO-日志信息：正在执行第10条用例“输入非数字格式的金额”
+2019-05-04 10:36:02,774-my_logging.py-INFO-日志信息：请求的参数为http://test.lemonban.com/futureloan/mvc/api/member/recharge,“{'mobilephone': '15019215377', 'amount': 'a'}”
+2019-05-04 10:36:02,788-my_logging.py-INFO-日志信息：********开始将结果写回excel数据********
+2019-05-04 10:36:02,969-my_logging.py-INFO-日志信息：********结束将结果写回excel数据********
+2019-05-04 10:36:02,970-my_logging.py-INFO-日志信息：************************************
+2019-05-04 10:36:02,971-my_logging.py-INFO-日志信息：正在执行第11条用例“非法的手机号”
+2019-05-04 10:36:02,973-my_logging.py-INFO-日志信息：请求的参数为http://test.lemonban.com/futureloan/mvc/api/member/recharge,“{'mobilephone': '25019215377', 'amount': '1000'}”
+2019-05-04 10:36:02,987-my_logging.py-INFO-日志信息：********开始将结果写回excel数据********
+2019-05-04 10:36:03,187-my_logging.py-INFO-日志信息：********结束将结果写回excel数据********
+2019-05-04 10:37:03,360-my_logging.py-INFO-日志信息：************************************
+2019-05-04 10:37:03,366-my_logging.py-INFO-日志信息：正在执行第1条用例“正常注册-填用户名”
+2019-05-04 10:37:03,387-my_logging.py-INFO-日志信息：请求的参数为http://test.lemonban.com/futureloan/mvc/api/member/register,“{'mobilephone': '18999999380', 'pwd': '123456', 'regname': '六月'}”
+2019-05-04 10:37:03,453-my_logging.py-INFO-日志信息：********开始将结果写回excel数据********
+2019-05-04 10:37:03,682-my_logging.py-INFO-日志信息：********结束将结果写回excel数据********
+2019-05-04 10:37:03,686-my_logging.py-INFO-日志信息：************************************
+2019-05-04 10:37:03,688-my_logging.py-INFO-日志信息：正在执行第2条用例“正常注册-不填用户名”
+2019-05-04 10:37:03,707-my_logging.py-INFO-日志信息：请求的参数为http://test.lemonban.com/futureloan/mvc/api/member/register,“{'mobilephone': '18999999381', 'pwd': '123456'}”
+2019-05-04 10:37:03,745-my_logging.py-INFO-日志信息：********开始将结果写回excel数据********
+2019-05-04 10:37:03,977-my_logging.py-INFO-日志信息：********结束将结果写回excel数据********
+2019-05-04 10:37:03,979-my_logging.py-INFO-日志信息：************************************
+2019-05-04 10:37:03,981-my_logging.py-INFO-日志信息：正在执行第3条用例“重复注册”
+2019-05-04 10:37:03,998-my_logging.py-INFO-日志信息：请求的参数为http://test.lemonban.com/futureloan/mvc/api/member/register,“{'mobilephone': '18999999381', 'pwd': '123456', 'regname': '六月'}”
+2019-05-04 10:37:04,016-my_logging.py-INFO-日志信息：********开始将结果写回excel数据********
+2019-05-04 10:37:04,240-my_logging.py-INFO-日志信息：********结束将结果写回excel数据********
+2019-05-04 10:37:04,243-my_logging.py-INFO-日志信息：************************************
+2019-05-04 10:37:04,244-my_logging.py-INFO-日志信息：正在执行第4条用例“接口地址错误”
+2019-05-04 10:37:04,246-my_logging.py-INFO-日志信息：请求的参数为http://test.lemonban.com/futureloan/mvc/api/member/registe,“{'mobilephone': '15019215379', 'pwd': '123456', 'regname': '六月'}”
+2019-05-04 10:37:04,273-my_logging.py-INFO-日志信息：********开始将结果写回excel数据********
+2019-05-04 10:37:04,487-my_logging.py-INFO-日志信息：********结束将结果写回excel数据********
+2019-05-04 10:37:04,489-my_logging.py-INFO-日志信息：************************************
+2019-05-04 10:37:04,491-my_logging.py-INFO-日志信息：正在执行第5条用例“5位密码”
+2019-05-04 10:37:04,492-my_logging.py-INFO-日志信息：请求的参数为http://test.lemonban.com/futureloan/mvc/api/member/register,“{'mobilephone': '15719215382', 'pwd': '12345'}”
+2019-05-04 10:37:04,510-my_logging.py-INFO-日志信息：********开始将结果写回excel数据********
+2019-05-04 10:37:04,731-my_logging.py-INFO-日志信息：********结束将结果写回excel数据********
+2019-05-04 10:37:04,733-my_logging.py-INFO-日志信息：************************************
+2019-05-04 10:37:04,735-my_logging.py-INFO-日志信息：正在执行第6条用例“19位密码”
+2019-05-04 10:37:04,736-my_logging.py-INFO-日志信息：请求的参数为http://test.lemonban.com/futureloan/mvc/api/member/register,“{'mobilephone': '15719215382', 'pwd': '1234567890123456789'}”
+2019-05-04 10:37:04,750-my_logging.py-INFO-日志信息：********开始将结果写回excel数据********
+2019-05-04 10:37:04,953-my_logging.py-INFO-日志信息：********结束将结果写回excel数据********
+2019-05-04 10:37:04,956-my_logging.py-INFO-日志信息：************************************
+2019-05-04 10:37:04,958-my_logging.py-INFO-日志信息：正在执行第7条用例“手机号为空”
+2019-05-04 10:37:04,960-my_logging.py-INFO-日志信息：请求的参数为http://test.lemonban.com/futureloan/mvc/api/member/register,“{'mobilephone': '', 'pwd': '123456'}”
+2019-05-04 10:37:04,974-my_logging.py-INFO-日志信息：********开始将结果写回excel数据********
+2019-05-04 10:37:05,211-my_logging.py-INFO-日志信息：********结束将结果写回excel数据********
+2019-05-04 10:37:05,213-my_logging.py-INFO-日志信息：************************************
+2019-05-04 10:37:05,214-my_logging.py-INFO-日志信息：正在执行第8条用例“密码为空”
+2019-05-04 10:37:05,215-my_logging.py-INFO-日志信息：请求的参数为http://test.lemonban.com/futureloan/mvc/api/member/register,“{'mobilephone': '15719215382', 'pwd': ''}”
+2019-05-04 10:37:05,231-my_logging.py-INFO-日志信息：********开始将结果写回excel数据********
+2019-05-04 10:37:05,445-my_logging.py-INFO-日志信息：********结束将结果写回excel数据********
+2019-05-04 10:37:05,447-my_logging.py-INFO-日志信息：************************************
+2019-05-04 10:37:05,448-my_logging.py-INFO-日志信息：正在执行第9条用例“非正常手机号”
+2019-05-04 10:37:05,449-my_logging.py-INFO-日志信息：请求的参数为http://test.lemonban.com/futureloan/mvc/api/member/register,“{'mobilephone': '25587400', 'pwd': '123456'}”
+2019-05-04 10:37:05,465-my_logging.py-INFO-日志信息：********开始将结果写回excel数据********
+2019-05-04 10:37:05,702-my_logging.py-INFO-日志信息：********结束将结果写回excel数据********
+2019-05-04 10:41:04,502-my_logging.py-INFO-日志信息：************************************
+2019-05-04 10:41:04,507-my_logging.py-INFO-日志信息：正在执行第1条用例“正常注册”
+2019-05-04 10:41:04,529-my_logging.py-INFO-日志信息：请求的参数为http://test.lemonban.com/futureloan/mvc/api/member/register,“{'mobilephone': '18999999382', 'pwd': '123456', 'regname': '六月'}”
+2019-05-04 10:41:04,578-my_logging.py-INFO-日志信息：********开始将结果写回excel数据********
+2019-05-04 10:41:04,848-my_logging.py-INFO-日志信息：********结束将结果写回excel数据********
+2019-05-04 10:41:04,850-my_logging.py-INFO-日志信息：************************************
+2019-05-04 10:41:04,851-my_logging.py-INFO-日志信息：正在执行第2条用例“正常登录”
+2019-05-04 10:41:04,869-my_logging.py-INFO-日志信息：请求的参数为http://test.lemonban.com/futureloan/mvc/api/member/login,“{'mobilephone': '18999999382', 'pwd': '123456'}”
+2019-05-04 10:41:04,888-my_logging.py-INFO-日志信息：********开始将结果写回excel数据********
+2019-05-04 10:41:05,091-my_logging.py-INFO-日志信息：********结束将结果写回excel数据********
+2019-05-04 10:41:05,093-my_logging.py-INFO-日志信息：************************************
+2019-05-04 10:41:05,095-my_logging.py-INFO-日志信息：正在执行第3条用例“正常充值”
+2019-05-04 10:41:05,129-my_logging.py-INFO-日志信息：请求的参数为http://test.lemonban.com/futureloan/mvc/api/member/recharge,“{'mobilephone': '18999999382', 'amount': '1000'}”
+2019-05-04 10:41:05,168-my_logging.py-ERROR-日志信息：第3条用例“正常充值”出错 :: Decimal('-800.00') != Decimal('-1800.00')
+2019-05-04 10:41:05,170-my_logging.py-INFO-日志信息：********开始将结果写回excel数据********
+2019-05-04 10:41:05,363-my_logging.py-INFO-日志信息：********结束将结果写回excel数据********
+2019-05-04 10:41:05,367-my_logging.py-INFO-日志信息：************************************
+2019-05-04 10:41:05,368-my_logging.py-INFO-日志信息：正在执行第5条用例“手机号为空”
+2019-05-04 10:41:05,372-my_logging.py-INFO-日志信息：请求的参数为http://test.lemonban.com/futureloan/mvc/api/member/recharge,“{'mobilephone': '', 'amount': '1000'}”
+2019-05-04 10:41:05,386-my_logging.py-INFO-日志信息：********开始将结果写回excel数据********
+2019-05-04 10:41:05,580-my_logging.py-INFO-日志信息：********结束将结果写回excel数据********
+2019-05-04 10:41:05,583-my_logging.py-INFO-日志信息：************************************
+2019-05-04 10:41:05,584-my_logging.py-INFO-日志信息：正在执行第6条用例“充值金额为空”
+2019-05-04 10:41:05,586-my_logging.py-INFO-日志信息：请求的参数为http://test.lemonban.com/futureloan/mvc/api/member/recharge,“{'mobilephone': '15019215377', 'amount': ''}”
+2019-05-04 10:41:05,601-my_logging.py-INFO-日志信息：********开始将结果写回excel数据********
+2019-05-04 10:41:05,804-my_logging.py-INFO-日志信息：********结束将结果写回excel数据********
+2019-05-04 10:41:05,806-my_logging.py-INFO-日志信息：************************************
+2019-05-04 10:41:05,808-my_logging.py-INFO-日志信息：正在执行第7条用例“手机号未注册”
+2019-05-04 10:41:05,825-my_logging.py-INFO-日志信息：请求的参数为http://test.lemonban.com/futureloan/mvc/api/member/recharge,“{'mobilephone': '18999999383', 'amount': '1000'}”
+2019-05-04 10:41:05,839-my_logging.py-INFO-日志信息：********开始将结果写回excel数据********
+2019-05-04 10:41:06,025-my_logging.py-INFO-日志信息：********结束将结果写回excel数据********
+2019-05-04 10:41:06,026-my_logging.py-INFO-日志信息：************************************
+2019-05-04 10:41:06,027-my_logging.py-INFO-日志信息：正在执行第8条用例“金额超过两位小数”
+2019-05-04 10:41:06,028-my_logging.py-INFO-日志信息：请求的参数为http://test.lemonban.com/futureloan/mvc/api/member/recharge,“{'mobilephone': '15019215377', 'amount': '1000.123'}”
+2019-05-04 10:41:06,041-my_logging.py-INFO-日志信息：********开始将结果写回excel数据********
+2019-05-04 10:41:06,237-my_logging.py-INFO-日志信息：********结束将结果写回excel数据********
+2019-05-04 10:41:06,238-my_logging.py-INFO-日志信息：************************************
+2019-05-04 10:41:06,240-my_logging.py-INFO-日志信息：正在执行第9条用例“金额为负数”
+2019-05-04 10:41:06,241-my_logging.py-INFO-日志信息：请求的参数为http://test.lemonban.com/futureloan/mvc/api/member/recharge,“{'mobilephone': '15019215377', 'amount': '-1000.12'}”
+2019-05-04 10:41:06,254-my_logging.py-INFO-日志信息：********开始将结果写回excel数据********
+2019-05-04 10:41:06,446-my_logging.py-INFO-日志信息：********结束将结果写回excel数据********
+2019-05-04 10:41:06,448-my_logging.py-INFO-日志信息：************************************
+2019-05-04 10:41:06,450-my_logging.py-INFO-日志信息：正在执行第10条用例“输入非数字格式的金额”
+2019-05-04 10:41:06,451-my_logging.py-INFO-日志信息：请求的参数为http://test.lemonban.com/futureloan/mvc/api/member/recharge,“{'mobilephone': '15019215377', 'amount': 'a'}”
+2019-05-04 10:41:06,465-my_logging.py-INFO-日志信息：********开始将结果写回excel数据********
+2019-05-04 10:41:06,668-my_logging.py-INFO-日志信息：********结束将结果写回excel数据********
+2019-05-04 10:41:06,670-my_logging.py-INFO-日志信息：************************************
+2019-05-04 10:41:06,672-my_logging.py-INFO-日志信息：正在执行第11条用例“非法的手机号”
+2019-05-04 10:41:06,674-my_logging.py-INFO-日志信息：请求的参数为http://test.lemonban.com/futureloan/mvc/api/member/recharge,“{'mobilephone': '25019215377', 'amount': '1000'}”
+2019-05-04 10:41:06,692-my_logging.py-INFO-日志信息：********开始将结果写回excel数据********
+2019-05-04 10:41:06,874-my_logging.py-INFO-日志信息：********结束将结果写回excel数据********
+2019-05-04 10:41:50,552-my_logging.py-INFO-日志信息：************************************
+2019-05-04 10:41:50,556-my_logging.py-INFO-日志信息：正在执行第1条用例“正常登录”
+2019-05-04 10:41:50,560-my_logging.py-INFO-日志信息：请求的参数为：/member/login,{"mobilephone":"13777487502","pwd":"123456"}
+2019-05-04 10:41:50,561-my_logging.py-INFO-日志信息：请求的参数为http://test.lemonban.com/futureloan/mvc/api/member/login,“{'mobilephone': '13777487502', 'pwd': '123456'}”
+2019-05-04 10:41:50,591-my_logging.py-INFO-日志信息：********开始将结果写回excel数据********
+2019-05-04 10:41:50,788-my_logging.py-INFO-日志信息：********结束将结果写回excel数据********
+2019-05-04 10:41:50,790-my_logging.py-INFO-日志信息：************************************
+2019-05-04 10:41:50,792-my_logging.py-INFO-日志信息：正在执行第2条用例“加标(月标，一次性还款)”
+2019-05-04 10:41:50,794-my_logging.py-INFO-日志信息：请求的参数为：/loan/add,{"memberId":"97","title":"买车","amount":20000,"loanRate":"12.0","loanTerm":3,"loanDateType":0,"repaymemtWay":11,"biddingDays":4}
+2019-05-04 10:41:50,795-my_logging.py-INFO-日志信息：请求的参数为http://test.lemonban.com/futureloan/mvc/api/loan/add,“{'memberId': '97', 'title': '买车', 'amount': 20000, 'loanRate': '12.0', 'loanTerm': 3, 'loanDateType': 0, 'repaymemtWay': 11, 'biddingDays': 4}”
+2019-05-04 10:41:50,827-my_logging.py-INFO-日志信息：********开始将结果写回excel数据********
+2019-05-04 10:41:51,013-my_logging.py-INFO-日志信息：********结束将结果写回excel数据********
+2019-05-04 10:41:51,015-my_logging.py-INFO-日志信息：************************************
+2019-05-04 10:41:51,016-my_logging.py-INFO-日志信息：正在执行第3条用例“加标(天标，按月等额本息)”
+2019-05-04 10:41:51,019-my_logging.py-INFO-日志信息：请求的参数为：/loan/add,{"memberId":"97","title":"买车","amount":20000,"loanRate":"12.0","loanTerm":30,"loanDateType":2,"repaymemtWay":11,"biddingDays":5}
+2019-05-04 10:41:51,020-my_logging.py-INFO-日志信息：请求的参数为http://test.lemonban.com/futureloan/mvc/api/loan/add,“{'memberId': '97', 'title': '买车', 'amount': 20000, 'loanRate': '12.0', 'loanTerm': 30, 'loanDateType': 2, 'repaymemtWay': 11, 'biddingDays': 5}”
+2019-05-04 10:41:51,039-my_logging.py-INFO-日志信息：********开始将结果写回excel数据********
+2019-05-04 10:41:51,242-my_logging.py-INFO-日志信息：********结束将结果写回excel数据********
+2019-05-04 10:41:51,243-my_logging.py-INFO-日志信息：************************************
+2019-05-04 10:41:51,244-my_logging.py-INFO-日志信息：正在执行第4条用例“加标(周，按
+月等额本息线下)”
+2019-05-04 10:41:51,247-my_logging.py-INFO-日志信息：请求的参数为：/loan/add,{"memberId":"97","title":"买车","amount":20000,"loanRate":"18.0","loanTerm":10,"loanDateType":4,"repaymemtWay":11,"biddingDays":10}
+2019-05-04 10:41:51,248-my_logging.py-INFO-日志信息：请求的参数为http://test.lemonban.com/futureloan/mvc/api/loan/add,“{'memberId': '97', 'title': '买车', 'amount': 20000, 'loanRate': '18.0', 'loanTerm': 10, 'loanDateType': 4, 'repaymemtWay': 11, 'biddingDays': 10}”
+2019-05-04 10:41:51,269-my_logging.py-INFO-日志信息：********开始将结果写回excel数据********
+2019-05-04 10:41:51,444-my_logging.py-INFO-日志信息：********结束将结果写回excel数据********
+2019-05-04 10:41:51,446-my_logging.py-INFO-日志信息：************************************
+2019-05-04 10:41:51,447-my_logging.py-INFO-日志信息：正在执行第5条用例“加标(天标，按月付息到期还本)”
+2019-05-04 10:41:51,450-my_logging.py-INFO-日志信息：请求的参数为：/loan/add,{"memberId":"97","title":"买车","amount":20000,"loanRate":"12.0","loanTerm":30,"loanDateType":2,"repaymemtWay":11,"biddingDays":11}
+2019-05-04 10:41:51,452-my_logging.py-INFO-日志信息：请求的参数为http://test.lemonban.com/futureloan/mvc/api/loan/add,“{'memberId': '97', 'title': '买车', 'amount': 20000, 'loanRate': '12.0', 'loanTerm': 30, 'loanDateType': 2, 'repaymemtWay': 11, 'biddingDays': 11}”
+2019-05-04 10:41:51,490-my_logging.py-INFO-日志信息：********开始将结果写回excel数据********
+2019-05-04 10:41:51,682-my_logging.py-INFO-日志信息：********结束将结果写回excel数据********
+2019-05-04 10:41:51,684-my_logging.py-INFO-日志信息：************************************
+2019-05-04 10:41:51,685-my_logging.py-INFO-日志信息：正在执行第6条用例“用户ID错误”
+2019-05-04 10:41:51,686-my_logging.py-INFO-日志信息：请求的参数为：/loan/add,{"memberId":"FFFF","title":"买车","amount":20000,"loanRate":"12.0","loanTerm":3,"loanDateType":0,"repaymemtWay":11,"biddingDays":6}
+2019-05-04 10:41:51,688-my_logging.py-INFO-日志信息：请求的参数为http://test.lemonban.com/futureloan/mvc/api/loan/add,“{'memberId': 'FFFF', 'title': '买车', 'amount': 20000, 'loanRate': '12.0', 'loanTerm': 3, 'loanDateType': 0, 'repaymemtWay': 11, 'biddingDays': 6}”
+2019-05-04 10:41:51,702-my_logging.py-ERROR-日志信息：第6条用例“用户ID错误”出错 :: 20104 != 20109
+2019-05-04 10:41:51,703-my_logging.py-INFO-日志信息：********开始将结果写回excel数据********
+2019-05-04 10:41:51,879-my_logging.py-INFO-日志信息：********结束将结果写回excel数据********
+2019-05-04 10:41:51,886-my_logging.py-INFO-日志信息：************************************
+2019-05-04 10:41:51,888-my_logging.py-INFO-日志信息：正在执行第7条用例“用户ID为空”
+2019-05-04 10:41:51,889-my_logging.py-INFO-日志信息：请求的参数为：/loan/add,{"memberId":"","title":"买车","amount":20000,"loanRate":"12.0","loanTerm":3,"loanDateType":0,"repaymemtWay":11,"biddingDays":5}
+2019-05-04 10:41:51,890-my_logging.py-INFO-日志信息：请求的参数为http://test.lemonban.com/futureloan/mvc/api/loan/add,“{'memberId': '', 'title': '买车', 'amount': 20000, 'loanRate': '12.0', 'loanTerm': 3, 'loanDateType': 0, 'repaymemtWay': 11, 'biddingDays': 5}”
+2019-05-04 10:41:51,903-my_logging.py-INFO-日志信息：********开始将结果写回excel数据********
+2019-05-04 10:41:52,090-my_logging.py-INFO-日志信息：********结束将结果写回excel数据********
+2019-05-04 10:41:52,094-my_logging.py-INFO-日志信息：************************************
+2019-05-04 10:41:52,095-my_logging.py-INFO-日志信息：正在执行第8条用例“标的title为空”
+2019-05-04 10:41:52,097-my_logging.py-INFO-日志信息：请求的参数为：/loan/add,{"memberId":"97","title":"","amount":20000,"loanRate":"12.0","loanTerm":3,"loanDateType":0,"repaymemtWay":11,"biddingDays":5}
+2019-05-04 10:41:52,098-my_logging.py-INFO-日志信息：请求的参数为http://test.lemonban.com/futureloan/mvc/api/loan/add,“{'memberId': '97', 'title': '', 'amount': 20000, 'loanRate': '12.0', 'loanTerm': 3, 'loanDateType': 0, 'repaymemtWay': 11, 'biddingDays': 5}”
+2019-05-04 10:41:52,611-my_logging.py-INFO-日志信息：********开始将结果写回excel数据********
+2019-05-04 10:41:52,860-my_logging.py-INFO-日志信息：********结束将结果写回excel数据********
+2019-05-04 10:41:52,862-my_logging.py-INFO-日志信息：************************************
+2019-05-04 10:41:52,863-my_logging.py-INFO-日志信息：正在执行第9条用例“标的amount为空”
+2019-05-04 10:41:52,865-my_logging.py-INFO-日志信息：请求的参数为：/loan/add,{"memberId":"97","title":"买车","amount":"","loanRate":"12.0","loanTerm":3,"loanDateType":0,"repaymemtWay":11,"biddingDays":5}
+2019-05-04 10:41:52,866-my_logging.py-INFO-日志信息：请求的参数为http://test.lemonban.com/futureloan/mvc/api/loan/add,“{'memberId': '97', 'title': '买车', 'amount': '', 'loanRate': '12.0', 'loanTerm': 3, 'loanDateType': 0, 'repaymemtWay': 11, 'biddingDays': 5}”
+2019-05-04 10:41:52,881-my_logging.py-INFO-日志信息：********开始将结果写回excel数据********
+2019-05-04 10:41:53,062-my_logging.py-INFO-日志信息：********结束将结果写回excel数据********
+2019-05-04 10:41:53,066-my_logging.py-INFO-日志信息：************************************
+2019-05-04 10:41:53,068-my_logging.py-INFO-日志信息：正在执行第10条用例“年利率为空”
+2019-05-04 10:41:53,070-my_logging.py-INFO-日志信息：请求的参数为：/loan/add,{"memberId":"97","title":"买车","amount":20000,"loanRate":"","loanTerm":3,"loanDateType":0,"repaymemtWay":11,"biddingDays":5}
+2019-05-04 10:41:53,071-my_logging.py-INFO-日志信息：请求的参数为http://test.lemonban.com/futureloan/mvc/api/loan/add,“{'memberId': '97', 'title': '买车', 'amount': 20000, 'loanRate': '', 'loanTerm': 3, 'loanDateType': 0, 'repaymemtWay': 11, 'biddingDays': 5}”
+2019-05-04 10:41:53,085-my_logging.py-INFO-日志信息：********开始将结果写回excel数据********
+2019-05-04 10:41:53,286-my_logging.py-INFO-日志信息：********结束将结果写回excel数据********
+2019-05-04 10:41:53,289-my_logging.py-INFO-日志信息：************************************
+2019-05-04 10:41:53,291-my_logging.py-INFO-日志信息：正在执行第11条用例“借款期限为空”
+2019-05-04 10:41:53,294-my_logging.py-INFO-日志信息：请求的参数为：/loan/add,{"memberId":"97","title":"买车","amount":20000,"loanRate":"12.0","loanTerm":"","loanDateType":0,"repaymemtWay":11,"biddingDays":5}
+2019-05-04 10:41:53,295-my_logging.py-INFO-日志信息：请求的参数为http://test.lemonban.com/futureloan/mvc/api/loan/add,“{'memberId': '97', 'title': '买车', 'amount': 20000, 'loanRate': '12.0', 'loanTerm': '', 'loanDateType': 0, 'repaymemtWay': 11, 'biddingDays': 5}”
+2019-05-04 10:41:53,313-my_logging.py-INFO-日志信息：********开始将结果写回excel数据********
+2019-05-04 10:41:53,495-my_logging.py-INFO-日志信息：********结束将结果写回excel数据********
+2019-05-04 10:41:53,499-my_logging.py-INFO-日志信息：************************************
+2019-05-04 10:41:53,500-my_logging.py-INFO-日志信息：正在执行第12条用例“还款方式为空”
+2019-05-04 10:41:53,503-my_logging.py-INFO-日志信息：请求的参数为：/loan/add,{"memberId":"97","title":"买车","amount":20000,"loanRate":"12.0","loanTerm":3,"loanDateType":"","repaymemtWay":11,"biddingDays":5}
+2019-05-04 10:41:53,504-my_logging.py-INFO-日志信息：请求的参数为http://test.lemonban.com/futureloan/mvc/api/loan/add,“{'memberId': '97', 'title': '买车', 'amount': 20000, 'loanRate': '12.0', 'loanTerm': 3, 'loanDateType': '', 'repaymemtWay': 11, 'biddingDays': 5}”
+2019-05-04 10:41:53,517-my_logging.py-INFO-日志信息：********开始将结果写回excel数据********
+2019-05-04 10:41:53,721-my_logging.py-INFO-日志信息：********结束将结果写回excel数据********
+2019-05-04 10:41:53,723-my_logging.py-INFO-日志信息：************************************
+2019-05-04 10:41:53,724-my_logging.py-INFO-日志信息：正在执行第13条用例“竞标天数为空”
+2019-05-04 10:41:53,727-my_logging.py-INFO-日志信息：请求的参数为：/loan/add,{"memberId":"97","title":"买车","amount":20000,"loanRate":"12.0","loanTerm":3,"loanDateType":0,"repaymemtWay":11,"biddingDays":""}
+2019-05-04 10:41:53,728-my_logging.py-INFO-日志信息：请求的参数为http://test.lemonban.com/futureloan/mvc/api/loan/add,“{'memberId': '97', 'title': '买车', 'amount': 20000, 'loanRate': '12.0', 'loanTerm': 3, 'loanDateType': 0, 'repaymemtWay': 11, 'biddingDays': ''}”
+2019-05-04 10:41:53,743-my_logging.py-INFO-日志信息：********开始将结果写回excel数据********
+2019-05-04 10:41:54,026-my_logging.py-INFO-日志信息：********结束将结果写回excel数据********
+2019-05-04 10:41:54,028-my_logging.py-INFO-日志信息：************************************
+2019-05-04 10:41:54,029-my_logging.py-INFO-日志信息：正在执行第14条用例“未注册的用户加标”
+2019-05-04 10:41:54,046-my_logging.py-INFO-日志信息：请求的参数为：/loan/add,{"memberId":"705","title":"买车","amount":20000,"loanRate":"12.0","loanTerm":3,"loanDateType":0,"repaymemtWay":11,"biddingDays":5}
+2019-05-04 10:41:54,047-my_logging.py-INFO-日志信息：请求的参数为http://test.lemonban.com/futureloan/mvc/api/loan/add,“{'memberId': '705', 'title': '买车', 'amount': 20000, 'loanRate': '12.0', 'loanTerm': 3, 'loanDateType': 0, 'repaymemtWay': 11, 'biddingDays': 5}”
+2019-05-04 10:41:54,062-my_logging.py-INFO-日志信息：********开始将结果写回excel数据********
+2019-05-04 10:41:54,259-my_logging.py-INFO-日志信息：********结束将结果写回excel数据********
+2019-05-04 10:41:54,260-my_logging.py-INFO-日志信息：************************************
+2019-05-04 10:41:54,261-my_logging.py-INFO-日志信息：正在执行第15条用例“借款金额小于 1000”
+2019-05-04 10:41:54,264-my_logging.py-INFO-日志信息：请求的参数为：/loan/add,{"memberId":"97","title":"买房","amount":200,"loanRate":"12.0","loanTerm":3,"loanDateType":0,"repaymemtWay":11,"biddingDays":4}
+2019-05-04 10:41:54,265-my_logging.py-INFO-日志信息：请求的参数为http://test.lemonban.com/futureloan/mvc/api/loan/add,“{'memberId': '97', 'title': '买房', 'amount': 200, 'loanRate': '12.0', 'loanTerm': 3, 'loanDateType': 0, 'repaymemtWay': 11, 'biddingDays': 4}”
+2019-05-04 10:41:54,298-my_logging.py-ERROR-日志信息：第15条用例“借款金额小于 1000”出错 :: 20106 != 10001
+2019-05-04 10:41:54,299-my_logging.py-INFO-日志信息：********开始将结果写回excel数据********
+2019-05-04 10:41:54,512-my_logging.py-INFO-日志信息：********结束将结果写回excel数据********
+2019-05-04 10:41:54,516-my_logging.py-INFO-日志信息：************************************
+2019-05-04 10:41:54,517-my_logging.py-INFO-日志信息：正在执行第16条用例“借款金额不能被 100 整除的正整数”
+2019-05-04 10:41:54,519-my_logging.py-INFO-日志信息：请求的参数为：/loan/add,{"memberId":"97","title":"买房","amount":20001,"loanRate":"12.0","loanTerm":3,"loanDateType":0,"repaymemtWay":11,"biddingDays":4}
+2019-05-04 10:41:54,521-my_logging.py-INFO-日志信息：请求的参数为http://test.lemonban.com/futureloan/mvc/api/loan/add,“{'memberId': '97', 'title': '买房', 'amount': 20001, 'loanRate': '12.0', 'loanTerm': 3, 'loanDateType': 0, 'repaymemtWay': 11, 'biddingDays': 4}”
+2019-05-04 10:41:54,537-my_logging.py-INFO-日志信息：********开始将结果写回excel数据********
+2019-05-04 10:41:54,736-my_logging.py-INFO-日志信息：********结束将结果写回excel数据********
+2019-05-04 10:41:54,738-my_logging.py-INFO-日志信息：************************************
+2019-05-04 10:41:54,739-my_logging.py-INFO-日志信息：正在执行第17条用例“借款利率小于 0”
+2019-05-04 10:41:54,743-my_logging.py-INFO-日志信息：请求的参数为：/loan/add,{"memberId":"97","title":"买房","amount":200,"loanRate":"-2","loanTerm":3,"loanDateType":0,"repaymemtWay":11,"biddingDays":4}
+2019-05-04 10:41:54,745-my_logging.py-INFO-日志信息：请求的参数为http://test.lemonban.com/futureloan/mvc/api/loan/add,“{'memberId': '97', 'title': '买房', 'amount': 200, 'loanRate': '-2', 'loanTerm': 3, 'loanDateType': 0, 'repaymemtWay': 11, 'biddingDays': 4}”
+2019-05-04 10:41:54,759-my_logging.py-INFO-日志信息：********开始将结果写回excel数据********
+2019-05-04 10:41:54,938-my_logging.py-INFO-日志信息：********结束将结果写回excel数据********
+2019-05-04 10:41:54,940-my_logging.py-INFO-日志信息：************************************
+2019-05-04 10:41:54,941-my_logging.py-INFO-日志信息：正在执行第18条用例“借款利率大于 24”
+2019-05-04 10:41:54,942-my_logging.py-INFO-日志信息：请求的参数为：/loan/add,{"memberId":"97","title":"买房","amount":200,"loanRate":"26","loanTerm":3,"loanDateType":0,"repaymemtWay":11,"biddingDays":4}
+2019-05-04 10:41:54,945-my_logging.py-INFO-日志信息：请求的参数为http://test.lemonban.com/futureloan/mvc/api/loan/add,“{'memberId': '97', 'title': '买房', 'amount': 200, 'loanRate': '26', 'loanTerm': 3, 'loanDateType': 0, 'repaymemtWay': 11, 'biddingDays': 4}”
+2019-05-04 10:41:54,963-my_logging.py-INFO-日志信息：********开始将结果写回excel数据********
+2019-05-04 10:41:55,176-my_logging.py-INFO-日志信息：********结束将结果写回excel数据********
+2019-05-04 10:41:55,179-my_logging.py-INFO-日志信息：************************************
+2019-05-04 10:41:55,181-my_logging.py-INFO-日志信息：正在执行第19条用例“借款日期类型不为 0,2,4”
+2019-05-04 10:41:55,185-my_logging.py-INFO-日志信息：请求的参数为：/loan/add,{"memberId":"97","title":"买房","amount":200,"loanRate":"12.0","loanTerm":3,"loanDateType":5,"repaymemtWay":11,"biddingDays":4}
+2019-05-04 10:41:55,187-my_logging.py-INFO-日志信息：请求的参数为http://test.lemonban.com/futureloan/mvc/api/loan/add,“{'memberId': '97', 'title': '买房', 'amount': 200, 'loanRate': '12.0', 'loanTerm': 3, 'loanDateType': 5, 'repaymemtWay': 11, 'biddingDays': 4}”
+2019-05-04 10:41:55,202-my_logging.py-INFO-日志信息：********开始将结果写回excel数据********
+2019-05-04 10:41:55,429-my_logging.py-INFO-日志信息：********结束将结果写回excel数据********
+2019-05-04 10:41:55,434-my_logging.py-INFO-日志信息：************************************
+2019-05-04 10:41:55,437-my_logging.py-INFO-日志信息：正在执行第20条用例“输入非数字”
+2019-05-04 10:41:55,440-my_logging.py-INFO-日志信息：请求的参数为：/loan/add,{"memberId":"97","title":"买房","amount":200,"loanRate":"12.0","loanTerm":3,"loanDateType":2,"repaymemtWay":11,"biddingDays":"a"}
+2019-05-04 10:41:55,444-my_logging.py-INFO-日志信息：请求的参数为http://test.lemonban.com/futureloan/mvc/api/loan/add,“{'memberId': '97', 'title': '买房', 'amount': 200, 'loanRate': '12.0', 'loanTerm': 3, 'loanDateType': 2, 'repaymemtWay': 11, 'biddingDays': 'a'}”
+2019-05-04 10:41:55,462-my_logging.py-INFO-日志信息：********开始将结果写回excel数据********
+2019-05-04 10:41:55,872-my_logging.py-INFO-日志信息：********结束将结果写回excel数据********
+2019-05-04 10:42:08,556-my_logging.py-INFO-日志信息：************************************
+2019-05-04 10:42:08,560-my_logging.py-INFO-日志信息：正在执行第1条用例“正常登录”
+2019-05-04 10:42:08,564-my_logging.py-INFO-日志信息：请求的参数为http://test.lemonban.com/futureloan/mvc/api/member/login,“{'mobilephone': '13777487502', 'pwd': '123456'}”
+2019-05-04 10:42:08,598-my_logging.py-INFO-日志信息：********开始将结果写回excel数据********
+2019-05-04 10:42:08,788-my_logging.py-INFO-日志信息：********结束将结果写回excel数据********
+2019-05-04 10:42:08,790-my_logging.py-INFO-日志信息：************************************
+2019-05-04 10:42:08,791-my_logging.py-INFO-日志信息：正在执行第2条用例“竞标成功”
+2019-05-04 10:42:08,795-my_logging.py-INFO-日志信息：请求的参数为http://test.lemonban.com/futureloan/mvc/api/member/bidLoan,“{'memberId': '97', 'password': '123456', 'loanId': '36', 'amount': 200}”
+2019-05-04 10:42:08,852-my_logging.py-INFO-日志信息：********开始将结果写回excel数据********
+2019-05-04 10:42:09,025-my_logging.py-INFO-日志信息：********结束将结果写回excel数据********
+2019-05-04 10:42:09,027-my_logging.py-INFO-日志信息：************************************
+2019-05-04 10:42:09,028-my_logging.py-INFO-日志信息：正在执行第3条用例“投资金额为空”
+2019-05-04 10:42:09,034-my_logging.py-INFO-日志信息：请求的参数为http://test.lemonban.com/futureloan/mvc/api/member/bidLoan,“{'memberId': '97', 'password': '123456', 'loanId': '36', 'amount': ''}”
+2019-05-04 10:42:09,048-my_logging.py-INFO-日志信息：********开始将结果写回excel数据********
+2019-05-04 10:42:09,232-my_logging.py-INFO-日志信息：********结束将结果写回excel数据********
+2019-05-04 10:42:09,234-my_logging.py-INFO-日志信息：************************************
+2019-05-04 10:42:09,235-my_logging.py-INFO-日志信息：正在执行第4条用例“用户ID小于0”
+2019-05-04 10:42:09,240-my_logging.py-INFO-日志信息：请求的参数为http://test.lemonban.com/futureloan/mvc/api/member/bidLoan,“{'memberId': -2, 'password': '123456', 'loanId': '36', 'amount': 100}”
+2019-05-04 10:42:09,254-my_logging.py-INFO-日志信息：********开始将结果写回excel数据********
+2019-05-04 10:42:09,434-my_logging.py-INFO-日志信息：********结束将结果写回excel数据********
+2019-05-04 10:42:09,435-my_logging.py-INFO-日志信息：************************************
+2019-05-04 10:42:09,436-my_logging.py-INFO-日志信息：正在执行第5条用例“投资ID小于0”
+2019-05-04 10:42:09,444-my_logging.py-INFO-日志信息：请求的参数为http://test.lemonban.com/futureloan/mvc/api/member/bidLoan,“{'memberId': '97', 'password': '123456', 'loanId': -3, 'amount': 200}”
+2019-05-04 10:42:09,460-my_logging.py-ERROR-日志信息：第5条用例“投资ID小于0”出错 :: 11005 != 11009
+2019-05-04 10:42:09,461-my_logging.py-INFO-日志信息：********开始将结果写回excel数据********
+2019-05-04 10:42:09,642-my_logging.py-INFO-日志信息：********结束将结果写回excel数据********
+2019-05-04 10:42:09,648-my_logging.py-INFO-日志信息：************************************
+2019-05-04 10:42:09,649-my_logging.py-INFO-日志信息：正在执行第6条用例“密码小于6位”
+2019-05-04 10:42:09,655-my_logging.py-INFO-日志信息：请求的参数为http://test.lemonban.com/futureloan/mvc/api/member/bidLoan,“{'memberId': '97', 'password': '12345', 'loanId': '36', 'amount': 100}”
+2019-05-04 10:42:09,676-my_logging.py-INFO-日志信息：********开始将结果写回excel数据********
+2019-05-04 10:42:09,882-my_logging.py-INFO-日志信息：********结束将结果写回excel数据********
+2019-05-04 10:42:09,884-my_logging.py-INFO-日志信息：************************************
+2019-05-04 10:42:09,885-my_logging.py-INFO-日志信息：正在执行第7条用例“密码大于18位”
+2019-05-04 10:42:09,889-my_logging.py-INFO-日志信息：请求的参数为http://test.lemonban.com/futureloan/mvc/api/member/bidLoan,“{'memberId': '97', 'password': '1234567890123456789', 'loanId': '36', 'amount': 100}”
+2019-05-04 10:42:09,905-my_logging.py-INFO-日志信息：********开始将结果写回excel数据********
+2019-05-04 10:42:10,084-my_logging.py-INFO-日志信息：********结束将结果写回excel数据********
+2019-05-04 10:42:10,085-my_logging.py-INFO-日志信息：************************************
+2019-05-04 10:42:10,086-my_logging.py-INFO-日志信息：正在执行第8条用例“投资金额不能被100整除”
+2019-05-04 10:42:10,093-my_logging.py-INFO-日志信息：请求的参数为http://test.lemonban.com/futureloan/mvc/api/member/bidLoan,“{'memberId': '97', 'password': '123456', 'loanId': '36', 'amount': 101}”
+2019-05-04 10:42:10,108-my_logging.py-INFO-日志信息：********开始将结果写回excel数据********
+2019-05-04 10:42:10,295-my_logging.py-INFO-日志信息：********结束将结果写回excel数据********
+2019-05-04 10:42:10,302-my_logging.py-INFO-日志信息：************************************
+2019-05-04 10:42:10,303-my_logging.py-INFO-日志信息：正在执行第14条用例“输入非法数据”
+2019-05-04 10:42:10,308-my_logging.py-INFO-日志信息：请求的参数为http://test.lemonban.com/futureloan/mvc/api/member/bidLoan,“{'memberId': '97', 'password': '123456', 'loanId': '36', 'amount': 'ab'}”
+2019-05-04 10:42:10,325-my_logging.py-INFO-日志信息：********开始将结果写回excel数据********
+2019-05-04 10:42:10,504-my_logging.py-INFO-日志信息：********结束将结果写回excel数据********
+2019-05-04 10:43:10,312-my_logging.py-INFO-日志信息：************************************
+2019-05-04 10:43:10,313-my_logging.py-INFO-日志信息：正在执行第1条用例“管理员正常登录”
+2019-05-04 10:43:10,318-my_logging.py-INFO-日志信息：请求的参数为http://test.lemonban.com/futureloan/mvc/api/member/login,“{'mobilephone': '13661409257', 'pwd': '123456'}”
+2019-05-04 10:43:10,352-my_logging.py-INFO-日志信息：********开始将结果写回excel数据********
+2019-05-04 10:43:10,559-my_logging.py-INFO-日志信息：********结束将结果写回excel数据********
+2019-05-04 10:43:10,561-my_logging.py-INFO-日志信息：************************************
+2019-05-04 10:43:10,562-my_logging.py-INFO-日志信息：正在执行第2条用例“管理员加标”
+2019-05-04 10:43:10,564-my_logging.py-INFO-日志信息：请求的参数为http://test.lemonban.com/futureloan/mvc/api/loan/add,“{'memberId': '97', 'title': '世界这么大，想去看一看', 'amount': 20000, 'loanRate': '12.0', 'loanTerm': 3, 'loanDateType': 0, 'repaymemtWay': 11, 'biddingDays': 5}”
+2019-05-04 10:43:10,625-my_logging.py-INFO-日志信息：********开始将结果写回excel数据********
+2019-05-04 10:43:10,802-my_logging.py-INFO-日志信息：********结束将结果写回excel数据********
+2019-05-04 10:43:10,803-my_logging.py-INFO-日志信息：************************************
+2019-05-04 10:43:10,804-my_logging.py-INFO-日志信息：正在执行第3条用例“管理员审核”
+2019-05-04 10:43:10,807-my_logging.py-INFO-日志信息：请求的参数为http://test.lemonban.com/futureloan/mvc/api/loan/audit,“{'id': '278', 'status': 4}”
+2019-05-04 10:43:10,827-my_logging.py-INFO-日志信息：********开始将结果写回excel数据********
+2019-05-04 10:43:11,033-my_logging.py-INFO-日志信息：********结束将结果写回excel数据********
+2019-05-04 10:43:11,034-my_logging.py-INFO-日志信息：************************************
+2019-05-04 10:43:11,036-my_logging.py-INFO-日志信息：正在执行第4条用例“投资人正常登录”
+2019-05-04 10:43:11,040-my_logging.py-INFO-日志信息：请求的参数为http://test.lemonban.com/futureloan/mvc/api/member/login,“{'mobilephone': '13777487502', 'pwd': '123456'}”
+2019-05-04 10:43:11,058-my_logging.py-INFO-日志信息：********开始将结果写回excel数据********
+2019-05-04 10:43:11,315-my_logging.py-INFO-日志信息：********结束将结果写回excel数据********
+2019-05-04 10:43:11,316-my_logging.py-INFO-日志信息：************************************
+2019-05-04 10:43:11,318-my_logging.py-INFO-日志信息：正在执行第5条用例“投资人正常投资”
+2019-05-04 10:43:11,325-my_logging.py-INFO-日志信息：请求的参数为http://test.lemonban.com/futureloan/mvc/api/member/bidLoan,“{'memberId': '96', 'password': '123456', 'loanId': '278', 'amount': '100'}”
+2019-05-04 10:43:11,368-my_logging.py-INFO-日志信息：********开始将结果写回excel数据********
+2019-05-04 10:43:11,665-my_logging.py-INFO-日志信息：********结束将结果写回excel数据********
+2019-05-04 10:43:11,829-my_logging.py-INFO-日志信息：************************************
+2019-05-04 10:43:11,831-my_logging.py-INFO-日志信息：正在执行第1条用例“正常登录”
+2019-05-04 10:43:11,834-my_logging.py-INFO-日志信息：请求的参数为http://test.lemonban.com/futureloan/mvc/api/member/login,“{'mobilephone': '13777487502', 'pwd': '123456'}”
+2019-05-04 10:43:11,859-my_logging.py-INFO-日志信息：********开始将结果写回excel数据********
+2019-05-04 10:43:12,046-my_logging.py-INFO-日志信息：********结束将结果写回excel数据********
+2019-05-04 10:43:12,047-my_logging.py-INFO-日志信息：************************************
+2019-05-04 10:43:12,048-my_logging.py-INFO-日志信息：正在执行第2条用例“竞标成功”
+2019-05-04 10:43:12,052-my_logging.py-INFO-日志信息：请求的参数为http://test.lemonban.com/futureloan/mvc/api/member/bidLoan,“{'memberId': '97', 'password': '123456', 'loanId': '36', 'amount': 200}”
+2019-05-04 10:43:12,115-my_logging.py-INFO-日志信息：********开始将结果写回excel数据********
+2019-05-04 10:43:12,313-my_logging.py-INFO-日志信息：********结束将结果写回excel数据********
+2019-05-04 10:43:12,315-my_logging.py-INFO-日志信息：************************************
+2019-05-04 10:43:12,316-my_logging.py-INFO-日志信息：正在执行第3条用例“投资金额为空”
+2019-05-04 10:43:12,321-my_logging.py-INFO-日志信息：请求的参数为http://test.lemonban.com/futureloan/mvc/api/member/bidLoan,“{'memberId': '97', 'password': '123456', 'loanId': '36', 'amount': ''}”
+2019-05-04 10:43:12,337-my_logging.py-INFO-日志信息：********开始将结果写回excel数据********
+2019-05-04 10:43:12,633-my_logging.py-INFO-日志信息：********结束将结果写回excel数据********
+2019-05-04 10:43:12,635-my_logging.py-INFO-日志信息：************************************
+2019-05-04 10:43:12,637-my_logging.py-INFO-日志信息：正在执行第4条用例“用户ID小于0”
+2019-05-04 10:43:12,642-my_logging.py-INFO-日志信息：请求的参数为http://test.lemonban.com/futureloan/mvc/api/member/bidLoan,“{'memberId': -2, 'password': '123456', 'loanId': '36', 'amount': 100}”
+2019-05-04 10:43:12,658-my_logging.py-INFO-日志信息：********开始将结果写回excel数据********
+2019-05-04 10:43:12,891-my_logging.py-INFO-日志信息：********结束将结果写回excel数据********
+2019-05-04 10:43:12,892-my_logging.py-INFO-日志信息：************************************
+2019-05-04 10:43:12,893-my_logging.py-INFO-日志信息：正在执行第5条用例“投资ID小于0”
+2019-05-04 10:43:12,898-my_logging.py-INFO-日志信息：请求的参数为http://test.lemonban.com/futureloan/mvc/api/member/bidLoan,“{'memberId': '97', 'password': '123456', 'loanId': -3, 'amount': 200}”
+2019-05-04 10:43:12,914-my_logging.py-ERROR-日志信息：第5条用例“投资ID小于0”出错'11005' != '11009'
+- 11005
+?     ^
++ 11009
+?     ^
+
+2019-05-04 10:43:12,915-my_logging.py-INFO-日志信息：********开始将结果写回excel数据********
+2019-05-04 10:43:13,103-my_logging.py-INFO-日志信息：********结束将结果写回excel数据********
+2019-05-04 10:43:13,105-my_logging.py-INFO-日志信息：************************************
+2019-05-04 10:43:13,107-my_logging.py-INFO-日志信息：正在执行第6条用例“密码小于6位”
+2019-05-04 10:43:13,110-my_logging.py-INFO-日志信息：请求的参数为http://test.lemonban.com/futureloan/mvc/api/member/bidLoan,“{'memberId': '97', 'password': '12345', 'loanId': '36', 'amount': 100}”
+2019-05-04 10:43:13,123-my_logging.py-INFO-日志信息：********开始将结果写回excel数据********
+2019-05-04 10:43:13,307-my_logging.py-INFO-日志信息：********结束将结果写回excel数据********
+2019-05-04 10:43:13,309-my_logging.py-INFO-日志信息：************************************
+2019-05-04 10:43:13,310-my_logging.py-INFO-日志信息：正在执行第7条用例“密码大于18位”
+2019-05-04 10:43:13,314-my_logging.py-INFO-日志信息：请求的参数为http://test.lemonban.com/futureloan/mvc/api/member/bidLoan,“{'memberId': '97', 'password': '1234567890123456789', 'loanId': '36', 'amount': 100}”
+2019-05-04 10:43:13,328-my_logging.py-INFO-日志信息：********开始将结果写回excel数据********
+2019-05-04 10:43:13,553-my_logging.py-INFO-日志信息：********结束将结果写回excel数据********
+2019-05-04 10:43:13,554-my_logging.py-INFO-日志信息：************************************
+2019-05-04 10:43:13,555-my_logging.py-INFO-日志信息：正在执行第8条用例“投资金额不能被100整除”
+2019-05-04 10:43:13,559-my_logging.py-INFO-日志信息：请求的参数为http://test.lemonban.com/futureloan/mvc/api/member/bidLoan,“{'memberId': '97', 'password': '123456', 'loanId': '36', 'amount': 101}”
+2019-05-04 10:43:13,580-my_logging.py-INFO-日志信息：********开始将结果写回excel数据********
+2019-05-04 10:43:13,749-my_logging.py-INFO-日志信息：********结束将结果写回excel数据********
+2019-05-04 10:43:13,751-my_logging.py-INFO-日志信息：************************************
+2019-05-04 10:43:13,752-my_logging.py-INFO-日志信息：正在执行第14条用例“输入非法数据”
+2019-05-04 10:43:13,757-my_logging.py-INFO-日志信息：请求的参数为http://test.lemonban.com/futureloan/mvc/api/member/bidLoan,“{'memberId': '97', 'password': '123456', 'loanId': '36', 'amount': 'ab'}”
+2019-05-04 10:43:13,773-my_logging.py-INFO-日志信息：********开始将结果写回excel数据********
+2019-05-04 10:43:13,952-my_logging.py-INFO-日志信息：********结束将结果写回excel数据********
+2019-05-04 10:43:14,075-my_logging.py-INFO-日志信息：************************************
+2019-05-04 10:43:14,076-my_logging.py-INFO-日志信息：正在执行第1条用例“正常登录”
+2019-05-04 10:43:14,079-my_logging.py-INFO-日志信息：请求的参数为：/member/login,{"mobilephone":"13777487502","pwd":"123456"}
+2019-05-04 10:43:14,081-my_logging.py-INFO-日志信息：请求的参数为http://test.lemonban.com/futureloan/mvc/api/member/login,“{'mobilephone': '13777487502', 'pwd': '123456'}”
+2019-05-04 10:43:14,105-my_logging.py-INFO-日志信息：********开始将结果写回excel数据********
+2019-05-04 10:43:14,273-my_logging.py-INFO-日志信息：********结束将结果写回excel数据********
+2019-05-04 10:43:14,274-my_logging.py-INFO-日志信息：************************************
+2019-05-04 10:43:14,275-my_logging.py-INFO-日志信息：正在执行第2条用例“加标(月标，一次性还款)”
+2019-05-04 10:43:14,277-my_logging.py-INFO-日志信息：请求的参数为：/loan/add,{"memberId":"97","title":"买车","amount":20000,"loanRate":"12.0","loanTerm":3,"loanDateType":0,"repaymemtWay":11,"biddingDays":4}
+2019-05-04 10:43:14,278-my_logging.py-INFO-日志信息：请求的参数为http://test.lemonban.com/futureloan/mvc/api/loan/add,“{'memberId': '97', 'title': '买车', 'amount': 20000, 'loanRate': '12.0', 'loanTerm': 3, 'loanDateType': 0, 'repaymemtWay': 11, 'biddingDays': 4}”
+2019-05-04 10:43:14,319-my_logging.py-INFO-日志信息：********开始将结果写回excel数据********
+2019-05-04 10:43:14,496-my_logging.py-INFO-日志信息：********结束将结果写回excel数据********
+2019-05-04 10:43:14,498-my_logging.py-INFO-日志信息：************************************
+2019-05-04 10:43:14,499-my_logging.py-INFO-日志信息：正在执行第3条用例“加标(天标，按月等额本息)”
+2019-05-04 10:43:14,501-my_logging.py-INFO-日志信息：请求的参数为：/loan/add,{"memberId":"97","title":"买车","amount":20000,"loanRate":"12.0","loanTerm":30,"loanDateType":2,"repaymemtWay":11,"biddingDays":5}
+2019-05-04 10:43:14,502-my_logging.py-INFO-日志信息：请求的参数为http://test.lemonban.com/futureloan/mvc/api/loan/add,“{'memberId': '97', 'title': '买车', 'amount': 20000, 'loanRate': '12.0', 'loanTerm': 30, 'loanDateType': 2, 'repaymemtWay': 11, 'biddingDays': 5}”
+2019-05-04 10:43:14,529-my_logging.py-INFO-日志信息：********开始将结果写回excel数据********
+2019-05-04 10:43:14,702-my_logging.py-INFO-日志信息：********结束将结果写回excel数据********
+2019-05-04 10:43:14,703-my_logging.py-INFO-日志信息：************************************
+2019-05-04 10:43:14,704-my_logging.py-INFO-日志信息：正在执行第4条用例“加标(周，按
+月等额本息线下)”
+2019-05-04 10:43:14,706-my_logging.py-INFO-日志信息：请求的参数为：/loan/add,{"memberId":"97","title":"买车","amount":20000,"loanRate":"18.0","loanTerm":10,"loanDateType":4,"repaymemtWay":11,"biddingDays":10}
+2019-05-04 10:43:14,707-my_logging.py-INFO-日志信息：请求的参数为http://test.lemonban.com/futureloan/mvc/api/loan/add,“{'memberId': '97', 'title': '买车', 'amount': 20000, 'loanRate': '18.0', 'loanTerm': 10, 'loanDateType': 4, 'repaymemtWay': 11, 'biddingDays': 10}”
+2019-05-04 10:43:14,726-my_logging.py-INFO-日志信息：********开始将结果写回excel数据********
+2019-05-04 10:43:14,900-my_logging.py-INFO-日志信息：********结束将结果写回excel数据********
+2019-05-04 10:43:14,901-my_logging.py-INFO-日志信息：************************************
+2019-05-04 10:43:14,902-my_logging.py-INFO-日志信息：正在执行第5条用例“加标(天标，按月付息到期还本)”
+2019-05-04 10:43:14,906-my_logging.py-INFO-日志信息：请求的参数为：/loan/add,{"memberId":"97","title":"买车","amount":20000,"loanRate":"12.0","loanTerm":30,"loanDateType":2,"repaymemtWay":11,"biddingDays":11}
+2019-05-04 10:43:14,908-my_logging.py-INFO-日志信息：请求的参数为http://test.lemonban.com/futureloan/mvc/api/loan/add,“{'memberId': '97', 'title': '买车', 'amount': 20000, 'loanRate': '12.0', 'loanTerm': 30, 'loanDateType': 2, 'repaymemtWay': 11, 'biddingDays': 11}”
+2019-05-04 10:43:14,931-my_logging.py-INFO-日志信息：********开始将结果写回excel数据********
+2019-05-04 10:43:15,117-my_logging.py-INFO-日志信息：********结束将结果写回excel数据********
+2019-05-04 10:43:15,118-my_logging.py-INFO-日志信息：************************************
+2019-05-04 10:43:15,119-my_logging.py-INFO-日志信息：正在执行第6条用例“用户ID错误”
+2019-05-04 10:43:15,120-my_logging.py-INFO-日志信息：请求的参数为：/loan/add,{"memberId":"FFFF","title":"买车","amount":20000,"loanRate":"12.0","loanTerm":3,"loanDateType":0,"repaymemtWay":11,"biddingDays":6}
+2019-05-04 10:43:15,121-my_logging.py-INFO-日志信息：请求的参数为http://test.lemonban.com/futureloan/mvc/api/loan/add,“{'memberId': 'FFFF', 'title': '买车', 'amount': 20000, 'loanRate': '12.0', 'loanTerm': 3, 'loanDateType': 0, 'repaymemtWay': 11, 'biddingDays': 6}”
+2019-05-04 10:43:15,134-my_logging.py-ERROR-日志信息：第6条用例“用户ID错误”出错'20104' != '20109'
+- 20104
+?     ^
++ 20109
+?     ^
+
+2019-05-04 10:43:15,136-my_logging.py-INFO-日志信息：********开始将结果写回excel数据********
+2019-05-04 10:43:15,302-my_logging.py-INFO-日志信息：********结束将结果写回excel数据********
+2019-05-04 10:43:15,304-my_logging.py-INFO-日志信息：************************************
+2019-05-04 10:43:15,305-my_logging.py-INFO-日志信息：正在执行第7条用例“用户ID为空”
+2019-05-04 10:43:15,306-my_logging.py-INFO-日志信息：请求的参数为：/loan/add,{"memberId":"","title":"买车","amount":20000,"loanRate":"12.0","loanTerm":3,"loanDateType":0,"repaymemtWay":11,"biddingDays":5}
+2019-05-04 10:43:15,307-my_logging.py-INFO-日志信息：请求的参数为http://test.lemonban.com/futureloan/mvc/api/loan/add,“{'memberId': '', 'title': '买车', 'amount': 20000, 'loanRate': '12.0', 'loanTerm': 3, 'loanDateType': 0, 'repaymemtWay': 11, 'biddingDays': 5}”
+2019-05-04 10:43:15,320-my_logging.py-INFO-日志信息：********开始将结果写回excel数据********
+2019-05-04 10:43:15,491-my_logging.py-INFO-日志信息：********结束将结果写回excel数据********
+2019-05-04 10:43:15,492-my_logging.py-INFO-日志信息：************************************
+2019-05-04 10:43:15,494-my_logging.py-INFO-日志信息：正在执行第8条用例“标的title为空”
+2019-05-04 10:43:15,498-my_logging.py-INFO-日志信息：请求的参数为：/loan/add,{"memberId":"97","title":"","amount":20000,"loanRate":"12.0","loanTerm":3,"loanDateType":0,"repaymemtWay":11,"biddingDays":5}
+2019-05-04 10:43:15,499-my_logging.py-INFO-日志信息：请求的参数为http://test.lemonban.com/futureloan/mvc/api/loan/add,“{'memberId': '97', 'title': '', 'amount': 20000, 'loanRate': '12.0', 'loanTerm': 3, 'loanDateType': 0, 'repaymemtWay': 11, 'biddingDays': 5}”
+2019-05-04 10:43:15,514-my_logging.py-INFO-日志信息：********开始将结果写回excel数据********
+2019-05-04 10:43:15,686-my_logging.py-INFO-日志信息：********结束将结果写回excel数据********
+2019-05-04 10:43:15,688-my_logging.py-INFO-日志信息：************************************
+2019-05-04 10:43:15,689-my_logging.py-INFO-日志信息：正在执行第9条用例“标的amount为空”
+2019-05-04 10:43:15,691-my_logging.py-INFO-日志信息：请求的参数为：/loan/add,{"memberId":"97","title":"买车","amount":"","loanRate":"12.0","loanTerm":3,"loanDateType":0,"repaymemtWay":11,"biddingDays":5}
+2019-05-04 10:43:15,693-my_logging.py-INFO-日志信息：请求的参数为http://test.lemonban.com/futureloan/mvc/api/loan/add,“{'memberId': '97', 'title': '买车', 'amount': '', 'loanRate': '12.0', 'loanTerm': 3, 'loanDateType': 0, 'repaymemtWay': 11, 'biddingDays': 5}”
+2019-05-04 10:43:15,706-my_logging.py-INFO-日志信息：********开始将结果写回excel数据********
+2019-05-04 10:43:15,877-my_logging.py-INFO-日志信息：********结束将结果写回excel数据********
+2019-05-04 10:43:15,879-my_logging.py-INFO-日志信息：************************************
+2019-05-04 10:43:15,879-my_logging.py-INFO-日志信息：正在执行第10条用例“年利率为空”
+2019-05-04 10:43:15,882-my_logging.py-INFO-日志信息：请求的参数为：/loan/add,{"memberId":"97","title":"买车","amount":20000,"loanRate":"","loanTerm":3,"loanDateType":0,"repaymemtWay":11,"biddingDays":5}
+2019-05-04 10:43:15,883-my_logging.py-INFO-日志信息：请求的参数为http://test.lemonban.com/futureloan/mvc/api/loan/add,“{'memberId': '97', 'title': '买车', 'amount': 20000, 'loanRate': '', 'loanTerm': 3, 'loanDateType': 0, 'repaymemtWay': 11, 'biddingDays': 5}”
+2019-05-04 10:43:15,896-my_logging.py-INFO-日志信息：********开始将结果写回excel数据********
+2019-05-04 10:43:16,081-my_logging.py-INFO-日志信息：********结束将结果写回excel数据********
+2019-05-04 10:43:16,083-my_logging.py-INFO-日志信息：************************************
+2019-05-04 10:43:16,084-my_logging.py-INFO-日志信息：正在执行第11条用例“借款期限为空”
+2019-05-04 10:43:16,086-my_logging.py-INFO-日志信息：请求的参数为：/loan/add,{"memberId":"97","title":"买车","amount":20000,"loanRate":"12.0","loanTerm":"","loanDateType":0,"repaymemtWay":11,"biddingDays":5}
+2019-05-04 10:43:16,088-my_logging.py-INFO-日志信息：请求的参数为http://test.lemonban.com/futureloan/mvc/api/loan/add,“{'memberId': '97', 'title': '买车', 'amount': 20000, 'loanRate': '12.0', 'loanTerm': '', 'loanDateType': 0, 'repaymemtWay': 11, 'biddingDays': 5}”
+2019-05-04 10:43:16,101-my_logging.py-INFO-日志信息：********开始将结果写回excel数据********
+2019-05-04 10:43:16,275-my_logging.py-INFO-日志信息：********结束将结果写回excel数据********
+2019-05-04 10:43:16,276-my_logging.py-INFO-日志信息：************************************
+2019-05-04 10:43:16,277-my_logging.py-INFO-日志信息：正在执行第12条用例“还款方式为空”
+2019-05-04 10:43:16,280-my_logging.py-INFO-日志信息：请求的参数为：/loan/add,{"memberId":"97","title":"买车","amount":20000,"loanRate":"12.0","loanTerm":3,"loanDateType":"","repaymemtWay":11,"biddingDays":5}
+2019-05-04 10:43:16,281-my_logging.py-INFO-日志信息：请求的参数为http://test.lemonban.com/futureloan/mvc/api/loan/add,“{'memberId': '97', 'title': '买车', 'amount': 20000, 'loanRate': '12.0', 'loanTerm': 3, 'loanDateType': '', 'repaymemtWay': 11, 'biddingDays': 5}”
+2019-05-04 10:43:16,295-my_logging.py-INFO-日志信息：********开始将结果写回excel数据********
+2019-05-04 10:43:16,463-my_logging.py-INFO-日志信息：********结束将结果写回excel数据********
+2019-05-04 10:43:16,464-my_logging.py-INFO-日志信息：************************************
+2019-05-04 10:43:16,465-my_logging.py-INFO-日志信息：正在执行第13条用例“竞标天数为空”
+2019-05-04 10:43:16,469-my_logging.py-INFO-日志信息：请求的参数为：/loan/add,{"memberId":"97","title":"买车","amount":20000,"loanRate":"12.0","loanTerm":3,"loanDateType":0,"repaymemtWay":11,"biddingDays":""}
+2019-05-04 10:43:16,470-my_logging.py-INFO-日志信息：请求的参数为http://test.lemonban.com/futureloan/mvc/api/loan/add,“{'memberId': '97', 'title': '买车', 'amount': 20000, 'loanRate': '12.0', 'loanTerm': 3, 'loanDateType': 0, 'repaymemtWay': 11, 'biddingDays': ''}”
+2019-05-04 10:43:16,484-my_logging.py-INFO-日志信息：********开始将结果写回excel数据********
+2019-05-04 10:43:16,665-my_logging.py-INFO-日志信息：********结束将结果写回excel数据********
+2019-05-04 10:43:16,666-my_logging.py-INFO-日志信息：************************************
+2019-05-04 10:43:16,667-my_logging.py-INFO-日志信息：正在执行第14条用例“未注册的用户加标”
+2019-05-04 10:43:16,685-my_logging.py-INFO-日志信息：请求的参数为：/loan/add,{"memberId":"705","title":"买车","amount":20000,"loanRate":"12.0","loanTerm":3,"loanDateType":0,"repaymemtWay":11,"biddingDays":5}
+2019-05-04 10:43:16,687-my_logging.py-INFO-日志信息：请求的参数为http://test.lemonban.com/futureloan/mvc/api/loan/add,“{'memberId': '705', 'title': '买车', 'amount': 20000, 'loanRate': '12.0', 'loanTerm': 3, 'loanDateType': 0, 'repaymemtWay': 11, 'biddingDays': 5}”
+2019-05-04 10:43:16,701-my_logging.py-INFO-日志信息：********开始将结果写回excel数据********
+2019-05-04 10:43:16,869-my_logging.py-INFO-日志信息：********结束将结果写回excel数据********
+2019-05-04 10:43:16,870-my_logging.py-INFO-日志信息：************************************
+2019-05-04 10:43:16,871-my_logging.py-INFO-日志信息：正在执行第15条用例“借款金额小于 1000”
+2019-05-04 10:43:16,874-my_logging.py-INFO-日志信息：请求的参数为：/loan/add,{"memberId":"97","title":"买房","amount":200,"loanRate":"12.0","loanTerm":3,"loanDateType":0,"repaymemtWay":11,"biddingDays":4}
+2019-05-04 10:43:16,875-my_logging.py-INFO-日志信息：请求的参数为http://test.lemonban.com/futureloan/mvc/api/loan/add,“{'memberId': '97', 'title': '买房', 'amount': 200, 'loanRate': '12.0', 'loanTerm': 3, 'loanDateType': 0, 'repaymemtWay': 11, 'biddingDays': 4}”
+2019-05-04 10:43:16,904-my_logging.py-ERROR-日志信息：第15条用例“借款金额小于 1000”出错'20106' != '10001'
+- 20106
++ 10001
+
+2019-05-04 10:43:16,905-my_logging.py-INFO-日志信息：********开始将结果写回excel数据********
+2019-05-04 10:43:17,090-my_logging.py-INFO-日志信息：********结束将结果写回excel数据********
+2019-05-04 10:43:17,092-my_logging.py-INFO-日志信息：************************************
+2019-05-04 10:43:17,093-my_logging.py-INFO-日志信息：正在执行第16条用例“借款金额不能被 100 整除的正整数”
+2019-05-04 10:43:17,096-my_logging.py-INFO-日志信息：请求的参数为：/loan/add,{"memberId":"97","title":"买房","amount":20001,"loanRate":"12.0","loanTerm":3,"loanDateType":0,"repaymemtWay":11,"biddingDays":4}
+2019-05-04 10:43:17,097-my_logging.py-INFO-日志信息：请求的参数为http://test.lemonban.com/futureloan/mvc/api/loan/add,“{'memberId': '97', 'title': '买房', 'amount': 20001, 'loanRate': '12.0', 'loanTerm': 3, 'loanDateType': 0, 'repaymemtWay': 11, 'biddingDays': 4}”
+2019-05-04 10:43:17,117-my_logging.py-INFO-日志信息：********开始将结果写回excel数据********
+2019-05-04 10:43:17,286-my_logging.py-INFO-日志信息：********结束将结果写回excel数据********
+2019-05-04 10:43:17,287-my_logging.py-INFO-日志信息：************************************
+2019-05-04 10:43:17,288-my_logging.py-INFO-日志信息：正在执行第17条用例“借款利率小于 0”
+2019-05-04 10:43:17,290-my_logging.py-INFO-日志信息：请求的参数为：/loan/add,{"memberId":"97","title":"买房","amount":200,"loanRate":"-2","loanTerm":3,"loanDateType":0,"repaymemtWay":11,"biddingDays":4}
+2019-05-04 10:43:17,291-my_logging.py-INFO-日志信息：请求的参数为http://test.lemonban.com/futureloan/mvc/api/loan/add,“{'memberId': '97', 'title': '买房', 'amount': 200, 'loanRate': '-2', 'loanTerm': 3, 'loanDateType': 0, 'repaymemtWay': 11, 'biddingDays': 4}”
+2019-05-04 10:43:17,309-my_logging.py-INFO-日志信息：********开始将结果写回excel数据********
+2019-05-04 10:43:17,480-my_logging.py-INFO-日志信息：********结束将结果写回excel数据********
+2019-05-04 10:43:17,482-my_logging.py-INFO-日志信息：************************************
+2019-05-04 10:43:17,484-my_logging.py-INFO-日志信息：正在执行第18条用例“借款利率大于 24”
+2019-05-04 10:43:17,487-my_logging.py-INFO-日志信息：请求的参数为：/loan/add,{"memberId":"97","title":"买房","amount":200,"loanRate":"26","loanTerm":3,"loanDateType":0,"repaymemtWay":11,"biddingDays":4}
+2019-05-04 10:43:17,488-my_logging.py-INFO-日志信息：请求的参数为http://test.lemonban.com/futureloan/mvc/api/loan/add,“{'memberId': '97', 'title': '买房', 'amount': 200, 'loanRate': '26', 'loanTerm': 3, 'loanDateType': 0, 'repaymemtWay': 11, 'biddingDays': 4}”
+2019-05-04 10:43:17,502-my_logging.py-INFO-日志信息：********开始将结果写回excel数据********
+2019-05-04 10:43:17,678-my_logging.py-INFO-日志信息：********结束将结果写回excel数据********
+2019-05-04 10:43:17,680-my_logging.py-INFO-日志信息：************************************
+2019-05-04 10:43:17,681-my_logging.py-INFO-日志信息：正在执行第19条用例“借款日期类型不为 0,2,4”
+2019-05-04 10:43:17,683-my_logging.py-INFO-日志信息：请求的参数为：/loan/add,{"memberId":"97","title":"买房","amount":200,"loanRate":"12.0","loanTerm":3,"loanDateType":5,"repaymemtWay":11,"biddingDays":4}
+2019-05-04 10:43:17,684-my_logging.py-INFO-日志信息：请求的参数为http://test.lemonban.com/futureloan/mvc/api/loan/add,“{'memberId': '97', 'title': '买房', 'amount': 200, 'loanRate': '12.0', 'loanTerm': 3, 'loanDateType': 5, 'repaymemtWay': 11, 'biddingDays': 4}”
+2019-05-04 10:43:17,705-my_logging.py-INFO-日志信息：********开始将结果写回excel数据********
+2019-05-04 10:43:17,918-my_logging.py-INFO-日志信息：********结束将结果写回excel数据********
+2019-05-04 10:43:17,919-my_logging.py-INFO-日志信息：************************************
+2019-05-04 10:43:17,920-my_logging.py-INFO-日志信息：正在执行第20条用例“输入非数字”
+2019-05-04 10:43:17,922-my_logging.py-INFO-日志信息：请求的参数为：/loan/add,{"memberId":"97","title":"买房","amount":200,"loanRate":"12.0","loanTerm":3,"loanDateType":2,"repaymemtWay":11,"biddingDays":"a"}
+2019-05-04 10:43:17,924-my_logging.py-INFO-日志信息：请求的参数为http://test.lemonban.com/futureloan/mvc/api/loan/add,“{'memberId': '97', 'title': '买房', 'amount': 200, 'loanRate': '12.0', 'loanTerm': 3, 'loanDateType': 2, 'repaymemtWay': 11, 'biddingDays': 'a'}”
+2019-05-04 10:43:17,942-my_logging.py-INFO-日志信息：********开始将结果写回excel数据********
+2019-05-04 10:43:18,128-my_logging.py-INFO-日志信息：********结束将结果写回excel数据********
+2019-05-04 10:43:18,252-my_logging.py-INFO-日志信息：************************************
+2019-05-04 10:43:18,253-my_logging.py-INFO-日志信息：正在执行第1条用例“正常注册”
+2019-05-04 10:43:18,283-my_logging.py-INFO-日志信息：请求的参数为http://test.lemonban.com/futureloan/mvc/api/member/register,“{'mobilephone': '18999999383', 'pwd': '123456', 'regname': '六月'}”
+2019-05-04 10:43:18,325-my_logging.py-INFO-日志信息：********开始将结果写回excel数据********
+2019-05-04 10:43:18,500-my_logging.py-INFO-日志信息：********结束将结果写回excel数据********
+2019-05-04 10:43:18,501-my_logging.py-INFO-日志信息：************************************
+2019-05-04 10:43:18,502-my_logging.py-INFO-日志信息：正在执行第2条用例“正常登录”
+2019-05-04 10:43:18,503-my_logging.py-INFO-日志信息：请求的参数为http://test.lemonban.com/futureloan/mvc/api/member/login,“{'mobilephone': '15019215377', 'pwd': '123456'}”
+2019-05-04 10:43:18,521-my_logging.py-INFO-日志信息：********开始将结果写回excel数据********
+2019-05-04 10:43:18,700-my_logging.py-INFO-日志信息：********结束将结果写回excel数据********
+2019-05-04 10:43:18,701-my_logging.py-INFO-日志信息：************************************
+2019-05-04 10:43:18,702-my_logging.py-INFO-日志信息：正在执行第3条用例“未注册的手机号”
+2019-05-04 10:43:18,725-my_logging.py-INFO-日志信息：请求的参数为http://test.lemonban.com/futureloan/mvc/api/member/login,“{'mobilephone': '18999999384', 'pwd': '123456'}”
+2019-05-04 10:43:18,745-my_logging.py-INFO-日志信息：********开始将结果写回excel数据********
+2019-05-04 10:43:18,913-my_logging.py-INFO-日志信息：********结束将结果写回excel数据********
+2019-05-04 10:43:18,914-my_logging.py-INFO-日志信息：************************************
+2019-05-04 10:43:18,915-my_logging.py-INFO-日志信息：正在执行第4条用例“接口地址错误”
+2019-05-04 10:43:18,916-my_logging.py-INFO-日志信息：请求的参数为http://test.lemonban.com/futureloan/mvc/api/member/logi,“{'mobilephone': '15019215377', 'pwd': '123456'}”
+2019-05-04 10:43:18,930-my_logging.py-ERROR-日志信息：第4条用例“接口地址错误”出错'{"status":0,"code":null,"data":null,"msg":"抱歉，请先登录。"}' != '<html><head><title>Apache Tomcat/6.0.53 -[904 chars]tml>'
+Diff is 1009 characters long. Set self.maxDiff to None to see it.
+2019-05-04 10:43:18,931-my_logging.py-INFO-日志信息：********开始将结果写回excel数据********
+2019-05-04 10:43:19,116-my_logging.py-INFO-日志信息：********结束将结果写回excel数据********
+2019-05-04 10:43:19,118-my_logging.py-INFO-日志信息：************************************
+2019-05-04 10:43:19,119-my_logging.py-INFO-日志信息：正在执行第5条用例“错误的密码”
+2019-05-04 10:43:19,121-my_logging.py-INFO-日志信息：请求的参数为http://test.lemonban.com/futureloan/mvc/api/member/login,“{'mobilephone': '15019215377', 'pwd': '123356'}”
+2019-05-04 10:43:19,135-my_logging.py-INFO-日志信息：********开始将结果写回excel数据********
+2019-05-04 10:43:19,306-my_logging.py-INFO-日志信息：********结束将结果写回excel数据********
+2019-05-04 10:43:19,307-my_logging.py-INFO-日志信息：************************************
+2019-05-04 10:43:19,309-my_logging.py-INFO-日志信息：正在执行第6条用例“密码为空”
+2019-05-04 10:43:19,310-my_logging.py-INFO-日志信息：请求的参数为http://test.lemonban.com/futureloan/mvc/api/member/login,“{'mobilephone': '15019215377', 'pwd': ''}”
+2019-05-04 10:43:19,326-my_logging.py-INFO-日志信息：********开始将结果写回excel数据********
+2019-05-04 10:43:19,496-my_logging.py-INFO-日志信息：********结束将结果写回excel数据********
+2019-05-04 10:43:19,497-my_logging.py-INFO-日志信息：************************************
+2019-05-04 10:43:19,498-my_logging.py-INFO-日志信息：正在执行第7条用例“手机号为空”
+2019-05-04 10:43:19,499-my_logging.py-INFO-日志信息：请求的参数为http://test.lemonban.com/futureloan/mvc/api/member/login,“{'mobilephone': '', 'pwd': '123356'}”
+2019-05-04 10:43:19,512-my_logging.py-INFO-日志信息：********开始将结果写回excel数据********
+2019-05-04 10:43:19,690-my_logging.py-INFO-日志信息：********结束将结果写回excel数据********
+2019-05-04 10:43:19,805-my_logging.py-INFO-日志信息：************************************
+2019-05-04 10:43:19,808-my_logging.py-INFO-日志信息：正在执行第1条用例“正常注册”
+2019-05-04 10:43:19,828-my_logging.py-INFO-日志信息：请求的参数为http://test.lemonban.com/futureloan/mvc/api/member/register,“{'mobilephone': '18999999384', 'pwd': '123456', 'regname': '六月'}”
+2019-05-04 10:43:19,873-my_logging.py-INFO-日志信息：********开始将结果写回excel数据********
+2019-05-04 10:43:20,097-my_logging.py-INFO-日志信息：********结束将结果写回excel数据********
+2019-05-04 10:43:20,099-my_logging.py-INFO-日志信息：************************************
+2019-05-04 10:43:20,100-my_logging.py-INFO-日志信息：正在执行第2条用例“正常登录”
+2019-05-04 10:43:20,121-my_logging.py-INFO-日志信息：请求的参数为http://test.lemonban.com/futureloan/mvc/api/member/login,“{'mobilephone': '18999999384', 'pwd': '123456'}”
+2019-05-04 10:43:20,135-my_logging.py-INFO-日志信息：********开始将结果写回excel数据********
+2019-05-04 10:43:20,306-my_logging.py-INFO-日志信息：********结束将结果写回excel数据********
+2019-05-04 10:43:20,307-my_logging.py-INFO-日志信息：************************************
+2019-05-04 10:43:20,308-my_logging.py-INFO-日志信息：正在执行第3条用例“正常充值”
+2019-05-04 10:43:20,345-my_logging.py-INFO-日志信息：请求的参数为http://test.lemonban.com/futureloan/mvc/api/member/recharge,“{'mobilephone': '18999999384', 'amount': '1000'}”
+2019-05-04 10:43:20,407-my_logging.py-ERROR-日志信息：第3条用例“正常充值”出错Decimal('-800.00') != Decimal('-1800.00')
+2019-05-04 10:43:20,409-my_logging.py-INFO-日志信息：********开始将结果写回excel数据********
+2019-05-04 10:43:20,601-my_logging.py-INFO-日志信息：********结束将结果写回excel数据********
+2019-05-04 10:43:20,604-my_logging.py-INFO-日志信息：************************************
+2019-05-04 10:43:20,605-my_logging.py-INFO-日志信息：正在执行第5条用例“手机号为空”
+2019-05-04 10:43:20,607-my_logging.py-INFO-日志信息：请求的参数为http://test.lemonban.com/futureloan/mvc/api/member/recharge,“{'mobilephone': '', 'amount': '1000'}”
+2019-05-04 10:43:20,622-my_logging.py-INFO-日志信息：********开始将结果写回excel数据********
+2019-05-04 10:43:20,789-my_logging.py-INFO-日志信息：********结束将结果写回excel数据********
+2019-05-04 10:43:20,791-my_logging.py-INFO-日志信息：************************************
+2019-05-04 10:43:20,792-my_logging.py-INFO-日志信息：正在执行第6条用例“充值金额为空”
+2019-05-04 10:43:20,793-my_logging.py-INFO-日志信息：请求的参数为http://test.lemonban.com/futureloan/mvc/api/member/recharge,“{'mobilephone': '15019215377', 'amount': ''}”
+2019-05-04 10:43:20,805-my_logging.py-INFO-日志信息：********开始将结果写回excel数据********
+2019-05-04 10:43:20,973-my_logging.py-INFO-日志信息：********结束将结果写回excel数据********
+2019-05-04 10:43:20,974-my_logging.py-INFO-日志信息：************************************
+2019-05-04 10:43:20,976-my_logging.py-INFO-日志信息：正在执行第7条用例“手机号未注册”
+2019-05-04 10:43:20,996-my_logging.py-INFO-日志信息：请求的参数为http://test.lemonban.com/futureloan/mvc/api/member/recharge,“{'mobilephone': '18999999385', 'amount': '1000'}”
+2019-05-04 10:43:21,009-my_logging.py-INFO-日志信息：********开始将结果写回excel数据********
+2019-05-04 10:43:21,187-my_logging.py-INFO-日志信息：********结束将结果写回excel数据********
+2019-05-04 10:43:21,188-my_logging.py-INFO-日志信息：************************************
+2019-05-04 10:43:21,189-my_logging.py-INFO-日志信息：正在执行第8条用例“金额超过两位小数”
+2019-05-04 10:43:21,190-my_logging.py-INFO-日志信息：请求的参数为http://test.lemonban.com/futureloan/mvc/api/member/recharge,“{'mobilephone': '15019215377', 'amount': '1000.123'}”
+2019-05-04 10:43:21,202-my_logging.py-INFO-日志信息：********开始将结果写回excel数据********
+2019-05-04 10:43:21,371-my_logging.py-INFO-日志信息：********结束将结果写回excel数据********
+2019-05-04 10:43:21,372-my_logging.py-INFO-日志信息：************************************
+2019-05-04 10:43:21,373-my_logging.py-INFO-日志信息：正在执行第9条用例“金额为负数”
+2019-05-04 10:43:21,374-my_logging.py-INFO-日志信息：请求的参数为http://test.lemonban.com/futureloan/mvc/api/member/recharge,“{'mobilephone': '15019215377', 'amount': '-1000.12'}”
+2019-05-04 10:43:21,388-my_logging.py-INFO-日志信息：********开始将结果写回excel数据********
+2019-05-04 10:43:21,559-my_logging.py-INFO-日志信息：********结束将结果写回excel数据********
+2019-05-04 10:43:21,560-my_logging.py-INFO-日志信息：************************************
+2019-05-04 10:43:21,561-my_logging.py-INFO-日志信息：正在执行第10条用例“输入非数字格式的金额”
+2019-05-04 10:43:21,562-my_logging.py-INFO-日志信息：请求的参数为http://test.lemonban.com/futureloan/mvc/api/member/recharge,“{'mobilephone': '15019215377', 'amount': 'a'}”
+2019-05-04 10:43:21,574-my_logging.py-INFO-日志信息：********开始将结果写回excel数据********
+2019-05-04 10:43:21,759-my_logging.py-INFO-日志信息：********结束将结果写回excel数据********
+2019-05-04 10:43:21,760-my_logging.py-INFO-日志信息：************************************
+2019-05-04 10:43:21,761-my_logging.py-INFO-日志信息：正在执行第11条用例“非法的手机号”
+2019-05-04 10:43:21,762-my_logging.py-INFO-日志信息：请求的参数为http://test.lemonban.com/futureloan/mvc/api/member/recharge,“{'mobilephone': '25019215377', 'amount': '1000'}”
+2019-05-04 10:43:21,775-my_logging.py-INFO-日志信息：********开始将结果写回excel数据********
+2019-05-04 10:43:21,944-my_logging.py-INFO-日志信息：********结束将结果写回excel数据********
+2019-05-04 10:43:22,055-my_logging.py-INFO-日志信息：************************************
+2019-05-04 10:43:22,057-my_logging.py-INFO-日志信息：正在执行第1条用例“正常注册-填用户名”
+2019-05-04 10:43:22,075-my_logging.py-INFO-日志信息：请求的参数为http://test.lemonban.com/futureloan/mvc/api/member/register,“{'mobilephone': '18999999385', 'pwd': '123456', 'regname': '六月'}”
+2019-05-04 10:43:22,125-my_logging.py-INFO-日志信息：********开始将结果写回excel数据********
+2019-05-04 10:43:22,298-my_logging.py-INFO-日志信息：********结束将结果写回excel数据********
+2019-05-04 10:43:22,299-my_logging.py-INFO-日志信息：************************************
+2019-05-04 10:43:22,300-my_logging.py-INFO-日志信息：正在执行第2条用例“正常注册-不填用户名”
+2019-05-04 10:43:22,317-my_logging.py-INFO-日志信息：请求的参数为http://test.lemonban.com/futureloan/mvc/api/member/register,“{'mobilephone': '18999999386', 'pwd': '123456'}”
+2019-05-04 10:43:22,360-my_logging.py-INFO-日志信息：********开始将结果写回excel数据********
+2019-05-04 10:43:22,532-my_logging.py-INFO-日志信息：********结束将结果写回excel数据********
+2019-05-04 10:43:22,533-my_logging.py-INFO-日志信息：************************************
+2019-05-04 10:43:22,535-my_logging.py-INFO-日志信息：正在执行第3条用例“重复注册”
+2019-05-04 10:43:22,552-my_logging.py-INFO-日志信息：请求的参数为http://test.lemonban.com/futureloan/mvc/api/member/register,“{'mobilephone': '18999999386', 'pwd': '123456', 'regname': '六月'}”
+2019-05-04 10:43:22,566-my_logging.py-INFO-日志信息：********开始将结果写回excel数据********
+2019-05-04 10:43:22,784-my_logging.py-INFO-日志信息：********结束将结果写回excel数据********
+2019-05-04 10:43:22,785-my_logging.py-INFO-日志信息：************************************
+2019-05-04 10:43:22,786-my_logging.py-INFO-日志信息：正在执行第4条用例“接口地址错误”
+2019-05-04 10:43:22,787-my_logging.py-INFO-日志信息：请求的参数为http://test.lemonban.com/futureloan/mvc/api/member/registe,“{'mobilephone': '15019215379', 'pwd': '123456', 'regname': '六月'}”
+2019-05-04 10:43:22,812-my_logging.py-INFO-日志信息：********开始将结果写回excel数据********
+2019-05-04 10:43:22,982-my_logging.py-INFO-日志信息：********结束将结果写回excel数据********
+2019-05-04 10:43:22,984-my_logging.py-INFO-日志信息：************************************
+2019-05-04 10:43:22,984-my_logging.py-INFO-日志信息：正在执行第5条用例“5位密码”
+2019-05-04 10:43:22,985-my_logging.py-INFO-日志信息：请求的参数为http://test.lemonban.com/futureloan/mvc/api/member/register,“{'mobilephone': '15719215382', 'pwd': '12345'}”
+2019-05-04 10:43:23,000-my_logging.py-INFO-日志信息：********开始将结果写回excel数据********
+2019-05-04 10:43:23,186-my_logging.py-INFO-日志信息：********结束将结果写回excel数据********
+2019-05-04 10:43:23,187-my_logging.py-INFO-日志信息：************************************
+2019-05-04 10:43:23,188-my_logging.py-INFO-日志信息：正在执行第6条用例“19位密码”
+2019-05-04 10:43:23,189-my_logging.py-INFO-日志信息：请求的参数为http://test.lemonban.com/futureloan/mvc/api/member/register,“{'mobilephone': '15719215382', 'pwd': '1234567890123456789'}”
+2019-05-04 10:43:23,203-my_logging.py-INFO-日志信息：********开始将结果写回excel数据********
+2019-05-04 10:43:23,370-my_logging.py-INFO-日志信息：********结束将结果写回excel数据********
+2019-05-04 10:43:23,371-my_logging.py-INFO-日志信息：************************************
+2019-05-04 10:43:23,372-my_logging.py-INFO-日志信息：正在执行第7条用例“手机号为空”
+2019-05-04 10:43:23,373-my_logging.py-INFO-日志信息：请求的参数为http://test.lemonban.com/futureloan/mvc/api/member/register,“{'mobilephone': '', 'pwd': '123456'}”
+2019-05-04 10:43:23,387-my_logging.py-INFO-日志信息：********开始将结果写回excel数据********
+2019-05-04 10:43:23,599-my_logging.py-INFO-日志信息：********结束将结果写回excel数据********
+2019-05-04 10:43:23,601-my_logging.py-INFO-日志信息：************************************
+2019-05-04 10:43:23,602-my_logging.py-INFO-日志信息：正在执行第8条用例“密码为空”
+2019-05-04 10:43:23,603-my_logging.py-INFO-日志信息：请求的参数为http://test.lemonban.com/futureloan/mvc/api/member/register,“{'mobilephone': '15719215382', 'pwd': ''}”
+2019-05-04 10:43:23,616-my_logging.py-INFO-日志信息：********开始将结果写回excel数据********
+2019-05-04 10:43:23,794-my_logging.py-INFO-日志信息：********结束将结果写回excel数据********
+2019-05-04 10:43:23,795-my_logging.py-INFO-日志信息：************************************
+2019-05-04 10:43:23,796-my_logging.py-INFO-日志信息：正在执行第9条用例“非正常手机号”
+2019-05-04 10:43:23,797-my_logging.py-INFO-日志信息：请求的参数为http://test.lemonban.com/futureloan/mvc/api/member/register,“{'mobilephone': '25587400', 'pwd': '123456'}”
+2019-05-04 10:43:23,812-my_logging.py-INFO-日志信息：********开始将结果写回excel数据********
+2019-05-04 10:43:23,989-my_logging.py-INFO-日志信息：********结束将结果写回excel数据********

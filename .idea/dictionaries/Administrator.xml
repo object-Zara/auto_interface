@@ -2,22 +2,35 @@
   <dictionary name="Administrator">
     <words>
       <w>asctime</w>
+      <w>bidloan</w>
       <w>confgfilename</w>
+      <w>dirname</w>
       <w>doexcel</w>
       <w>doexcelhttp</w>
+      <w>dosql</w>
       <w>emai</w>
+      <w>excu</w>
+      <w>excut</w>
+      <w>excute</w>
       <w>filepath</w>
       <w>formt</w>
       <w>httprequest</w>
+      <w>leaveamount</w>
+      <w>lemonban</w>
       <w>levelname</w>
+      <w>loanadd</w>
       <w>loder</w>
       <w>loger</w>
       <w>mobilephone</w>
       <w>mylog</w>
       <w>mylogging</w>
+      <w>myrequest</w>
+      <w>repalce</w>
       <w>rowdata</w>
       <w>smail</w>
       <w>smtp</w>
+      <w>testcase</w>
+      <w>testcases</w>
       <w>testresult</w>
       <w>xlsx</w>
     </words>

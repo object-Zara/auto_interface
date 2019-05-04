@@ -4,12 +4,12 @@
 # @email:Object_ycm@sina.com
 # @File:run_email.py.py
 import os
-from common import send_email
-from common import get_path
+from common import get_path,send_email
 from common.my_logging import Mylogging
 
 
 def bat_send_email():
+    """用于发送邮件"""
     try:
         report_path = get_path.GetPath().get_report_path()
         lists = os.listdir(report_path)  # 列出目录的下所有文件和文件夹保存到lists
@@ -18,7 +18,7 @@ def bat_send_email():
 
         smail = send_email.SendEMail()
         smail.add_content('html', file_new, lists[-1])
-        smail.send_email('彩', '测试报告', '接口测试报告')
+        smail.send_email('123', '测试报告', '接口测试报告')
     except Exception as e:
         print('发送邮件出错，错误信息为：', e)
         Mylogging().get_log('error:', e)

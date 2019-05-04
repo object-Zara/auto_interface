@@ -1,24 +1,27 @@
 # -*- coding:utf-8 -*-
 # @datetime:2019/4/1 19:08
-# @author:Xiaoyuan
-# @email:Object_ycm@sina.com
+# @author:123
+# @email:1111@sina.com
 # @File:logging_info.py
 
 import logging.handlers
 import os
 from common import get_path
 import datetime
+from configparser import ConfigParser
 
 
 class Mylogging:
     def __init__(self):
-        # self.msg = config['level_msg']['msg']
-        self.loger_name = 'loger'
-        self.loger_level = 'INFO'
-        self.handler_level = 'INFO'
+        self.config = ConfigParser()
+        logging_conf_path = get_path.GetPath().get_conf_logging_path()
+        self.config.read(logging_conf_path, encoding='utf-8')
+        self.loger_name = self.config.get('logger_name', 'name')
+        self.loger_level = self.config.get('logger_name', 'level')
+        self.handler_level = self.config.get('file_handler', 'level')
         self.handler_out_filepath = get_path.GetPath().get_logging_path()
-        self.encoding = 'utf-8'
-        self.formt = logging.Formatter('%(asctime)s-%(filename)s-%(levelname)s-日志信息：%(message)s')
+        self.encoding = self.config.get('encode', 'encoding')
+        self.formt = logging.Formatter(self.config.get('formatter', 'format'))
 
     def get_log(self, level, msg):
         try:
