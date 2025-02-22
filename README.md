@@ -1,2 +1,2 @@
 # auto_interface_test
-第一个测试用例
+接口自动化用例
